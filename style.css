@@ -1,0 +1,113 @@
+body {
+    background-color: #000;
+    color: #fff;
+    
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content {
+    width: 640px;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+.hint {
+    background-color: #333;
+    width: 540px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.prompt {
+    width: 100px;
+}
+
+.hint-row {
+    margin-bottom: 10px;
+}
+
+.revealed {
+    background-color: #111;
+    cursor: default;
+}
+
+#score-container {
+    text-align: right;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#overview {
+    min-height: 100px;
+}
+
+#title-container {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 1em;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+.guess-button {
+    width: 300px;
+    font-size: 16pt;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #333;
+    cursor: pointer;
+}
+
+#answer-screen {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 640px;
+    background-color: #111;
+    border: 1px solid #fff;
+    margin: 20px;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#result {
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.answer-pic {
+    width: 50%;
+}
+
+.answer-pic img {
+    width: 100%;
+}
+
+#close-answer {
+    text-align: right;
+    margin-top: -10px;
+    margin-right: -10px;
+    font-size: 16pt;
+}
+
+#close-answer i {
+    cursor: pointer;
+}

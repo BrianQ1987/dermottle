@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/6f5dc8849c.js" crossorigin="anonymous"></script>
+
+    <title>Dermottle</title>
+    <!-- <link rel="icon" type="image/x-icon" href="img/movies.png"> -->
+    <!-- <link rel="apple-touch-icon" href="img/movies-apple.png"> -->
+
+  </head>
+
+  <body>
+
+    <div id = "container">
+        <div id = "content">
+
+            <div id = "title-container">
+                <h1>Dermottle</h1>
+            </div>
+
+            <p>Today's movie:</p>
+            <h2 id = "movie-title"></h2>
+
+            <div id = "score-container">
+                <b>Score: </b><span id = "score">0 (Perfect)</span>
+            </div>
+
+            <div class = "row hint-row">
+                <div class = "prompt">Released:</div>
+                <div id = "release_date" class = "hint"></div>
+            </div>
+
+            <div class = "row hint-row">
+                <div class = "prompt">Director:</div>
+                <div id = "director" class = "hint"></div>
+            </div>
+
+            <div class = "row hint-row">
+                <div class = "prompt">Character:</div>
+                <div id = "character" class = "hint"></div>
+            </div>
+
+            <div class = "row hint-row">
+                <div class = "prompt">Plot:</div>
+                <div id = "overview" class = "hint"></div>
+            </div>
+
+            <div class = "row hint-row">
+                <div class = "prompt">Co-starring:</div>
+                <div id = "co_star_1" class = "hint"></div>
+            </div>
+
+            <div class = "row hint-row">
+                <div class = "prompt">Co-starring:</div>
+                <div id = "co_star_2" class = "hint"></div>
+            </div>
+
+            <p>Guess:</p>
+
+            <div class = "row">
+                <div id = "dylan-button" class = "guess-button">Dylan McDermott</div>
+                <div id = "dermot-button" class = "guess-button">Dermot Mulroney</div>
+            </div>
+
+            <div id = "answer-screen">
+                <div id = "close-answer">
+                    <i id = "close-button" class="fa-solid fa-xmark"></i>
+                </div>
+                <p>That is <span id="result"></span></p>
+                <p id = "correct-answer"></p>
+                <p id = "final-score"></p>
+                <div class = "row">
+                    <div id = "actor-photo" class = "answer-pic"></div>
+                    <div id = "movie-poster" class = "answer-pic"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+  </body>
+
+  <script src="game.js"></script>
+
+</html>
