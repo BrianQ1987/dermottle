@@ -41,13 +41,11 @@ async function renderGame() {
 
     for (let i = 0; i < hints.length; i ++) {
 
-        hints[i].textContent = "Tap to reveal (+1)"
-
         hints[i].onclick = function () {
 
             if (!hints[i].classList.contains("revealed") && playing) {
                 score_value += 1;
-                document.getElementById("score").textContent = "+" + score_value;
+                document.getElementById("score").textContent = score_value;
             }
 
             hints[i].textContent = movie[hints[i].id];
@@ -65,6 +63,8 @@ async function renderGame() {
             if (playing) {
                 playing = false;
                 answer_screen.style.display = "block";
+                document.getElementById("guess-panel").style.display = "none";
+                document.getElementById("see-results").style.display = "block";
 
                 if (buttons[i].textContent == movie.answer) {
                     document.getElementById("result").textContent = "Correct";
@@ -79,7 +79,7 @@ async function renderGame() {
                 } else {
                     document.getElementById("result").textContent = "Incorrect";
                     document.getElementById("correct-answer").textContent = "The correct answer is " + movie.answer;
-                    document.getElementById("final-score").innerHTML = "Better luck next time";
+                    document.getElementById("final-score").innerHTML = "Better luck next time!";
                 }
 
                 document.getElementById("actor-photo").innerHTML = "<img src = '" + actors[movie.answer].profile_path + "'>";
