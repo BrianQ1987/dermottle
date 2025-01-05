@@ -35,7 +35,7 @@ async function renderGame() {
 
     let movie = movies[picks[today]];
 
-    document.getElementById("movie-title").textContent = movie.title;
+    document.getElementById("movie-title").innerHTML = "<i>" + movie.title + "</i>";
 
     let hints = document.getElementsByClassName("hint");
 
@@ -66,7 +66,7 @@ async function renderGame() {
                 document.getElementById("guess-panel").style.display = "none";
                 document.getElementById("see-results").style.display = "block";
 
-                if (buttons[i].textContent == movie.answer) {
+                if ((buttons[i].id == "dermot-button" &&  movie.answer == "Dermot Mulroney") || (buttons[i].id == "dylan-button" &&  movie.answer == "Dylan McDermott")) {
                     document.getElementById("result").textContent = "Correct";
                     document.getElementById("correct-answer").innerHTML = movie.answer + " starred in <em>" + movie.title + "</em>";
                     if (score_value == 0) {
@@ -92,10 +92,10 @@ async function renderGame() {
     document.getElementById("close-button").onclick = function() {
         answer_screen.style.display = "none";
     }
- 
-    console.log(actors, movie);
 
-
+    document.getElementById("see-results").onclick = function() {
+        answer_screen.style.display = "block";
+    }
 
 }
 

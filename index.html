@@ -23,30 +23,34 @@
     <div id = "container">
 
         <div id = "title-container">
-            <h1>Dermottle</h1>
+            <h1>DERMOTTLE</h1>
         </div>
-
-        <p>Today's movie:</p>
-        <h2 id = "movie-title"></h2>
 
         <div id = "score-container">
             <b>Hints used: </b><span id = "score">0</span>
         </div>
 
         <div id = "hints">
-            <p>This movie was released in <span id = "release_date" class = "hint">Reveal Year (+1)</span> and was directed by <span id = "director" class = "hint">Reveal Director (+1)</span>.</p>
-            <p>Either Dylan McDermott or Dermot Mulroney played <span id = "character" class = "hint">Reveal Character (+1)</span> in this movie, where: "<span id = "overview" class = "hint">Reveal Plot (+1)</span>"</p>
+            <p>Can you tell me which actor played the part of <span id = "character" class = "hint">Reveal Character (+1)</span> in the <span id = "release_date" class = "hint">Reveal Year (+1)</span>  movie <span id = "movie-title"></span>, directed by <span id = "director" class = "hint">Reveal Director (+1)</span>.</p>
+            <p>A movie where: "<span id = "overview" class = "hint">Reveal Plot (+1)</span>"</p>
             <p>This movie co-starred <span id = "co_star_1" class = "hint">Reveal Actor (+1)</span> and <span id = "co_star_2" class = "hint">Reveal Actor (+1)</span></p>
         </div>
 
         <div id = "guess-panel">
 
-            <p>Guess:</p>
+            <p>Was it:</p>
 
-            <div class = "row">
-                <div id = "dylan-button" class = "guess-button">Dylan McDermott</div>
-                <div id = "dermot-button" class = "guess-button">Dermot Mulroney</div>
+            
+            <div id = "dylan-button" class = "guess-button">
+                <img src = "img/dylan.png">
+                <i>DYLAN McDERMOTT</i>
             </div>
+            <p>or</p>
+            <div id = "dermot-button" class = "guess-button row">
+                <i>DERMOT MULRONEY</i>
+                <img src = "img/dermot.png">
+            </div>
+            
 
         </div>
 
