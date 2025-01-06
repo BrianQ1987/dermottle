@@ -27,7 +27,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 5px;
+    padding: 10px;
 }
 
 
@@ -71,7 +71,14 @@ p {
 
 #score-container {
     text-align: right;
-    margin-right: 5px;
+    width: 50%;
+    padding-right: 5px;
+}
+
+#date {
+    text-align: left;
+    width: 50%;
+    padding-left: 5px;
 }
 
 .row {
@@ -93,6 +100,10 @@ p {
     margin-bottom: 0px;
 }
 
+#guess-panel p {
+    font-size: 14pt;
+}
+
 .guess-button {
     font-size: 24pt;
     text-align: center;
@@ -102,6 +113,7 @@ p {
     height: 100px;
     align-items: center;
     font-family: FrankGothicCondDemi;
+    filter: drop-shadow(#222 5px 5px 5px);
 }
 
 .guess-button img {
@@ -120,11 +132,11 @@ p {
     font-weight: bold;
 }
 
-#answer-screen {
+.screen {
     display: none;
     position: absolute;
     top: 0;
-    background-color: #0e2f5b;
+    background-color: #1b4e93;
     border: 1px solid #fff;
     margin: 64px 20px 20px 20px;
     border-radius: 15px;
@@ -140,14 +152,16 @@ p {
 }
 
 .answer-pic {
-    width: 50%;
+    width: 48%;
+    margin: 1%;
 }
 
 .answer-pic img {
     width: 100%;
+    border-radius: 5px;
 }
 
-#close-answer {
+.close-x {
     text-align: right;
     margin-top: -10px;
     margin-right: -10px;
@@ -168,17 +182,19 @@ p {
     margin-top: 20px;
     text-align: center;
     cursor: pointer;
+    filter: drop-shadow(#222 5px 5px 5px);
 }
 
 #help {
     width: 150px;
     padding: 5px;
-    margin-bottom: 5px;;
+    margin-bottom: 10px;;
     border-radius: 10px;
     background-color: #fff;
     color: #000;
     text-align: center;
     cursor: pointer;
+    filter: drop-shadow(#222 5px 5px 5px);
 }
 
 #hints p {
@@ -190,6 +206,7 @@ p {
     color: #000;
     padding: 10px;
     border-radius: 5px;
+    filter: drop-shadow(#222 5px 5px 5px);
 }
 
 #movie-title {
@@ -205,6 +222,10 @@ p {
 a {
     color: #b09949;
     text-decoration: underline;
+}
+
+a:hover {
+    color: #b09949;
 }
 
 th {
@@ -246,6 +267,53 @@ td {
 #tmdb {
     text-align: center;
     font-size: 10pt;
-    margin-top: 150px;
-    padding:0 50px 0 50px;
+    margin-top: 100px;
+    padding:0 25px 0 25px;
+    
 }
+
+#tmdb p {
+    line-height: normal;
+}
+
+#chart {
+    background-color: #0e2f5b;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#axis-label {
+ font-weight: normal;
+ line-height: 1em;
+ text-align: left;
+ padding-left: 4px;
+}
+
+#help-screen {
+    font-size: 12pt;
+    line-height: 1em;
+}
+
+#challenge {
+    background-color: #0e2f5b;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+li {
+    text-align: left;
+}
+
+li img {
+    margin-top: 5px;
+}
+
+li:not(:last-child) { 
+    margin-bottom: 15px;  
+ }

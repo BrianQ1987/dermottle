@@ -27,12 +27,15 @@
 
         <div id = "help" style = "display: block;"><i class="fa-regular fa-circle-question"></i> How to play</div>
 
-        <div id = "score-container">
-            <b>Hints used: </b><span id = "score"></span>
+        <div class = "row" style= "width: 100%;">
+            <div id = "date" style = "width: 50%"></div>
+            <div id = "score-container">
+                <b>Hints used: </b><span id = "score"></span>
+            </div>
         </div>
 
         <div id = "hints">
-            <p>Can you tell me which actor played the part of <span id = "character" class = "hint">Reveal Character (+1)</span> in the <span id = "release_date" class = "hint">Reveal Year (+1)</span>  movie <span id = "movie-title"></span>, directed by <span id = "director" class = "hint">Reveal Director (+1)</span>.</p>
+            <p>Which actor played the part of <span id = "character" class = "hint">Reveal Character (+1)</span> in the <span id = "release_date" class = "hint">Reveal Year (+1)</span>  movie <span id = "movie-title"></span>, directed by <span id = "director" class = "hint">Reveal Director (+1)</span>?</p>
             <p>A movie where: <span id = "overview" class = "hint">Reveal Plot (+1)</span></p>
             <p>This movie co-starred <span id = "co_star_1" class = "hint">Reveal Actor (+1)</span> and <span id = "co_star_2" class = "hint">Reveal Actor (+1)</span>.</p>
         </div>
@@ -45,21 +48,21 @@
             </div>
             <p>or</p>
             <div id = "dermot-button" class = "guess-button row">
-                <i>DERMOT MULRONEY</i>
+                <i>DERMOT MULRONEY?</i>
                 <img src = "img/dermot.png">
             </div>          
         </div>
 
         <div id = "see-results"><i class="fa-solid fa-square-poll-horizontal"></i> See results</div>
 
-        <div id = "answer-screen">
-            <div id = "close-answer">
+        <div id = "answer-screen" class = "screen">
+            <div class = "close-x">
                 <i id = "close-button" class="fa-solid fa-xmark"></i>
             </div>
             <p>That is <span id="result"></span></p>
             <p id = "correct-answer"></p>
             <p id = "final-score"></p>
-            <div class = "row">
+            <div id = "photos" class = "row">
                 <div id = "actor-photo" class = "answer-pic"></div>
                 <div id = "movie-poster" class = "answer-pic"></div>
             </div>
@@ -78,6 +81,7 @@
             </table>
 
             <div id = "chart">
+                <div id = "axis-label">Hints used</div>
                 <div class = "row">
                     <div class = "axis">0 (Perfect)</div>
                     <div id = "bar-0" class = "bar"></div>
@@ -116,7 +120,33 @@
             <span id = "countdown"></span>
         </div>
 
-        <div id = "tmdb">This product uses the TMDB API but is not endorsed or certified by TMDB.</div>
+        <div id = "help-screen" class = "screen">
+            <div class = "close-x">
+                <i id = "close-help-btn" class="fa-solid fa-xmark"></i>
+            </div>
+            <div id = "challenge">Welcome to America's most difficult daily game show. We name a movie and your challenge is to correctly guess whether that movie starred <i>Dylan McDermott</i> or <i>Dermot Mulroney</i>. You only get one guess, so make it count.</div>
+            <ol>
+                <li>Look at today's question card. The name of today's movie will be highlighted in large blue text.
+                    <img src = "img/help_1.png" width = 100%>
+                </li>
+                <li>
+                    If you think you know whether this movie starred <i>Dylan McDermott</i> or <i>Dermot Mulroney</i> you can make a guess by selecting one of the buttons below the question card.
+                    <img src = "img/help_2.png" width = 100%>
+                    This will end the game for the day, whether you are corrent or not. So choose wisely.
+                </li>
+                <li>
+                    If you need more help you can press any of the "Reveal" buttons on the question card to reveal more information.
+                    <img src = "img/help_3.png" width = 100%>
+                    However, the more hints you reveal the further your score will be from the perfect score (0 hints used).
+                </li>
+                <li>Don't forget to come back tomorrow and play a whole new round of <span style="font-family: FrankGothicCondDemi; font-style: italic;">DERMOTTLE</span></li>
+            </ol>
+        </div>
+
+        <div id = "tmdb">
+            <p>This game was inspired by, and created as a tribute to, the <a href = "https://www.youtube.com/watch?v=XGqSn5Cnw74" target = "_blank">the <i>Saturday Night Live</i> sketch "Dylan McDermott or Dermot Mulroney"</a>. The creator of this game is not affiliated with <i>Saturday Night Live</i> or NBCUniversal.</p>
+            <p>This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
+        </div>
         
     </div>
 

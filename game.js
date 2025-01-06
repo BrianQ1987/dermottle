@@ -15,9 +15,7 @@ async function renderGame() {
     }
 
     let score_value = Number(localStorage.getItem("score_today"));
-    document.getElementById("score").textContent = score_value;
-
-    
+    document.getElementById("score").textContent = score_value;    
 
     let picks;
     let movies;
@@ -54,6 +52,25 @@ async function renderGame() {
     yesterday = yesterday.toISOString().split('T')[0];
 
     today = today.toISOString().split('T')[0];
+
+    console.log(Number(today.slice(8, 10)));
+
+    let text_months = {
+        "01": "January",
+        "02": "February",
+        "03": "March",
+        "04": "April",
+        "05": "May",
+        "06": "June",
+        "07": "July",
+        "08": "August",
+        "09": "September",
+        "10": "October",
+        "11": "November",
+        "12": "December",
+    }
+
+    document.getElementById("date").textContent = text_months[today.slice(5, 7)] + " " + Number(today.slice(8, 10)) + ", " + today.slice(0, 4);
 
     let movie = movies[picks[today]];
     let on_streak = false;
@@ -96,7 +113,7 @@ async function renderGame() {
             score_value = localStorage.getItem("last_score");
             answer_screen.style.display = "block";
             guess_panel.style.display = "none";
-            document.getElementById("score").textContent = score_value;
+            document.getElementById("score-container").innerHTML = "<b>Your score:</b> " + score_value;
             document.getElementById("see-results").style.display = "block";
             document.getElementById("result").textContent = localStorage.getItem("last_answer");
             document.getElementById("correct-answer").innerHTML = "<b>" + movie.answer + "</b> starred in <em>" + movie.title + "</em>";
@@ -133,7 +150,19 @@ async function renderGame() {
                     document.getElementById(Object.keys(bars)[i]).style.justifyContent = "left";
                     document.getElementById(Object.keys(bars)[i]).style.color = "#fff";
                 }
-            }           
+            }
+            
+            for (let i = 0; i < hints.length; i ++) {
+
+                hints[i].textContent = movie[hints[i].id];
+                hints[i].classList.add("revealed");
+    
+                if (hints[i].id == "overview") {
+                    hints[i].style.fontWeight = "normal";
+                    hints[i].style.fontStyle = "italic";
+                }
+            }               
+            
             on_streak = true;
         } else if (last_played == yesterday) {
             on_streak = true;
@@ -268,6 +297,14 @@ async function renderGame() {
 
     document.getElementById("see-results").onclick = function() {
         answer_screen.style.display = "block";
+    }
+
+    document.getElementById("help").onclick = function() {
+        document.getElementById("help-screen").style.display = "block";
+    }
+
+    document.getElementById("close-help-btn").onclick = function() {
+        document.getElementById("help-screen").style.display = "none";
     }
 
     setInterval(function() {
