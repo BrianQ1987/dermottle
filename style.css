@@ -119,7 +119,7 @@ p {
 }
 
 .guess-button img {
-    height: 100%
+    width: 60px;
 }
 
 #dylan-button {
