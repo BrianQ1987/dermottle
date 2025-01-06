@@ -41,6 +41,7 @@ h1 {
     font-family: FrankGothicCondDemi;
     font-style: italic;
     font-size: 36pt;
+    filter: drop-shadow(#222 5px 5px 5px);
 }
 
 p {
@@ -102,6 +103,9 @@ p {
 
 #guess-panel p {
     font-size: 14pt;
+}
+
+#guess-panel {
     width: 100%;
 }
 
@@ -119,23 +123,29 @@ p {
 }
 
 .guess-button img {
-    width: 60px;
+    height: 100%;
 }
 
 #dylan-button {
     background-color: #000;
     color: #b09949;
     font-weight: bold;
+    justify-content: left;
 }
 
 #dermot-button {
     background-color: #b09949;
     color: #000;
     font-weight: bold;
+    justify-content: right;
+}
+
+#dylan-button img {
+    margin-right: 5%;
 }
 
 #dermot-button img {
- margin-left: 5px;
+    margin-left: 5%;
 }
 
 .screen {
