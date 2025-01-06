@@ -14,7 +14,7 @@ actor_ids <- c(20212, 32597)
 actor_data <- list()
 actor_info <-list()
 
-for(id in actor_ids) {
+for (id in actor_ids) {
   tryCatch({
     details <- GET(paste0(api_base_url, "person/", id, "?api_key=", api_key))
     actor_info[[content(details, as = "parsed")$name]] <- content(details, as = "parsed")
@@ -36,6 +36,14 @@ for (actor in names(actor_data)) {
   for (movie in actor_data[[actor]]$cast) {
     
     movie_credits <- list()
+    
+    # Fetch info from TMDB
+    tryCatch({
+      response2 <- GET(paste0(api_base_url, "movie/", movie$id, "?api_key=", api_key))
+      movie_info <- content(response2, as = "parsed")
+    }, error = function(e) {
+      cat("Error fetching movie info:\n", e$message, "\n")
+    })
     
     # Fetch credits from TMDB
     tryCatch({
@@ -79,7 +87,8 @@ for (actor in names(actor_data)) {
                                                  overview = movie$overview,
                                                  director = director,
                                                  co_star_1 = co_star_1,
-                                                 co_star_2 = co_star_2)
+                                                 co_star_2 = co_star_2,
+                                                 imdb = movie_info$imdb_id)
   }
 }
 

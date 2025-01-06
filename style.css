@@ -1,17 +1,23 @@
 @font-face {
-    font-family: TwCenturyCondensedBold;
-    src: url(font/TCCB____.TTF);
+    font-family: FrankGothicCondDemi;
+    src: url(font/FRADMCN.TTF);
   }
 
 @font-face {
-    font-family: TwCentury;
-    src: url(font/TCM_____.TTF);
+    font-family: FranklinGothicMedium;
+    src: url(font/framd.ttf);
+}
+
+@font-face {
+    font-family: FranklinGothicMedium;
+    src: url(font/fradm.ttf);
+    font-weight: bold;
 }
 
 body {
     background-color: #113361;
     color: #fff;
-    font-family: TwCentury;
+    font-family: FranklinGothicMedium;
     font-size: 14pt;
 }
 
@@ -28,10 +34,13 @@ body {
 
 h1, h2, p {
     text-align: center;
+    margin-bottom: 0px;
 }
 
 h1 {
-    font-family: TwCenturyCondensedBold;
+    font-family: FrankGothicCondDemi;
+    font-style: italic;
+    font-size: 36pt;
 }
 
 p {
@@ -60,11 +69,6 @@ p {
     font-weight: bold;
 }
 
-#overview {
-    font-weight: normal;
-    font-style: italic;
-}
-
 #score-container {
     text-align: right;
     margin-right: 5px;
@@ -90,14 +94,14 @@ p {
 }
 
 .guess-button {
-    font-size: 18pt;
+    font-size: 24pt;
     text-align: center;
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
     height: 100px;
     align-items: center;
-    font-family: TwCenturyCondensedBold;
+    font-family: FrankGothicCondDemi;
 }
 
 .guess-button img {
@@ -132,7 +136,7 @@ p {
 
 #result {
     font-weight: bold;
-    font-size: 16pt;
+    font-size: 18pt;
 }
 
 .answer-pic {
@@ -156,7 +160,7 @@ p {
 
 #see-results {
     display: none;
-    width: 125px;
+    width: 150px;
     padding: 15px;
     border-radius: 10px;
     background-color: #fff;
@@ -179,4 +183,13 @@ p {
     font-size: 18pt;
     font-weight: bold;
     color: #0e2f5b;
+}
+
+#countdown {
+    font-size: 24pt
+}
+
+a {
+    color: #b09949;
+    text-decoration: underline;
 }
