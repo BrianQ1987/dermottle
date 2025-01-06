@@ -138,14 +138,6 @@ p {
     font-weight: bold;
 }
 
-#dylan-button img {
-    margin-right: 5%;
-}
-
-#dermot-button img {
-    margin-left: 5%;
-}
-
 .screen {
     display: none;
     position: absolute;
