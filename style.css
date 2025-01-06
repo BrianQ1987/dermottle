@@ -106,20 +106,21 @@ p {
 }
 
 #guess-panel {
-    width: 100%;
+    width: 90%
 }
 
 .guess-button {
-    font-size: 24pt;
+    font-size: 20pt;
     text-align: center;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
     height: 100px;
     align-items: center;
+    justify-content: center;
+    font-weight: bold;
     font-family: FrankGothicCondDemi;
     filter: drop-shadow(#222 5px 5px 5px);
-    width: 100%;
 }
 
 .guess-button img {
@@ -129,15 +130,12 @@ p {
 #dylan-button {
     background-color: #000;
     color: #b09949;
-    font-weight: bold;
-    justify-content: left;
 }
 
 #dermot-button {
     background-color: #b09949;
     color: #000;
     font-weight: bold;
-    justify-content: right;
 }
 
 #dylan-button img {
