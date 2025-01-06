@@ -102,18 +102,20 @@ p {
 
 #guess-panel p {
     font-size: 14pt;
+    width: 100%;
 }
 
 .guess-button {
     font-size: 24pt;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
     cursor: pointer;
     height: 100px;
     align-items: center;
     font-family: FrankGothicCondDemi;
     filter: drop-shadow(#222 5px 5px 5px);
+    width: 100%;
 }
 
 .guess-button img {
@@ -130,6 +132,10 @@ p {
     background-color: #b09949;
     color: #000;
     font-weight: bold;
+}
+
+#dermot-button img {
+ margin-left: 5px;
 }
 
 .screen {
@@ -267,7 +273,7 @@ td {
 #tmdb {
     text-align: center;
     font-size: 10pt;
-    margin-top: 100px;
+    margin-top: 80px;
     padding:0 25px 0 25px;
     
 }
