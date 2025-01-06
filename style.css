@@ -18,7 +18,7 @@ body {
     background-color: #113361;
     color: #fff;
     font-family: FranklinGothicMedium;
-    font-size: 14pt;
+    font-size: 12pt;
 }
 
 #container {
@@ -166,10 +166,23 @@ p {
     background-color: #fff;
     color: #000;
     margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#help {
+    width: 150px;
+    padding: 5px;
+    margin-bottom: 5px;;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    cursor: pointer;
 }
 
 #hints p {
-    text-align: justify;
+    text-align: left;
 }
 
 #hints {
@@ -192,4 +205,47 @@ p {
 a {
     color: #b09949;
     text-decoration: underline;
+}
+
+th {
+    font-weight: normal;
+}
+
+td {
+    font-size: 20pt;
+}
+
+.axis {
+    width: 80px;
+    padding-right: 5px;
+    text-align: right;
+    border-right: solid 1px #fff;
+}
+
+.bar {
+    height: 18px;
+    margin-top: 3px;
+    background-color: #fff;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: #0e2f5b
+}
+
+#bar-0 {
+    background-color: #b09949;
+    color: #fff
+}
+
+#bar-incorrect {
+    background-color: #444;
+    color: #fff;
+}
+
+#tmdb {
+    text-align: center;
+    font-size: 10pt;
+    margin-top: 150px;
+    padding:0 50px 0 50px;
 }

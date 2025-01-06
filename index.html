@@ -7,7 +7,6 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
     <link rel="stylesheet" href="style.css">
 
     <script src="https://kit.fontawesome.com/6f5dc8849c.js" crossorigin="anonymous"></script>
@@ -26,8 +25,10 @@
             <h1>DERMOTTLE</h1>
         </div>
 
+        <div id = "help" style = "display: block;"><i class="fa-regular fa-circle-question"></i> How to play</div>
+
         <div id = "score-container">
-            <b>Hints used: </b><span id = "score">0</span>
+            <b>Hints used: </b><span id = "score"></span>
         </div>
 
         <div id = "hints">
@@ -51,7 +52,6 @@
 
         <div id = "see-results"><i class="fa-solid fa-square-poll-horizontal"></i> See results</div>
 
-
         <div id = "answer-screen">
             <div id = "close-answer">
                 <i id = "close-button" class="fa-solid fa-xmark"></i>
@@ -64,10 +64,59 @@
                 <div id = "movie-poster" class = "answer-pic"></div>
             </div>
             <p id = "imdb-link"></p>
+            <table>
+                <tr>
+                    <th>Games Played</th>
+                    <th>Correct Answer Streak</th>
+                    <th>Max Streak</th>
+                </tr>
+                <tr>
+                    <td id = "games-played"></td>                    
+                    <td id = "streak"></td>                    
+                    <td id = "max-streak"></td>                    
+                </tr>
+            </table>
+
+            <div id = "chart">
+                <div class = "row">
+                    <div class = "axis">0 (Perfect)</div>
+                    <div id = "bar-0" class = "bar"></div>
+                </div>
+                <div class = "row">
+                    <div class = "axis">+1</div>
+                    <div id = "bar-1" class = "bar"></div>
+                </div>
+                <div class = "row">
+                    <div class = "axis">+2</div>
+                    <div id = "bar-2" class = "bar"></div>
+                </div>
+                <div class = "row">
+                    <div class = "axis">+3</div>
+                    <div id = "bar-3" class = "bar"></div>
+                </div>
+                <div class = "row">
+                    <div class = "axis">+4</div>
+                    <div id = "bar-4" class = "bar"></div>
+                </div>
+                <div class = "row">
+                    <div class = "axis">+5</div>
+                    <div id = "bar-5" class = "bar"></div>
+                </div>
+                <div class = "row">
+                    <div class = "axis">+6</div>
+                    <div id = "bar-6" class = "bar"></div>
+                </div>
+                <div class = "row">
+                    <div class = "axis">Incorrect</div>
+                    <div id = "bar-incorrect" class = "bar"></div>
+                </div>
+            </div>
+
             <p>Next <span style = "font-family: FrankGothicCondDemi; font-size: 16pt; font-style: italic;">DERMOTTLE</span> in:</p>
             <span id = "countdown"></span>
         </div>
 
+        <div id = "tmdb">This product uses the TMDB API but is not endorsed or certified by TMDB.</div>
         
     </div>
 

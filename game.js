@@ -1,10 +1,23 @@
-let score_value = 0;
-let playing = true;
-
-let answer_screen = document.getElementById("answer-screen");
-let guess_panel = document.getElementById("guess-panel");
-
 async function renderGame() {
+
+    let playing = true;
+
+    let answer_screen = document.getElementById("answer-screen");
+    let guess_panel = document.getElementById("guess-panel");
+    let final_score = document.getElementById("final-score");
+
+    let items = ["0 (Perfect)", "+1", "+2", "+3", "+4", "+5", "+6", "Incorrect", "streak", "max_streak", "games_played", "score_today"];
+
+    for (let i = 0; i < items.length; i ++) {
+        if (!localStorage.hasOwnProperty(items[i])) {
+            localStorage.setItem(items[i], "0")
+        }
+    }
+
+    let score_value = Number(localStorage.getItem("score_today"));
+    document.getElementById("score").textContent = score_value;
+
+    
 
     let picks;
     let movies;
@@ -34,10 +47,47 @@ async function renderGame() {
         
     }
 
-    let today = new Date;
+    let today = new Date();
+    let yesterday = new Date(today);
+
+    yesterday.setDate(yesterday.getDate() - 1);
+    yesterday = yesterday.toISOString().split('T')[0];
+
     today = today.toISOString().split('T')[0];
 
     let movie = movies[picks[today]];
+    let on_streak = false;
+
+    let hints = document.getElementsByClassName("hint");
+
+    for (let i = 0; i < hints.length; i ++) {
+        if (!localStorage.hasOwnProperty(hints[i].id)) {
+            localStorage.setItem(hints[i].id, false)
+        }
+        if (score_value == 0) {
+            localStorage.setItem(hints[i].id, false)
+        }
+        if (localStorage.getItem(hints[i].id) == "true") {
+            hints[i].textContent = movie[hints[i].id];
+            hints[i].classList.add("revealed");
+
+            if (hints[i].id == "overview") {
+                hints[i].style.fontWeight = "normal";
+                hints[i].style.fontStyle = "italic";
+            }
+        }
+    }   
+
+    let bars = {
+        "bar-0": {"item": "0 (Perfect)"},
+        "bar-1": {"item": "+1"},
+        "bar-2": {"item": "+2"},
+        "bar-3": {"item": "+3"},
+        "bar-4": {"item": "+4"},
+        "bar-5": {"item": "+5"},
+        "bar-6": {"item": "+6"},
+        "bar-incorrect": {"item": "Incorrect"}
+    }
 
     if (localStorage.hasOwnProperty("last_played")) {
         let last_played = localStorage.getItem("last_played");
@@ -46,29 +96,51 @@ async function renderGame() {
             score_value = localStorage.getItem("last_score");
             answer_screen.style.display = "block";
             guess_panel.style.display = "none";
+            document.getElementById("score").textContent = score_value;
             document.getElementById("see-results").style.display = "block";
             document.getElementById("result").textContent = localStorage.getItem("last_answer");
-            document.getElementById("correct-answer").textContent = "The correct answer is " + movie.answer;
+            document.getElementById("correct-answer").innerHTML = "<b>" + movie.answer + "</b> starred in <em>" + movie.title + "</em>";
             if (localStorage.getItem("last_answer") == "Correct") {
                 if (score_value == 0) {
-                    document.getElementById("final-score").innerHTML = "You got the correct answer using 0 hints";
+                    final_score.innerHTML = "You got the correct answer using 0 hints";
                 } else if (score_value == 1) {
-                    document.getElementById("final-score").innerHTML = "You got the correct answer with 1 hint";
+                    final_score.innerHTML = "You got the correct answer with 1 hint";
                 } else {
-                    document.getElementById("final-score").innerHTML = "You got the correct answer with " + score_value + " hints";
+                    final_score.innerHTML = "You got the correct answer with " + score_value + " hints";
                 }
             } else {
-                document.getElementById("final-score").innerHTML = "Better luck next time!";
+                final_score.innerHTML = "Better luck next time!";
             }
             document.getElementById("actor-photo").innerHTML = "<img src = '" + actors[movie.answer].profile_path + "'>";
             document.getElementById("movie-poster").innerHTML = "<img src = '" + movie.poster_path + "'>";
-            document.getElementById("imdb-link").innerHTML = "Check out <a href = 'https://imdb.com/title/" + movie.imdb + "' target = '_blank'>" + movie.title + "</a> on IMDb"
+            document.getElementById("imdb-link").innerHTML = "Check out <a href = 'https://imdb.com/title/" + movie.imdb + "' target = '_blank'>" + movie.title + "</a> on IMDb";
+
+            document.getElementById("games-played").textContent = localStorage.getItem("games_played");
+            document.getElementById("streak").textContent = localStorage.getItem("streak");
+            document.getElementById("max-streak").textContent = localStorage.getItem("max_streak");
+
+            let games_played = localStorage.getItem("games_played");
+            let values = [];
+            for (let i = 0; i < Object.keys(bars).length; i ++) {
+                bars[Object.keys(bars)[i]].value = Number(localStorage.getItem(bars[Object.keys(bars)[i]].item));
+                values.push(bars[Object.keys(bars)[i]].value)
+            }
+            let max_value = Math.max(...values);
+            for (let i = 0; i < Object.keys(bars).length; i ++) {
+                document.getElementById(Object.keys(bars)[i]).style.width = (bars[Object.keys(bars)[i]].value / max_value * 200) + "px";
+                document.getElementById(Object.keys(bars)[i]).textContent = Math.round(bars[Object.keys(bars)[i]].value / games_played * 100) + "%";
+                if (bars[Object.keys(bars)[i]].value == 0) {
+                    document.getElementById(Object.keys(bars)[i]).style.justifyContent = "left";
+                    document.getElementById(Object.keys(bars)[i]).style.color = "#fff";
+                }
+            }           
+            on_streak = true;
+        } else if (last_played == yesterday) {
+            on_streak = true;
         }
-    }   
-
+    }
+    
     document.getElementById("movie-title").innerHTML = "<i>" + movie.title + "</i>";
-
-    let hints = document.getElementsByClassName("hint");
 
     for (let i = 0; i < hints.length; i ++) {
 
@@ -77,6 +149,8 @@ async function renderGame() {
             if (!hints[i].classList.contains("revealed") && playing) {
                 score_value += 1;
                 document.getElementById("score").textContent = score_value;
+                localStorage.setItem("score_today", score_value);
+                localStorage.setItem(hints[i].id, true);
             }
 
             hints[i].textContent = movie[hints[i].id];
@@ -101,35 +175,88 @@ async function renderGame() {
                 document.getElementById("guess-panel").style.display = "none";
                 document.getElementById("see-results").style.display = "block";
 
+                let streak = Number(localStorage.getItem("streak"));
+                let max_streak = Number(localStorage.getItem("max_streak"));
+                let games_played = Number(localStorage.getItem("games_played")) + 1;
+
+                localStorage.setItem("games_played", games_played);
+                document.getElementById("games-played").textContent = games_played;
+
                 if ((buttons[i].id == "dermot-button" &&  movie.answer == "Dermot Mulroney") || (buttons[i].id == "dylan-button" &&  movie.answer == "Dylan McDermott")) {
                     document.getElementById("result").textContent = "Correct";
-                    document.getElementById("correct-answer").innerHTML = movie.answer + " starred in <em>" + movie.title + "</em>";
+                    
                     if (score_value == 0) {
-                        document.getElementById("final-score").innerHTML = "You got the correct answer using 0 hints";
+                        final_score.innerHTML = "You got the correct answer using 0 hints";
+                        let score_count = Number(localStorage.getItem("0 (Perfect)"));
+                        localStorage.setItem("0 (Perfect)", score_count + 1);
                     } else if (score_value == 1) {
-                        document.getElementById("final-score").innerHTML = "You got the correct answer with 1 hint";
+                        final_score.innerHTML = "You got the correct answer with 1 hint";
+                        let score_count = Number(localStorage.getItem("+1"));
+                        localStorage.setItem("+1", score_count + 1);
                     } else {
-                        document.getElementById("final-score").innerHTML = "You got the correct answer with " + score_value + " hints";
+                        final_score.innerHTML = "You got the correct answer with " + score_value + " hints";
+                        let score_count = Number(localStorage.getItem("+" + score_value));
+                        localStorage.setItem("+" + score_value, score_count + 1);
                     }
 
-                    localStorage.setItem("last_answer", "Correct")
-                    localStorage.setItem("last_score", score_value)
+                    localStorage.setItem("last_answer", "Correct");
+                    localStorage.setItem("last_score", score_value);
 
+                    if (on_streak) {
+                        streak += 1;
+                    } else {
+                        streak = 1;
+                    }
+
+                    localStorage.setItem("streak", streak);
+
+                    if (streak > max_streak) {
+                        max_streak = streak;
+                        localStorage.setItem("max_streak", max_streak);
+                    }
+
+                    
+                    
                 } else {
                     document.getElementById("result").textContent = "Incorrect";
-                    document.getElementById("correct-answer").textContent = "The correct answer is " + movie.answer;
-                    document.getElementById("final-score").innerHTML = "Better luck next time!";
+                    final_score.innerHTML = "Better luck next time!";
 
                     localStorage.setItem("last_answer", "Incorrect")
                     localStorage.setItem("last_score", "Incorrect")
+
+                    let score_count = Number(localStorage.getItem("Incorrect"));
+                    localStorage.setItem("Incorrect", score_count + 1);
+
+                    localStorage.setItem("streak", 0)
                 }
+
+                document.getElementById("streak").textContent = streak;
+                document.getElementById("max-streak").textContent = max_streak;
+
+                document.getElementById("correct-answer").innerHTML = "<b>" + movie.answer + "</b> starred in <em>" + movie.title + "</em>";
 
                 document.getElementById("actor-photo").innerHTML = "<img src = '" + actors[movie.answer].profile_path + "'>";
                 document.getElementById("movie-poster").innerHTML = "<img src = '" + movie.poster_path + "'>";
                 document.getElementById("imdb-link").innerHTML = "Check out <a href = 'https://imdb.com/title/" + movie.imdb + "' target = '_blank'>" + movie.title + "</a> on IMDb"
 
                 localStorage.setItem("last_played", today);
-                
+
+                let values = [];
+                for (let i = 0; i < Object.keys(bars).length; i ++) {
+                    bars[Object.keys(bars)[i]].value = Number(localStorage.getItem(bars[Object.keys(bars)[i]].item));
+                    values.push(bars[Object.keys(bars)[i]].value)
+                }
+                let max_value = Math.max(...values);
+                for (let i = 0; i < Object.keys(bars).length; i ++) {
+                    document.getElementById(Object.keys(bars)[i]).style.width = (bars[Object.keys(bars)[i]].value / max_value * 200) + "px";
+                    document.getElementById(Object.keys(bars)[i]).textContent = Math.round(bars[Object.keys(bars)[i]].value / games_played * 100) + "%";
+                    if (bars[Object.keys(bars)[i]].value == 0) {
+                        document.getElementById(Object.keys(bars)[i]).style.justifyContent = "left";
+                        document.getElementById(Object.keys(bars)[i]).style.color = "#fff";
+                    }
+                }
+
+                localStorage.setItem("score_today", 0);
 
             }
         }
