@@ -79,6 +79,15 @@ for (actor in names(actor_data)) {
       co_star_2 <- "None"
     }
     
+    if (grepl(actor, movie$overview)) {
+      movie$overview <- gsub(actor, "***** *****", movie$overview)
+    }
+    
+    surname <- sub(".* ", "", actor)
+    if (grepl(surname, movie$overview)) {
+      movie$overview <- gsub(surname, "*****", movie$overview)
+    }
+    
     movie_data[[as.character(movie$id)]] <- list(title = movie$title,
                                                  answer = actor,
                                                  character = movie$character,
