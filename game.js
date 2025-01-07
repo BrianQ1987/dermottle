@@ -132,11 +132,14 @@ async function renderGame() {
             document.getElementById("movie-poster").innerHTML = "<img src = '" + movie.poster_path + "'>";
             document.getElementById("imdb-link").innerHTML = "Check out <a href = 'https://imdb.com/title/" + movie.imdb + "' target = '_blank'>" + movie.title + "</a> on IMDb";
 
-            document.getElementById("games-played").textContent = localStorage.getItem("games_played");
+            let games_played = Number(localStorage.getItem("games_played"));
+
+            document.getElementById("games-played").textContent = games_played;
+            document.getElementById("win-rate").textContent = Math.round((games_played - Number(localStorage.getItem("Incorrect"))) / games_played * 100) + "%";
             document.getElementById("streak").textContent = localStorage.getItem("streak");
             document.getElementById("max-streak").textContent = localStorage.getItem("max_streak");
 
-            let games_played = localStorage.getItem("games_played");
+            
             let values = [];
             for (let i = 0; i < Object.keys(bars).length; i ++) {
                 bars[Object.keys(bars)[i]].value = Number(localStorage.getItem(bars[Object.keys(bars)[i]].item));
@@ -259,6 +262,7 @@ async function renderGame() {
                     localStorage.setItem("streak", 0)
                 }
 
+                document.getElementById("win-rate").textContent = Math.round((games_played - Number(localStorage.getItem("Incorrect"))) / games_played * 100) + "%";
                 document.getElementById("streak").textContent = streak;
                 document.getElementById("max-streak").textContent = max_streak;
 
