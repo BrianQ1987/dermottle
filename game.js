@@ -139,18 +139,31 @@ async function renderGame() {
 
             
             let values = [];
+
             for (let i = 0; i < Object.keys(bars).length; i ++) {
                 bars[Object.keys(bars)[i]].value = Number(localStorage.getItem(bars[Object.keys(bars)[i]].item));
                 values.push(bars[Object.keys(bars)[i]].value)
             }
             let max_value = Math.max(...values);
+
             for (let i = 0; i < Object.keys(bars).length; i ++) {
-                document.getElementById(Object.keys(bars)[i]).style.width = (bars[Object.keys(bars)[i]].value / max_value * 200) + "px";
-                document.getElementById(Object.keys(bars)[i]).textContent = Math.round(bars[Object.keys(bars)[i]].value / games_played * 100) + "%";
+                let graph_row = document.createElement("div");
+                graph_row.classList.add("row");
+                let graph_label = document.createElement("div");
+                graph_label.classList.add("axis");
+                graph_label.textContent = bars[Object.keys(bars)[i]].item;
+                graph_row.appendChild(graph_label);
+                let graph_bar = document.createElement("div");
+                graph_bar.id = Object.keys(bars)[i];
+                graph_bar.classList.add("bar");
+                graph_bar.style.width = (bars[Object.keys(bars)[i]].value / max_value * 200) + "px";
+                graph_bar.textContent = Math.round(bars[Object.keys(bars)[i]].value / games_played * 100) + "%";
                 if (bars[Object.keys(bars)[i]].value == 0) {
-                    document.getElementById(Object.keys(bars)[i]).style.justifyContent = "left";
-                    document.getElementById(Object.keys(bars)[i]).style.color = "#fff";
+                    graph_bar.style.justifyContent = "left";
+                    graph_bar.style.color = "#fff";
                 }
+                graph_row.appendChild(graph_bar);
+                document.getElementById("chart").appendChild(graph_row);
             }
             
             for (let i = 0; i < hints.length; i ++) {
@@ -278,13 +291,25 @@ async function renderGame() {
                     values.push(bars[Object.keys(bars)[i]].value)
                 }
                 let max_value = Math.max(...values);
+                
                 for (let i = 0; i < Object.keys(bars).length; i ++) {
-                    document.getElementById(Object.keys(bars)[i]).style.width = (bars[Object.keys(bars)[i]].value / max_value * 200) + "px";
-                    document.getElementById(Object.keys(bars)[i]).textContent = Math.round(bars[Object.keys(bars)[i]].value / games_played * 100) + "%";
+                    let graph_row = document.createElement("div");
+                    graph_row.classList.add("row");
+                    let graph_label = document.createElement("div");
+                    graph_label.classList.add("axis");
+                    graph_label.textContent = bars[Object.keys(bars)[i]].item;
+                    graph_row.appendChild(graph_label);
+                    let graph_bar = document.createElement("div");
+                    graph_bar.id = Object.keys(bars)[i];
+                    graph_bar.classList.add("bar");
+                    graph_bar.style.width = (bars[Object.keys(bars)[i]].value / max_value * 200) + "px";
+                    graph_bar.textContent = Math.round(bars[Object.keys(bars)[i]].value / games_played * 100) + "%";
                     if (bars[Object.keys(bars)[i]].value == 0) {
-                        document.getElementById(Object.keys(bars)[i]).style.justifyContent = "left";
-                        document.getElementById(Object.keys(bars)[i]).style.color = "#fff";
+                        graph_bar.style.justifyContent = "left";
+                        graph_bar.style.color = "#fff";
                     }
+                    graph_row.appendChild(graph_bar);
+                    document.getElementById("chart").appendChild(graph_row);
                 }
 
                 localStorage.setItem("score_today", 0);
