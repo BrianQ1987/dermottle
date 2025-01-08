@@ -351,7 +351,7 @@ async function renderGame() {
 
         if (navigator.share) {
             navigator.share({
-              title: 'Play Dermottle - The Daily Guessing Game with one simple question: Dylan McDermott or Dermot Mulroney?',
+              title: 'Dermottle | The Daily Guessing Game with one Simple Question',
               url: document.location.href,
               text: message
             }).catch(console.error);

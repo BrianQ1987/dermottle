@@ -323,6 +323,14 @@ td {
     margin-bottom: 10px;
 }
 
+#challenge p {
+    line-height: 1em;
+}
+
+#challenge p:not(:last-child) {
+    margin-bottom: 1em;
+}
+
 ol {
     padding-left: 20px;
 }
