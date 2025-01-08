@@ -140,6 +140,7 @@ p {
 
 .screen {
     display: none;
+    flex-direction: column;
     position: absolute;
     top: 0;
     background-color: #1b4e93;
@@ -168,13 +169,15 @@ p {
 }
 
 .close-x {
-    text-align: right;
+    display: flex;
+    justify-content: right;
     margin-top: -10px;
     margin-right: -10px;
     font-size: 18pt;
+    width: 100%;
 }
 
-#close-button {
+#close-help-btn, #close-button {
     cursor: pointer;
 }
 
@@ -195,6 +198,18 @@ p {
     width: 150px;
     padding: 5px;
     margin-bottom: 10px;;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    cursor: pointer;
+    filter: drop-shadow(#222 5px 5px 5px);
+}
+
+#share {
+    width: 100px;
+    padding: 5px;
+    margin: 10px 0 10px 0;
     border-radius: 10px;
     background-color: #fff;
     color: #000;

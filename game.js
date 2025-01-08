@@ -53,8 +53,6 @@ async function renderGame() {
 
     today = today.toISOString().split('T')[0];
 
-    console.log(Number(today.slice(8, 10)));
-
     let text_months = {
         "01": "January",
         "02": "February",
@@ -111,7 +109,7 @@ async function renderGame() {
         if (last_played == today) {
             playing = false;
             score_value = localStorage.getItem("last_score");
-            answer_screen.style.display = "block";
+            answer_screen.style.display = "flex";
             guess_panel.style.display = "none";
             document.getElementById("score-container").innerHTML = "<b>Your score:</b> " + score_value;
             document.getElementById("see-results").style.display = "block";
@@ -203,7 +201,7 @@ async function renderGame() {
 
             if (playing) {
                 playing = false;
-                answer_screen.style.display = "block";
+                answer_screen.style.display = "flex";
                 document.getElementById("guess-panel").style.display = "none";
                 document.getElementById("see-results").style.display = "block";
 
@@ -300,11 +298,11 @@ async function renderGame() {
     }
 
     document.getElementById("see-results").onclick = function() {
-        answer_screen.style.display = "block";
+        answer_screen.style.display = "flex";
     }
 
     document.getElementById("help").onclick = function() {
-        document.getElementById("help-screen").style.display = "block";
+        document.getElementById("help-screen").style.display = "flex";
     }
 
     document.getElementById("close-help-btn").onclick = function() {
@@ -335,6 +333,32 @@ async function renderGame() {
         document.getElementById("countdown").textContent = time_remaining;
 
     }, 1000);
+
+    share_btn = document.getElementById("share");
+    
+    share_btn.onclick = function () {
+
+        let message;
+        let last_score = localStorage.getItem("last_score");
+        
+        if (last_score == "Incorrect") {
+            message = "I was not able to tell Dylan McDermott from Dermot Mulroney today. See if you can do better!"
+        } else if (last_score == "0") {
+            message = "Today I knew my Dylan McDermott from my Dermot Mulroney without using a single hint. But tomorrow I might not be so lucky."
+        } else {
+            message = "Today I knew my Dylan McDermott from my Dermot Mulroney. But tomorrow I might not be so lucky. It only took me " + last_score + " hints! See if you can do better!"
+        }
+
+        if (navigator.share) {
+            navigator.share({
+              title: 'Play Dermottle - The Daily Guessing Game with one simple question: Dylan McDermott or Dermot Mulroney?',
+              url: document.location.href,
+              text: message
+            }).catch(console.error);
+          } else {
+            // fallback
+          }
+    }
 
 }
 
