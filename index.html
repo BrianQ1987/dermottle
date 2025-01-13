@@ -32,8 +32,10 @@
 
     <div id = "container">
 
-        <div id = "title-container">
-            <h1>DERMOTTLE</h1>
+        <div id = "title-container" class = "row">
+            <i id = "info-button" class="fa-solid fa-circle-info" style = "width: 5%"></i>
+            <h1 style = "width: 90%">DERMOTTLE</h1>
+            <i id = "stats-button" class="fa-solid fa-chart-simple" style = "width: 5%"></i>
         </div>
 
         <div id = "help"><i class="fa-regular fa-circle-question"></i> How to play</div>
@@ -70,7 +72,7 @@
             <div class = "close-x">
                 <i id = "close-button" class="fa-solid fa-xmark"></i>
             </div>
-            <p>That is <span id="result"></span></p>
+            <p id = "that-is">That is <span id="result"></span></p>
             <p id = "correct-answer"></p>
             <p id = "final-score"></p>
             <div id = "photos" class = "row">
@@ -129,12 +131,22 @@
             </ol>
         </div>
 
-        <div id = "tmdb">
-            <p>This game was inspired by, and created as a tribute to, the <a href = "https://www.youtube.com/watch?v=XGqSn5Cnw74" target = "_blank"><i>Saturday Night Live</i> sketch "Dylan McDermott or Dermot Mulroney"</a>. The creator of this game is not affiliated with <i>Saturday Night Live</i> or NBCUniversal.</p>
-            <p>This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
-            <p><a href = "https://letterboxd.com/brianbrianq/" target = "_blank"> Follow me on Letterboxd</p>
+        <div id = "tmdb" class = "screen">
+            <div class = "close-x">
+                <i id = "close-info-btn" class="fa-solid fa-xmark"></i>
+            </div>
+            <p>This game was inspired by, and created as a tribute to, the <a href = "https://www.youtube.com/watch?v=XGqSn5Cnw74" target = "_blank"><i>Saturday Night Live</i> sketch "Dylan McDermott or Dermot Mulroney"</a>.</p>
+            <p>The creator of this game is not affiliated with <i>Saturday Night Live</i> or NBCUniversal.</p>
+            <img width = 100% src = "img/my_face.gif">
+            <p>This product uses the <a href = "https://developer.themoviedb.org/docs/getting-started" target = "_blank">TMDB API</a> but is not endorsed or certified by TMDB.</p>
+            <p>Built using <a href = "https://www.r-project.org/" target = "_blank">R</a> and Javascript. Workflows automated using <a href = "https://github.com/features/actions" target = "_blank">Github Actions</a>.</p>
+            <p><a href = "https://letterboxd.com/brianbrianq/" target = "_blank"> Follow me on Letterboxd</a></p>
         </div>
         
+    </div>
+
+    <div id = "created">
+        <p>Created by <a href = "https://letterboxd.com/brianbrianq/" target = "_blank"> Brian Quinn</a></p>
     </div>
 
   </body>

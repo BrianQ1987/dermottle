@@ -95,6 +95,12 @@ p {
     border-bottom: 1px solid #fff;
     margin-bottom: 1em;
     width: 100%;
+    align-items: center;
+}
+
+#title-container i {
+    font-size: 16pt;
+    cursor: pointer;
 }
 
 p {
@@ -285,16 +291,16 @@ td {
     color: #fff;
 }
 
-#tmdb {
+#created {
     text-align: center;
     font-size: 10pt;
-    margin-top: 80px;
-    padding:0 25px 0 25px;
-    
+    padding: 0 25px 0 25px;
+    margin-top: 200px;    
 }
 
-#tmdb p {
+#tmdb p, #tmdb img {
     line-height: normal;
+    margin-bottom: 1em;
 }
 
 #chart {

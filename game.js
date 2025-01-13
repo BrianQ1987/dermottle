@@ -5,6 +5,7 @@ async function renderGame() {
     let answer_screen = document.getElementById("answer-screen");
     let guess_panel = document.getElementById("guess-panel");
     let final_score = document.getElementById("final-score");
+    let that_is = document.getElementById("that-is")
 
     let items = ["0 (Perfect)", "+1", "+2", "+3", "+4", "+5", "+6", "Incorrect", "streak", "max_streak", "games_played", "score_today"];
 
@@ -68,6 +69,74 @@ async function renderGame() {
         "12": "December",
     }
 
+    function draw_graph (games_played) {
+
+        let bars = {
+            "bar-0": {"item": "0 (Perfect)"},
+            "bar-1": {"item": "+1"},
+            "bar-2": {"item": "+2"},
+            "bar-3": {"item": "+3"},
+            "bar-4": {"item": "+4"},
+            "bar-5": {"item": "+5"},
+            "bar-6": {"item": "+6"},
+            "bar-incorrect": {"item": "Incorrect"}
+        }
+
+        let values = [];
+        for (let i = 0; i < Object.keys(bars).length; i ++) {
+            bars[Object.keys(bars)[i]].value = Number(localStorage.getItem(bars[Object.keys(bars)[i]].item));
+            values.push(bars[Object.keys(bars)[i]].value)
+        }
+        let max_value = Math.max(...values);
+
+        let chart_div = document.getElementById("chart");
+
+        while (chart_div.firstChild) {
+            chart_div.removeChild(chart_div.firstChild)
+        }
+
+        chart_div.innerHTML = '<div id = "axis-label">Hints used</div>';
+        
+        for (let i = 0; i < Object.keys(bars).length; i ++) {
+            let graph_row = document.createElement("div");
+            graph_row.classList.add("row");
+            let graph_label = document.createElement("div");
+            graph_label.classList.add("axis");
+            graph_label.textContent = bars[Object.keys(bars)[i]].item;
+            graph_row.appendChild(graph_label);
+            let graph_bar = document.createElement("div");
+            graph_bar.id = Object.keys(bars)[i];
+            graph_bar.classList.add("bar");
+
+            if (games_played == 0) {
+                graph_bar.style.width = "0px";
+                graph_bar.textContent = "0%";
+                chart_div.style.width = "280px";
+            } else {
+                graph_bar.style.width = (bars[Object.keys(bars)[i]].value / max_value * 200) + "px";
+                graph_bar.textContent = Math.round(bars[Object.keys(bars)[i]].value / games_played * 100) + "%";
+            }            
+
+            if (bars[Object.keys(bars)[i]].value == 0) {
+                graph_bar.style.justifyContent = "left";
+                graph_bar.style.color = "#fff";
+            }
+            graph_row.appendChild(graph_bar);
+            chart_div.appendChild(graph_row);
+        }
+
+
+        let win_rate = 0;
+        if (games_played > 0) {
+            win_rate = Math.round((games_played - Number(localStorage.getItem("Incorrect"))) / games_played * 100);
+        }
+
+        document.getElementById("games-played").textContent = games_played;
+        document.getElementById("win-rate").textContent = win_rate + "%";
+        document.getElementById("streak").textContent = localStorage.getItem("streak");
+        document.getElementById("max-streak").textContent = localStorage.getItem("max_streak");
+    }
+
     document.getElementById("date").textContent = text_months[today.slice(5, 7)] + " " + Number(today.slice(8, 10)) + ", " + today.slice(0, 4);
 
     let movie = movies[picks[today]];
@@ -92,17 +161,6 @@ async function renderGame() {
             }
         }
     }   
-
-    let bars = {
-        "bar-0": {"item": "0 (Perfect)"},
-        "bar-1": {"item": "+1"},
-        "bar-2": {"item": "+2"},
-        "bar-3": {"item": "+3"},
-        "bar-4": {"item": "+4"},
-        "bar-5": {"item": "+5"},
-        "bar-6": {"item": "+6"},
-        "bar-incorrect": {"item": "Incorrect"}
-    }
 
     if (localStorage.hasOwnProperty("last_played")) {
         let last_played = localStorage.getItem("last_played");
@@ -132,39 +190,7 @@ async function renderGame() {
 
             let games_played = Number(localStorage.getItem("games_played"));
 
-            document.getElementById("games-played").textContent = games_played;
-            document.getElementById("win-rate").textContent = Math.round((games_played - Number(localStorage.getItem("Incorrect"))) / games_played * 100) + "%";
-            document.getElementById("streak").textContent = localStorage.getItem("streak");
-            document.getElementById("max-streak").textContent = localStorage.getItem("max_streak");
-
-            
-            let values = [];
-
-            for (let i = 0; i < Object.keys(bars).length; i ++) {
-                bars[Object.keys(bars)[i]].value = Number(localStorage.getItem(bars[Object.keys(bars)[i]].item));
-                values.push(bars[Object.keys(bars)[i]].value)
-            }
-            let max_value = Math.max(...values);
-
-            for (let i = 0; i < Object.keys(bars).length; i ++) {
-                let graph_row = document.createElement("div");
-                graph_row.classList.add("row");
-                let graph_label = document.createElement("div");
-                graph_label.classList.add("axis");
-                graph_label.textContent = bars[Object.keys(bars)[i]].item;
-                graph_row.appendChild(graph_label);
-                let graph_bar = document.createElement("div");
-                graph_bar.id = Object.keys(bars)[i];
-                graph_bar.classList.add("bar");
-                graph_bar.style.width = (bars[Object.keys(bars)[i]].value / max_value * 200) + "px";
-                graph_bar.textContent = Math.round(bars[Object.keys(bars)[i]].value / games_played * 100) + "%";
-                if (bars[Object.keys(bars)[i]].value == 0) {
-                    graph_bar.style.justifyContent = "left";
-                    graph_bar.style.color = "#fff";
-                }
-                graph_row.appendChild(graph_bar);
-                document.getElementById("chart").appendChild(graph_row);
-            }
+            draw_graph(games_played);
             
             for (let i = 0; i < hints.length; i ++) {
 
@@ -214,6 +240,7 @@ async function renderGame() {
 
             if (playing) {
                 playing = false;
+                that_is.style.display = "block";
                 answer_screen.style.display = "flex";
                 document.getElementById("guess-panel").style.display = "none";
                 document.getElementById("see-results").style.display = "block";
@@ -223,7 +250,6 @@ async function renderGame() {
                 let games_played = Number(localStorage.getItem("games_played")) + 1;
 
                 localStorage.setItem("games_played", games_played);
-                document.getElementById("games-played").textContent = games_played;
 
                 if ((buttons[i].id == "dermot-button" &&  movie.answer == "Dermot Mulroney") || (buttons[i].id == "dylan-button" &&  movie.answer == "Dylan McDermott")) {
                     document.getElementById("result").textContent = "Correct";
@@ -273,10 +299,6 @@ async function renderGame() {
                     localStorage.setItem("streak", 0)
                 }
 
-                document.getElementById("win-rate").textContent = Math.round((games_played - Number(localStorage.getItem("Incorrect"))) / games_played * 100) + "%";
-                document.getElementById("streak").textContent = streak;
-                document.getElementById("max-streak").textContent = max_streak;
-
                 document.getElementById("correct-answer").innerHTML = "<b>" + movie.answer + "</b> starred in <em>" + movie.title + "</em>";
 
                 document.getElementById("actor-photo").innerHTML = "<img src = '" + actors[movie.answer].profile_path + "'>";
@@ -285,34 +307,11 @@ async function renderGame() {
 
                 localStorage.setItem("last_played", today);
 
-                let values = [];
-                for (let i = 0; i < Object.keys(bars).length; i ++) {
-                    bars[Object.keys(bars)[i]].value = Number(localStorage.getItem(bars[Object.keys(bars)[i]].item));
-                    values.push(bars[Object.keys(bars)[i]].value)
-                }
-                let max_value = Math.max(...values);
-                
-                for (let i = 0; i < Object.keys(bars).length; i ++) {
-                    let graph_row = document.createElement("div");
-                    graph_row.classList.add("row");
-                    let graph_label = document.createElement("div");
-                    graph_label.classList.add("axis");
-                    graph_label.textContent = bars[Object.keys(bars)[i]].item;
-                    graph_row.appendChild(graph_label);
-                    let graph_bar = document.createElement("div");
-                    graph_bar.id = Object.keys(bars)[i];
-                    graph_bar.classList.add("bar");
-                    graph_bar.style.width = (bars[Object.keys(bars)[i]].value / max_value * 200) + "px";
-                    graph_bar.textContent = Math.round(bars[Object.keys(bars)[i]].value / games_played * 100) + "%";
-                    if (bars[Object.keys(bars)[i]].value == 0) {
-                        graph_bar.style.justifyContent = "left";
-                        graph_bar.style.color = "#fff";
-                    }
-                    graph_row.appendChild(graph_bar);
-                    document.getElementById("chart").appendChild(graph_row);
-                }
+                draw_graph(games_played);
 
                 localStorage.setItem("score_today", 0);
+
+                move_created();
 
             }
         }
@@ -384,6 +383,36 @@ async function renderGame() {
             // fallback
           }
     }
+
+    document.getElementById("stats-button").onclick = function () {
+
+        let games_played = localStorage.getItem("games_played");
+
+        if (playing) {
+            draw_graph(games_played);
+            that_is.style.display = "none";
+        } else {
+            that_is.style.display = "block";
+        }
+
+        document.getElementById("see-results").click();
+    }
+
+    document.getElementById("info-button").onclick = function() {
+        document.getElementById("tmdb").style.display = "flex";
+    }
+
+    document.getElementById("close-info-btn").onclick = function() {
+        document.getElementById("tmdb").style.display = "none";
+    }
+
+    function move_created () {
+        document.getElementById("created").style.marginTop = window.innerHeight - document.getElementById("container").clientHeight - document.getElementById("created").clientHeight - 10 + "px";
+    }
+
+    move_created();
+
+    
 
 }
 
