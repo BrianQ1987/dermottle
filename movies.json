@@ -30,7 +30,7 @@
     "poster_path": "https://image.tmdb.org/t/p/w1280/wDWwtvkRRlgTiUr6TyLSMX8FCuZ.jpg",
     "release_date": "2023",
     "overview": "Following the latest Ghostface killings, the four survivors leave Woodsboro behind and start a fresh chapter.",
-    "director": "Matt Bettinelli-Olpin and Tyler Gillett",
+    "director": "Tyler Gillett and Matt Bettinelli-Olpin",
     "co_star_1": "Melissa Barrera",
     "co_star_2": "Jenna Ortega",
     "imdb": "tt17663992"
@@ -846,7 +846,7 @@
     "poster_path": "https://image.tmdb.org/t/p/w1280/tAnwQKYkRlXS6Lgaq5XQ7JqS58x.jpg",
     "release_date": "2023",
     "overview": "Eden goes to a coveted 'Heaven and Hell' party, hoping to get a letter of recommendation to an elite university from the wealthy parents of her classmate, but the party quickly turns into a fight for her life.",
-    "director": "Beth Hanna and Jerren Lauder",
+    "director": "Jerren Lauder and Beth Hanna",
     "co_star_1": "McKaley Miller",
     "co_star_2": "Anne Heche",
     "imdb": "tt20222202"
@@ -1595,18 +1595,6 @@
     "co_star_2": "Robert Downey Jr.",
     "imdb": "tt0113321"
   },
-  "26437": {
-    "title": "The Tenants",
-    "answer": "Dylan McDermott",
-    "character": "Harry Lesser",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/gzt4Tyv4sdkyZriJKLLAk2quAjJ.jpg",
-    "release_date": "2006",
-    "overview": "The story of a Jewish novelist, Harry Lesser, struggling to complete his latest work, and his antagonistic relationship with a black writer who moves in down the hall.",
-    "director": "Danny Green",
-    "co_star_1": "Snoop Dogg",
-    "co_star_2": "Rose Byrne",
-    "imdb": "tt0429173"
-  },
   "9724": {
     "title": "The Mistress of Spices",
     "answer": "Dylan McDermott",
@@ -1618,6 +1606,18 @@
     "co_star_1": "Aishwarya Rai Bachchan",
     "co_star_2": "Nitin Ganatra",
     "imdb": "tt0407998"
+  },
+  "26437": {
+    "title": "The Tenants",
+    "answer": "Dylan McDermott",
+    "character": "Harry Lesser",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/gzt4Tyv4sdkyZriJKLLAk2quAjJ.jpg",
+    "release_date": "2006",
+    "overview": "The story of a Jewish novelist, Harry Lesser, struggling to complete his latest work, and his antagonistic relationship with a black writer who moves in down the hall.",
+    "director": "Danny Green",
+    "co_star_1": "Snoop Dogg",
+    "co_star_2": "Rose Byrne",
+    "imdb": "tt0429173"
   },
   "32872": {
     "title": "Til There Was You",
@@ -1638,7 +1638,7 @@
     "poster_path": "https://image.tmdb.org/t/p/w1280/ituR560dbnV4WAFPY0jJlEenGiW.jpg",
     "release_date": "2007",
     "overview": "When the Solomons trade in the craziness of big-city life for the quiet of a North Dakota farm, little do they expect the nightmare that follows. Soon after arriving, teenage Jess (Kristen Stewart) and her younger brother see terrifying apparitions and endure attacks from a supernatural source. Jess must warn her disbelieving family before it is too late to save them.",
-    "director": "Danny Pang Fat and Oxide Pang Shun",
+    "director": "Oxide Pang Shun and Danny Pang Fat",
     "co_star_1": "Kristen Stewart",
     "co_star_2": "Penelope Ann Miller",
     "imdb": "tt0425430"
