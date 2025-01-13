@@ -118,6 +118,6 @@ tryCatch({
   cat("Error loading picks.json:\n", e$message, "\n")
 })
 
-picks[[as.character(today() + 1)]] <- sample(names(movie_data), 1)
+picks[[as.character(today() + 2)]] <- sample(names(movie_data), 1)
 
 write_json(picks, "picks.json", auto_unbox = TRUE, pretty = TRUE)
