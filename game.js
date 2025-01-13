@@ -5,7 +5,7 @@ async function renderGame() {
     let answer_screen = document.getElementById("answer-screen");
     let guess_panel = document.getElementById("guess-panel");
     let final_score = document.getElementById("final-score");
-    let that_is = document.getElementById("that-is")
+    let that_is = document.getElementById("that-is");
 
     let items = ["0 (Perfect)", "+1", "+2", "+3", "+4", "+5", "+6", "Incorrect", "streak", "max_streak", "games_played", "score_today"];
 
@@ -67,6 +67,13 @@ async function renderGame() {
         "10": "October",
         "11": "November",
         "12": "December",
+    }
+
+    function show_answer (movie, actors) {
+        document.getElementById("correct-answer").innerHTML = "<b>" + movie.answer + "</b> starred in <em>" + movie.title + "</em>";
+        document.getElementById("actor-photo").innerHTML = "<img src = '" + actors[movie.answer].profile_path + "'>";
+        document.getElementById("movie-poster").innerHTML = "<img src = '" + movie.poster_path + "'>";
+        document.getElementById("imdb-link").innerHTML = "Check out <a href = 'https://imdb.com/title/" + movie.imdb + "' target = '_blank'>" + movie.title + "</a> on IMDb";
     }
 
     function draw_graph (games_played) {
@@ -172,7 +179,7 @@ async function renderGame() {
             document.getElementById("score-container").innerHTML = "<b>Your score:</b> " + score_value;
             document.getElementById("see-results").style.display = "block";
             document.getElementById("result").textContent = localStorage.getItem("last_answer");
-            document.getElementById("correct-answer").innerHTML = "<b>" + movie.answer + "</b> starred in <em>" + movie.title + "</em>";
+            
             if (localStorage.getItem("last_answer") == "Correct") {
                 if (score_value == 0) {
                     final_score.innerHTML = "You got the correct answer using 0 hints";
@@ -184,9 +191,8 @@ async function renderGame() {
             } else {
                 final_score.innerHTML = "Better luck next time!";
             }
-            document.getElementById("actor-photo").innerHTML = "<img src = '" + actors[movie.answer].profile_path + "'>";
-            document.getElementById("movie-poster").innerHTML = "<img src = '" + movie.poster_path + "'>";
-            document.getElementById("imdb-link").innerHTML = "Check out <a href = 'https://imdb.com/title/" + movie.imdb + "' target = '_blank'>" + movie.title + "</a> on IMDb";
+
+            show_answer(movie, actors);
 
             let games_played = Number(localStorage.getItem("games_played"));
 
@@ -299,12 +305,9 @@ async function renderGame() {
                     localStorage.setItem("streak", 0)
                 }
 
-                document.getElementById("correct-answer").innerHTML = "<b>" + movie.answer + "</b> starred in <em>" + movie.title + "</em>";
+                show_answer(movie, actors)
 
-                document.getElementById("actor-photo").innerHTML = "<img src = '" + actors[movie.answer].profile_path + "'>";
-                document.getElementById("movie-poster").innerHTML = "<img src = '" + movie.poster_path + "'>";
-                document.getElementById("imdb-link").innerHTML = "Check out <a href = 'https://imdb.com/title/" + movie.imdb + "' target = '_blank'>" + movie.title + "</a> on IMDb"
-
+                
                 localStorage.setItem("last_played", today);
 
                 draw_graph(games_played);
@@ -352,9 +355,7 @@ async function renderGame() {
             hours = "0" + hours
         }
 
-        let time_remaining = hours + ":" + minutes + ":" + seconds;
-
-        document.getElementById("countdown").textContent = time_remaining;
+        document.getElementById("countdown").textContent =  hours + ":" + minutes + ":" + seconds;
 
     }, 1000);
 
@@ -410,9 +411,7 @@ async function renderGame() {
         document.getElementById("created").style.marginTop = window.innerHeight - document.getElementById("container").clientHeight - document.getElementById("created").clientHeight - 10 + "px";
     }
 
-    move_created();
-
-    
+    move_created();    
 
 }
 
