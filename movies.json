@@ -30,7 +30,7 @@
     "poster_path": "https://image.tmdb.org/t/p/w1280/wDWwtvkRRlgTiUr6TyLSMX8FCuZ.jpg",
     "release_date": "2023",
     "overview": "Following the latest Ghostface killings, the four survivors leave Woodsboro behind and start a fresh chapter.",
-    "director": "Tyler Gillett and Matt Bettinelli-Olpin",
+    "director": "Matt Bettinelli-Olpin and Tyler Gillett",
     "co_star_1": "Melissa Barrera",
     "co_star_2": "Jenna Ortega",
     "imdb": "tt17663992"
@@ -834,7 +834,7 @@
     "poster_path": "https://image.tmdb.org/t/p/w1280/tAnwQKYkRlXS6Lgaq5XQ7JqS58x.jpg",
     "release_date": "2023",
     "overview": "Eden goes to a coveted 'Heaven and Hell' party, hoping to get a letter of recommendation to an elite university from the wealthy parents of her classmate, but the party quickly turns into a fight for her life.",
-    "director": "Beth Hanna and Jerren Lauder",
+    "director": "Jerren Lauder and Beth Hanna",
     "co_star_1": "McKaley Miller",
     "co_star_2": "Anne Heche",
     "imdb": "tt20222202"
@@ -1250,11 +1250,11 @@
   "472777": {
     "title": "Shattered: If Your Kid's on Drugs",
     "answer": "Dermot Mulroney",
-    "character": "",
+    "character": "Lane",
     "poster_path": "https://image.tmdb.org/t/p/w1280/puotlINTAXak0jKQOvPnKGd8PDs.jpg",
     "release_date": "1986",
     "overview": "A made-for-tv byproduct of The War On Drugs.",
-    "director": {},
+    "director": "Nathaniel Burr Smidt",
     "co_star_1": "Burt Reynolds",
     "co_star_2": "Ami Dolenz",
     "imdb": "tt0363061"
@@ -1487,18 +1487,6 @@
     "co_star_2": "Robert Downey Jr.",
     "imdb": "tt0113321"
   },
-  "9724": {
-    "title": "The Mistress of Spices",
-    "answer": "Dylan McDermott",
-    "character": "Doug",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/4B1bLyeRdrVVS9TirZdPUyP9we1.jpg",
-    "release_date": "2005",
-    "overview": "Tilo is an Indian shopkeeper in America with an ability to see the future and a magical connection to powerful spices, which she uses to help her customers satisfy their various needs and desires. One day she falls in love with an American man. But the spices forbid it.",
-    "director": "Paul Mayeda Berges",
-    "co_star_1": "Aishwarya Rai Bachchan",
-    "co_star_2": "Nitin Ganatra",
-    "imdb": "tt0407998"
-  },
   "26437": {
     "title": "The Tenants",
     "answer": "Dylan McDermott",
@@ -1510,6 +1498,18 @@
     "co_star_1": "Snoop Dogg",
     "co_star_2": "Rose Byrne",
     "imdb": "tt0429173"
+  },
+  "9724": {
+    "title": "The Mistress of Spices",
+    "answer": "Dylan McDermott",
+    "character": "Doug",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/4B1bLyeRdrVVS9TirZdPUyP9we1.jpg",
+    "release_date": "2005",
+    "overview": "Tilo is an Indian shopkeeper in America with an ability to see the future and a magical connection to powerful spices, which she uses to help her customers satisfy their various needs and desires. One day she falls in love with an American man. But the spices forbid it.",
+    "director": "Paul Mayeda Berges",
+    "co_star_1": "Aishwarya Rai Bachchan",
+    "co_star_2": "Nitin Ganatra",
+    "imdb": "tt0407998"
   },
   "32872": {
     "title": "Til There Was You",
