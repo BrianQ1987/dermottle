@@ -183,7 +183,7 @@ p {
     width: 100%;
 }
 
-#close-help-btn, #close-button {
+#close-help-btn, #close-button, #close-info-btn {
     cursor: pointer;
 }
 

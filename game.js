@@ -122,6 +122,7 @@ async function renderGame() {
             } else {
                 graph_bar.style.width = (bars[Object.keys(bars)[i]].value / max_value * 200) + "px";
                 graph_bar.textContent = Math.round(bars[Object.keys(bars)[i]].value / games_played * 100) + "%";
+                chart_div.removeAttribute("style");
             }            
 
             if (bars[Object.keys(bars)[i]].value == 0) {
@@ -247,6 +248,9 @@ async function renderGame() {
             if (playing) {
                 playing = false;
                 that_is.style.display = "block";
+                share_btn.style.display = "block";
+                document.getElementById("next").style.display = "block";
+                document.getElementById("countdown").style.display = "block";
                 answer_screen.style.display = "flex";
                 document.getElementById("guess-panel").style.display = "none";
                 document.getElementById("see-results").style.display = "block";
@@ -392,6 +396,9 @@ async function renderGame() {
         if (playing) {
             draw_graph(games_played);
             that_is.style.display = "none";
+            share_btn.style.display = "none";
+            document.getElementById("next").style.display = "none";
+            document.getElementById("countdown").style.display = "none";
         } else {
             that_is.style.display = "block";
         }
@@ -408,7 +415,16 @@ async function renderGame() {
     }
 
     function move_created () {
-        document.getElementById("created").style.marginTop = window.innerHeight - document.getElementById("container").clientHeight - document.getElementById("created").clientHeight - 10 + "px";
+
+        let calculated_space = window.innerHeight - document.getElementById("container").clientHeight - document.getElementById("created").clientHeight - 10;
+
+        if (calculated_space < 20) {
+            document.getElementById("created").style.marginTop = "20px";
+            document.getElementById("created").style.marginBottom = "10px";
+        } else {
+            document.getElementById("created").style.marginTop = calculated_space + "px";
+        }
+
     }
 
     move_created();    
