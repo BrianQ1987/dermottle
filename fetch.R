@@ -66,7 +66,7 @@ for (actor in names(actor_data)) {
     
     if (!is.null(director)) {
       if (length(director) > 1) {
-        director <- paste(director, collapse = " and ")
+        director <- paste(sort(director), collapse = " and ")
       }
     }
     

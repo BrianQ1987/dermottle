@@ -310,7 +310,6 @@ async function renderGame() {
                 }
 
                 show_answer(movie, actors)
-
                 
                 localStorage.setItem("last_played", today);
 
