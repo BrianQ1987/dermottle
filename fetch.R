@@ -90,6 +90,13 @@ for (actor in names(actor_data)) {
       movie$overview <- gsub(surname, "*****", movie$overview)
     }
     
+    genres <- c()
+    if (length(movie_info$genres) > 0) {
+      for (i in 1:length(movie_info$genres)) {
+        genres <- c(genres, movie_info$genres[[i]]$name)
+      }
+    }
+    
     if (movie$release_date != "") {
       movie_data[[as.character(movie$id)]] <- list(
         title = movie$title,
@@ -101,7 +108,8 @@ for (actor in names(actor_data)) {
         director = director,
         co_star_1 = co_star_1,
         co_star_2 = co_star_2,
-        imdb = movie_info$imdb_id
+        imdb = movie_info$imdb_id,
+        genres = genres
       )
     }
   
@@ -118,6 +126,44 @@ tryCatch({
   cat("Error loading picks.json:\n", e$message, "\n")
 })
 
-picks[[as.character(today() + 2)]] <- sample(names(movie_data), 1)
+# Date to make a pick for
+date <- today() + 2
+
+# Pick horror movies for lead up to Halloween
+horror_movies <- list()
+for (i in 1:length(movie_data)) {
+  if ("Horror" %in% movie_data[[i]]$genres) {
+    horror_movies[[names(movie_data[i])]] <- movie_data[[i]]
+  }
+}
+
+horror_ids <- sample(names(horror_movies), length(horror_movies))
+horror_dates <- (32 - length(horror_movies)):31
+
+# Pick Christmas movies
+
+xmas_movies <- list()
+for (i in 1:length(movie_data)) {
+  if (grepl("Christmas|Holidays|Santa", movie_data[[i]]$title) | grepl("Christmas|Holidays|Santa|holidays", movie_data[[i]]$overview)) {
+    xmas_movies[[names(movie_data[i])]] <- movie_data[[i]]
+  }
+}
+
+xmas_ids <- sample(names(xmas_movies), length(xmas_movies))
+xmas_dates <- (26 - length(xmas_movies)):25
+
+if (month(date) == 10 & day(date) == horror_dates[1]) {
+  for (i in 1:length(horror_dates)) {
+    picks[[paste0(year(date),"-10-", horror_dates[i])]] <- horror_ids[i]  
+  }
+} else if (month(date) == 12 & day(date) == xmas_dates[1]) {
+  for (i in 1:length(xmas_dates)) {
+    picks[[paste0(year(date),"-12-", xmas_dates[i])]] <- xmas_ids[i]  
+  }
+} else {
+  if (!as.character(date) %in% names(picks)) {
+    picks[[as.character(date)]] <- sample(names(movie_data), 1)
+  }
+}
 
 write_json(picks, "picks.json", auto_unbox = TRUE, pretty = TRUE)

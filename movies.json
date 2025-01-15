@@ -9,7 +9,8 @@
     "director": "Grant S. Johnson",
     "co_star_1": "Mel Gibson",
     "co_star_2": "Adan Canto",
-    "imdb": "tt14168394"
+    "imdb": "tt14168394",
+    "genres": ["Action", "Thriller"]
   },
   "1710": {
     "title": "Copycat",
@@ -21,7 +22,8 @@
     "director": "Jon Amiel",
     "co_star_1": "Sigourney Weaver",
     "co_star_2": "Holly Hunter",
-    "imdb": "tt0112722"
+    "imdb": "tt0112722",
+    "genres": ["Thriller", "Crime", "Mystery", "Horror"]
   },
   "934433": {
     "title": "Scream VI",
@@ -33,7 +35,8 @@
     "director": "Matt Bettinelli-Olpin and Tyler Gillett",
     "co_star_1": "Melissa Barrera",
     "co_star_2": "Jenna Ortega",
-    "imdb": "tt17663992"
+    "imdb": "tt17663992",
+    "genres": ["Horror", "Crime", "Thriller"]
   },
   "1949": {
     "title": "Zodiac",
@@ -45,7 +48,8 @@
     "director": "David Fincher",
     "co_star_1": "Jake Gyllenhaal",
     "co_star_2": "Mark Ruffalo",
-    "imdb": "tt0443706"
+    "imdb": "tt0443706",
+    "genres": ["Crime", "Drama", "Mystery", "Thriller"]
   },
   "2755": {
     "title": "About Schmidt",
@@ -57,7 +61,8 @@
     "director": "Alexander Payne",
     "co_star_1": "Jack Nicholson",
     "co_star_2": "Kathy Bates",
-    "imdb": "tt0257360"
+    "imdb": "tt0257360",
+    "genres": ["Drama", "Comedy"]
   },
   "10498": {
     "title": "Point of No Return",
@@ -69,7 +74,8 @@
     "director": "John Badham",
     "co_star_1": "Bridget Fonda",
     "co_star_2": "Gabriel Byrne",
-    "imdb": "tt0107843"
+    "imdb": "tt0107843",
+    "genres": ["Action", "Crime", "Thriller"]
   },
   "20333": {
     "title": "The Last Outlaw",
@@ -81,7 +87,8 @@
     "director": "Geoff Murphy",
     "co_star_1": "Mickey Rourke",
     "co_star_2": "Ted Levine",
-    "imdb": "tt0110307"
+    "imdb": "tt0110307",
+    "genres": ["TV Movie", "Action", "Western"]
   },
   "31146": {
     "title": "Box of Moonlight",
@@ -93,7 +100,8 @@
     "director": "Tom DiCillo",
     "co_star_1": "John Turturro",
     "co_star_2": "Sam Rockwell",
-    "imdb": "tt0115738"
+    "imdb": "tt0115738",
+    "genres": ["Comedy", "Drama"]
   },
   "22479": {
     "title": "Kansas City",
@@ -105,7 +113,8 @@
     "director": "Robert Altman",
     "co_star_1": "Jennifer Jason Leigh",
     "co_star_2": "Miranda Richardson",
-    "imdb": "tt0116745"
+    "imdb": "tt0116745",
+    "genres": ["Drama", "Crime"]
   },
   "24186": {
     "title": "The Safety of Objects",
@@ -117,7 +126,8 @@
     "director": "Rose Troche",
     "co_star_1": "Glenn Close",
     "co_star_2": "Jessica Campbell",
-    "imdb": "tt0256359"
+    "imdb": "tt0256359",
+    "genres": "Drama"
   },
   "6961": {
     "title": "The Wedding Date",
@@ -129,7 +139,8 @@
     "director": "Clare Kilner",
     "co_star_1": "Debra Messing",
     "co_star_2": "Amy Adams",
-    "imdb": "tt0372532"
+    "imdb": "tt0372532",
+    "genres": ["Romance", "Comedy"]
   },
   "31610": {
     "title": "Trixie",
@@ -141,7 +152,8 @@
     "director": "Alan Rudolph",
     "co_star_1": "Emily Watson",
     "co_star_2": "Nick Nolte",
-    "imdb": "tt0162711"
+    "imdb": "tt0162711",
+    "genres": ["Action", "Comedy", "Mystery", "Thriller"]
   },
   "11648": {
     "title": "Must Love Dogs",
@@ -153,7 +165,8 @@
     "director": "Gary David Goldberg",
     "co_star_1": "Diane Lane",
     "co_star_2": "John Cusack",
-    "imdb": "tt0417001"
+    "imdb": "tt0417001",
+    "genres": ["Romance", "Comedy"]
   },
   "11853": {
     "title": "Bad Girls",
@@ -165,7 +178,8 @@
     "director": "Jonathan Kaplan",
     "co_star_1": "Madeleine Stowe",
     "co_star_2": "Mary Stuart Masterson",
-    "imdb": "tt0109198"
+    "imdb": "tt0109198",
+    "genres": ["Romance", "Western"]
   },
   "11861": {
     "title": "How to Make an American Quilt",
@@ -177,7 +191,8 @@
     "director": "Jocelyn Moorhouse",
     "co_star_1": "Winona Ryder",
     "co_star_2": "Anne Bancroft",
-    "imdb": "tt0113347"
+    "imdb": "tt0113347",
+    "genres": ["Drama", "Romance"]
   },
   "11967": {
     "title": "Young Guns",
@@ -189,7 +204,8 @@
     "director": "Christopher Cain",
     "co_star_1": "Emilio Estevez",
     "co_star_2": "Kiefer Sutherland",
-    "imdb": "tt0096487"
+    "imdb": "tt0096487",
+    "genres": ["Western", "Action", "Adventure"]
   },
   "31776": {
     "title": "Where the Money Is",
@@ -201,7 +217,8 @@
     "director": "Marek Kanievska",
     "co_star_1": "Paul Newman",
     "co_star_2": "Linda Fiorentino",
-    "imdb": "tt0149367"
+    "imdb": "tt0149367",
+    "genres": ["Comedy", "Crime", "Drama"]
   },
   "8874": {
     "title": "My Best Friend's Wedding",
@@ -213,7 +230,8 @@
     "director": "P.J. Hogan",
     "co_star_1": "Julia Roberts",
     "co_star_2": "Cameron Diaz",
-    "imdb": "tt0119738"
+    "imdb": "tt0119738",
+    "genres": ["Comedy", "Romance"]
   },
   "9043": {
     "title": "The Family Stone",
@@ -225,7 +243,8 @@
     "director": "Thomas Bezucha",
     "co_star_1": "Sarah Jessica Parker",
     "co_star_2": "Diane Keaton",
-    "imdb": "tt0356680"
+    "imdb": "tt0356680",
+    "genres": ["Comedy", "Drama", "Romance"]
   },
   "9071": {
     "title": "Living in Oblivion",
@@ -237,7 +256,8 @@
     "director": "Tom DiCillo",
     "co_star_1": "Steve Buscemi",
     "co_star_2": "Catherine Keener",
-    "imdb": "tt0113677"
+    "imdb": "tt0113677",
+    "genres": "Comedy"
   },
   "12645": {
     "title": "Inhale",
@@ -249,7 +269,8 @@
     "director": "Baltasar Kormákur",
     "co_star_1": "Diane Kruger",
     "co_star_2": "Sam Shepard",
-    "imdb": "tt1196340"
+    "imdb": "tt1196340",
+    "genres": ["Drama", "Action", "Thriller"]
   },
   "1072790": {
     "title": "Anyone But You",
@@ -261,7 +282,8 @@
     "director": "Will Gluck",
     "co_star_1": "Sydney Sweeney",
     "co_star_2": "Glen Powell",
-    "imdb": "tt26047818"
+    "imdb": "tt26047818",
+    "genres": ["Romance", "Comedy"]
   },
   "471342": {
     "title": "Montford: The Chickasaw Rancher",
@@ -273,7 +295,8 @@
     "director": "Nathan Frankowski",
     "co_star_1": "Mackenzie Astin",
     "co_star_2": "Tommy Flanagan",
-    "imdb": "tt6704894"
+    "imdb": "tt6704894",
+    "genres": ["Western", "Drama"]
   },
   "874355": {
     "title": "Gone in the Night",
@@ -285,7 +308,8 @@
     "director": "Eli Horowitz",
     "co_star_1": "Winona Ryder",
     "co_star_2": "John Gallagher Jr.",
-    "imdb": "tt15426294"
+    "imdb": "tt15426294",
+    "genres": ["Thriller", "Drama", "Mystery"]
   },
   "893228": {
     "title": "Section 8",
@@ -297,7 +321,8 @@
     "director": "Christian Sesma",
     "co_star_1": "Ryan Kwanten",
     "co_star_2": "Dolph Lundgren",
-    "imdb": "tt14950412"
+    "imdb": "tt14950412",
+    "genres": ["Action", "Thriller"]
   },
   "27804": {
     "title": "The Thing Called Love",
@@ -309,7 +334,8 @@
     "director": "Peter Bogdanovich",
     "co_star_1": "River Phoenix",
     "co_star_2": "Samantha Mathis",
-    "imdb": "tt0108327"
+    "imdb": "tt0108327",
+    "genres": ["Drama", "Romance"]
   },
   "13159": {
     "title": "Georgia Rule",
@@ -321,7 +347,8 @@
     "director": "Garry Marshall",
     "co_star_1": "Jane Fonda",
     "co_star_2": "Lindsay Lohan",
-    "imdb": "tt0791304"
+    "imdb": "tt0791304",
+    "genres": ["Drama", "Comedy", "Romance"]
   },
   "28706": {
     "title": "Staying Together",
@@ -333,7 +360,8 @@
     "director": "Lee Grant",
     "co_star_1": "Sean Astin",
     "co_star_2": "Tim Quill",
-    "imdb": "tt0098383"
+    "imdb": "tt0098383",
+    "genres": ["Comedy", "Drama"]
   },
   "899382": {
     "title": "Christmas Is Canceled",
@@ -345,7 +373,8 @@
     "director": "Prarthana Mohan",
     "co_star_1": "Hayley Orrantia",
     "co_star_2": "Janel Parrish",
-    "imdb": "tt15186426"
+    "imdb": "tt15186426",
+    "genres": ["Comedy", "Romance"]
   },
   "14772": {
     "title": "The Memory Keeper's Daughter",
@@ -357,7 +386,8 @@
     "director": "Mick Jackson",
     "co_star_1": "Emily Watson",
     "co_star_2": "Gretchen Mol",
-    "imdb": "tt0955298"
+    "imdb": "tt0955298",
+    "genres": ["Drama", "TV Movie"]
   },
   "15534": {
     "title": "Griffin & Phoenix",
@@ -369,7 +399,8 @@
     "director": "Ed Stone",
     "co_star_1": "Amanda Peet",
     "co_star_2": "Sarah Paulson",
-    "imdb": "tt0460812"
+    "imdb": "tt0460812",
+    "genres": ["Comedy", "Drama", "Romance"]
   },
   "15568": {
     "title": "Gracie",
@@ -381,7 +412,8 @@
     "director": "Davis Guggenheim",
     "co_star_1": "Carly Schroeder",
     "co_star_2": "Christopher Shand",
-    "imdb": "tt0441007"
+    "imdb": "tt0441007",
+    "genres": "Drama"
   },
   "43727": {
     "title": "Jolene",
@@ -393,7 +425,8 @@
     "director": "Dan Ireland",
     "co_star_1": "Jessica Chastain",
     "co_star_2": "Frances Fisher",
-    "imdb": "tt0867334"
+    "imdb": "tt0867334",
+    "genres": "Drama"
   },
   "16131": {
     "title": "Undertow",
@@ -405,7 +438,8 @@
     "director": "David Gordon Green",
     "co_star_1": "Jamie Bell",
     "co_star_2": "Josh Lucas",
-    "imdb": "tt0360130"
+    "imdb": "tt0360130",
+    "genres": ["Drama", "Thriller"]
   },
   "16270": {
     "title": "Career Opportunities",
@@ -417,7 +451,8 @@
     "director": "Bryan Gordon",
     "co_star_1": "Jennifer Connelly",
     "co_star_2": "Frank Whaley",
-    "imdb": "tt0101545"
+    "imdb": "tt0101545",
+    "genres": ["Romance", "Comedy"]
   },
   "47237": {
     "title": "Intimate Affairs",
@@ -429,7 +464,8 @@
     "director": "Alan Rudolph",
     "co_star_1": "Robin Tunney",
     "co_star_2": "Neve Campbell",
-    "imdb": "tt0243991"
+    "imdb": "tt0243991",
+    "genres": ["Drama", "Comedy"]
   },
   "39934": {
     "title": "Longtime Companion",
@@ -441,7 +477,8 @@
     "director": "Norman René",
     "co_star_1": "Bruce Davison",
     "co_star_2": "Campbell Scott",
-    "imdb": "tt0100049"
+    "imdb": "tt0100049",
+    "genres": ["Drama", "Romance"]
   },
   "17736": {
     "title": "Where the Day Takes You",
@@ -453,7 +490,8 @@
     "director": "Marc Rocco",
     "co_star_1": "Sean Astin",
     "co_star_2": "Lara Flynn Boyle",
-    "imdb": "tt0105810"
+    "imdb": "tt0105810",
+    "genres": ["Drama", "Thriller", "Crime"]
   },
   "49822": {
     "title": "The Heart of Justice",
@@ -465,7 +503,8 @@
     "director": "Bruno Barreto",
     "co_star_1": "Jennifer Connelly",
     "co_star_2": "William H. Macy",
-    "imdb": "tt0104400"
+    "imdb": "tt0104400",
+    "genres": ["Mystery", "Crime", "Drama", "Thriller"]
   },
   "49981": {
     "title": "Goodbye Lover",
@@ -477,7 +516,8 @@
     "director": "Roland Joffé",
     "co_star_1": "Patricia Arquette",
     "co_star_2": "Mary-Louise Parker",
-    "imdb": "tt0119219"
+    "imdb": "tt0119219",
+    "genres": ["Thriller", "Comedy", "Crime", "Mystery"]
   },
   "50035": {
     "title": "Lovely & Amazing",
@@ -489,7 +529,8 @@
     "director": "Nicole Holofcener",
     "co_star_1": "Catherine Keener",
     "co_star_2": "Brenda Blethyn",
-    "imdb": "tt0258273"
+    "imdb": "tt0258273",
+    "genres": ["Comedy", "Drama", "Romance"]
   },
   "1122688": {
     "title": "The Getback",
@@ -501,7 +542,8 @@
     "director": "Jared Cohn",
     "co_star_1": "Theo Rossi",
     "co_star_2": "Shane Paul McGhie",
-    "imdb": "tt26570494"
+    "imdb": "tt26570494",
+    "genres": ["Action", "Comedy", "Crime", "Thriller"]
   },
   "1123282": {
     "title": "Depravity",
@@ -513,7 +555,8 @@
     "director": "Paul Tamasy",
     "co_star_1": "Taylor John Smith",
     "co_star_2": "Victoria Justice",
-    "imdb": "tt1659324"
+    "imdb": "tt1659324",
+    "genres": ["Mystery", "Thriller", "Crime"]
   },
   "1125624": {
     "title": "There's Something About Romcoms",
@@ -525,7 +568,8 @@
     "director": "Richard Nash",
     "co_star_1": "Julie Walters",
     "co_star_2": "Jason Alexander",
-    "imdb": "tt5990788"
+    "imdb": "tt5990788",
+    "genres": "Documentary"
   },
   "931642": {
     "title": "Lights Out",
@@ -537,7 +581,8 @@
     "director": "Christian Sesma",
     "co_star_1": "Frank Grillo",
     "co_star_2": "Mekhi Phifer",
-    "imdb": "tt16368898"
+    "imdb": "tt16368898",
+    "genres": "Action"
   },
   "1133232": {
     "title": "The Dirty South",
@@ -549,7 +594,8 @@
     "director": "Matthew Yerby",
     "co_star_1": "Willa Holland",
     "co_star_2": "Shane West",
-    "imdb": "tt24223026"
+    "imdb": "tt24223026",
+    "genres": ["Crime", "Action", "Drama"]
   },
   "73846": {
     "title": "The Family Tree",
@@ -561,7 +607,8 @@
     "director": "Vivi Friedman",
     "co_star_1": "Hope Davis",
     "co_star_2": "Britt Robertson",
-    "imdb": "tt1175713"
+    "imdb": "tt1175713",
+    "genres": ["Drama", "Comedy"]
   },
   "75174": {
     "title": "The Grey",
@@ -573,7 +620,8 @@
     "director": "Joe Carnahan",
     "co_star_1": "Liam Neeson",
     "co_star_2": "Frank Grillo",
-    "imdb": "tt1601913"
+    "imdb": "tt1601913",
+    "genres": ["Drama", "Thriller", "Action", "Adventure"]
   },
   "58770": {
     "title": "The Trigger Effect",
@@ -585,7 +633,8 @@
     "director": "David Koepp",
     "co_star_1": "Kyle MacLachlan",
     "co_star_2": "Elisabeth Shue",
-    "imdb": "tt0117965"
+    "imdb": "tt0117965",
+    "genres": ["Drama", "Thriller"]
   },
   "86825": {
     "title": "Stoker",
@@ -597,7 +646,8 @@
     "director": "Park Chan-wook",
     "co_star_1": "Mia Wasikowska",
     "co_star_2": "Nicole Kidman",
-    "imdb": "tt1682180"
+    "imdb": "tt1682180",
+    "genres": ["Drama", "Horror", "Thriller"]
   },
   "87293": {
     "title": "Beyond",
@@ -609,7 +659,8 @@
     "director": "Josef Rusnak",
     "co_star_1": "Jon Voight",
     "co_star_2": "Teri Polo",
-    "imdb": "tt1800671"
+    "imdb": "tt1800671",
+    "genres": ["Thriller", "TV Movie"]
   },
   "78698": {
     "title": "Big Miracle",
@@ -621,7 +672,8 @@
     "director": "Ken Kwapis",
     "co_star_1": "Drew Barrymore",
     "co_star_2": "John Krasinski",
-    "imdb": "tt1430615"
+    "imdb": "tt1430615",
+    "genres": ["Adventure", "Drama", "Romance", "Fantasy"]
   },
   "87440": {
     "title": "Struck by Lightning",
@@ -633,7 +685,8 @@
     "director": "Brian Dannelly",
     "co_star_1": "Chris Colfer",
     "co_star_2": "Sarah Hyland",
-    "imdb": "tt1791614"
+    "imdb": "tt1791614",
+    "genres": ["Comedy", "Drama"]
   },
   "95590": {
     "title": "Bright Angel",
@@ -645,7 +698,8 @@
     "director": "Michael Fields",
     "co_star_1": "Lili Taylor",
     "co_star_2": "Sam Shepard",
-    "imdb": "tt0101510"
+    "imdb": "tt0101510",
+    "genres": ["Drama", "Thriller"]
   },
   "100110": {
     "title": "Survival Quest",
@@ -657,7 +711,8 @@
     "director": "Don Coscarelli",
     "co_star_1": "Lance Henriksen",
     "co_star_2": "Mark Rolston",
-    "imdb": "tt0098415"
+    "imdb": "tt0098415",
+    "genres": ["Action", "Adventure"]
   },
   "88231": {
     "title": "Long Gone",
@@ -669,7 +724,8 @@
     "director": "Martin Davidson",
     "co_star_1": "William Petersen",
     "co_star_2": "Virginia Madsen",
-    "imdb": "tt0093433"
+    "imdb": "tt0093433",
+    "genres": ["Comedy", "Drama", "TV Movie"]
   },
   "88641": {
     "title": "There Goes My Baby",
@@ -681,7 +737,8 @@
     "director": "Floyd Mutrux",
     "co_star_1": "Rick Schroder",
     "co_star_2": "Kelli Williams",
-    "imdb": "tt0108320"
+    "imdb": "tt0108320",
+    "genres": ["Drama", "Comedy"]
   },
   "88794": {
     "title": "J. Edgar",
@@ -693,7 +750,8 @@
     "director": "Clint Eastwood",
     "co_star_1": "Leonardo DiCaprio",
     "co_star_2": "Naomi Watts",
-    "imdb": "tt1616195"
+    "imdb": "tt1616195",
+    "genres": ["Drama", "Crime", "History"]
   },
   "102931": {
     "title": "Silent Witness",
@@ -705,7 +763,8 @@
     "director": "Peter Markle",
     "co_star_1": "Michael Cudlitz",
     "co_star_2": "Anne Heche",
-    "imdb": "tt1942972"
+    "imdb": "tt1942972",
+    "genres": ["TV Movie", "Drama", "Crime"]
   },
   "124461": {
     "title": "A Glimpse Inside the Mind of Charles Swan III",
@@ -717,7 +776,8 @@
     "director": "Roman Coppola",
     "co_star_1": "Charlie Sheen",
     "co_star_2": "Jason Schwartzman",
-    "imdb": "tt2044729"
+    "imdb": "tt2044729",
+    "genres": "Comedy"
   },
   "152737": {
     "title": "August: Osage County",
@@ -729,7 +789,8 @@
     "director": "John Wells",
     "co_star_1": "Julia Roberts",
     "co_star_2": "Meryl Streep",
-    "imdb": "tt1322269"
+    "imdb": "tt1322269",
+    "genres": ["Comedy", "Drama"]
   },
   "513386": {
     "title": "Cats",
@@ -741,7 +802,8 @@
     "director": "Gary Wang",
     "co_star_1": "Yang Yanduo",
     "co_star_2": "Chen Linsheng",
-    "imdb": "tt7886614"
+    "imdb": "tt7886614",
+    "genres": ["Animation", "Family", "Adventure"]
   },
   "143547": {
     "title": "Silent Tongue",
@@ -753,7 +815,8 @@
     "director": "Sam Shepard",
     "co_star_1": "Alan Bates",
     "co_star_2": "Richard Harris",
-    "imdb": "tt0108135"
+    "imdb": "tt0108135",
+    "genres": ["Western", "Horror", "Drama"]
   },
   "115782": {
     "title": "Jobs",
@@ -765,7 +828,8 @@
     "director": "Joshua Michael Stern",
     "co_star_1": "Ashton Kutcher",
     "co_star_2": "Josh Gad",
-    "imdb": "tt2357129"
+    "imdb": "tt2357129",
+    "genres": ["Drama", "History"]
   },
   "159109": {
     "title": "The Rambler",
@@ -777,7 +841,8 @@
     "director": "Calvin Lee Reeder",
     "co_star_1": "Lindsay Pulsipher",
     "co_star_2": "Natasha Lyonne",
-    "imdb": "tt2381355"
+    "imdb": "tt2381355",
+    "genres": ["Drama", "Horror", "Mystery"]
   },
   "180582": {
     "title": "Samantha",
@@ -789,7 +854,8 @@
     "director": "Stephen La Rocque",
     "co_star_1": "Martha Plimpton",
     "co_star_2": "Hector Elizondo",
-    "imdb": "tt0102832"
+    "imdb": "tt0102832",
+    "genres": "Comedy"
   },
   "190537": {
     "title": "Daddy",
@@ -801,7 +867,8 @@
     "director": "John Herzfeld",
     "co_star_1": "John Karlen",
     "co_star_2": "Tess Harper",
-    "imdb": "tt0092815"
+    "imdb": "tt0092815",
+    "genres": ["Drama", "TV Movie"]
   },
   "135595": {
     "title": "Trade of Innocents",
@@ -813,7 +880,8 @@
     "director": "Christopher Bessette",
     "co_star_1": "Mira Sorvino",
     "co_star_2": "John Billingsley",
-    "imdb": "tt1772408"
+    "imdb": "tt1772408",
+    "genres": ["Drama", "Thriller"]
   },
   "188507": {
     "title": "Space Warriors",
@@ -825,7 +893,8 @@
     "director": "Sean McNamara",
     "co_star_1": "Josh Lucas",
     "co_star_2": "Mira Sorvino",
-    "imdb": "tt2328745"
+    "imdb": "tt2328745",
+    "genres": ["Family", "Adventure", "Science Fiction"]
   },
   "975022": {
     "title": "You're Killing Me",
@@ -837,7 +906,8 @@
     "director": "Beth Hanna and Jerren Lauder",
     "co_star_1": "McKaley Miller",
     "co_star_2": "Anne Heche",
-    "imdb": "tt20222202"
+    "imdb": "tt20222202",
+    "genres": ["Horror", "Thriller", "Action"]
   },
   "970284": {
     "title": "Shooting Stars",
@@ -849,7 +919,8 @@
     "director": "Chris Robinson",
     "co_star_1": "Mookie Cook",
     "co_star_2": "Wood Harris",
-    "imdb": "tt3715152"
+    "imdb": "tt3715152",
+    "genres": ["Drama", "History"]
   },
   "246910": {
     "title": "Sin of Innocence",
@@ -861,7 +932,8 @@
     "director": "Arthur Allan Seidelman",
     "co_star_1": "Megan Follows",
     "co_star_2": "Bill Bixby",
-    "imdb": "tt0091958"
+    "imdb": "tt0091958",
+    "genres": ["Drama", "Romance", "TV Movie"]
   },
   "1188714": {
     "title": "A Dark Way Out",
@@ -873,7 +945,8 @@
     "director": "Reggie Currelley",
     "co_star_1": "Reggie Currelley",
     "co_star_2": "Raina Grey",
-    "imdb": "tt24246566"
+    "imdb": "tt24246566",
+    "genres": ["Mystery", "Thriller"]
   },
   "263952": {
     "title": "Family Pictures",
@@ -885,7 +958,8 @@
     "director": "Philip Saville",
     "co_star_1": "Anjelica Huston",
     "co_star_2": "Sam Neill",
-    "imdb": "tt0106859"
+    "imdb": "tt0106859",
+    "genres": ["Drama", "TV Movie"]
   },
   "1006228": {
     "title": "Breakwater",
@@ -897,7 +971,8 @@
     "director": "James Rowe",
     "co_star_1": "Darren Mann",
     "co_star_2": "Alyssa Goss",
-    "imdb": "tt13924484"
+    "imdb": "tt13924484",
+    "genres": ["Thriller", "Drama"]
   },
   "280092": {
     "title": "Insidious: Chapter 3",
@@ -909,7 +984,8 @@
     "director": "Leigh Whannell",
     "co_star_1": "Stefanie Scott",
     "co_star_2": "Lin Shaye",
-    "imdb": "tt3195644"
+    "imdb": "tt3195644",
+    "genres": ["Horror", "Thriller"]
   },
   "1215918": {
     "title": "Blackwater Lane",
@@ -921,7 +997,8 @@
     "director": "Jeff Celentano",
     "co_star_1": "Minka Kelly",
     "co_star_2": "Maggie Grace",
-    "imdb": "tt22767628"
+    "imdb": "tt22767628",
+    "genres": ["Thriller", "Drama", "Mystery", "Horror", "Crime"]
   },
   "27300": {
     "title": "Hair High",
@@ -933,7 +1010,8 @@
     "director": "Bill Plympton",
     "co_star_1": "Eric Gilliland",
     "co_star_2": "Sarah Silverman",
-    "imdb": "tt0365296"
+    "imdb": "tt0365296",
+    "genres": ["Horror", "Animation", "Comedy"]
   },
   "1032134": {
     "title": "The Warrant: Breaker's Law",
@@ -945,7 +1023,8 @@
     "director": "Brent Christy",
     "co_star_1": "Neal McDonough",
     "co_star_2": "Bruce Boxleitner",
-    "imdb": "tt18560250"
+    "imdb": "tt18560250",
+    "genres": ["Western", "Thriller", "Drama"]
   },
   "984249": {
     "title": "Ruthless",
@@ -957,7 +1036,8 @@
     "director": "Art Camacho",
     "co_star_1": "Jeff Fahey",
     "co_star_2": "Melissa Diaz",
-    "imdb": "tt14670094"
+    "imdb": "tt14670094",
+    "genres": ["Action", "Thriller"]
   },
   "291870": {
     "title": "Dirty Grandpa",
@@ -969,7 +1049,8 @@
     "director": "Dan Mazer",
     "co_star_1": "Robert De Niro",
     "co_star_2": "Zac Efron",
-    "imdb": "tt1860213"
+    "imdb": "tt1860213",
+    "genres": "Comedy"
   },
   "317744": {
     "title": "Careful What You Wish For",
@@ -981,7 +1062,8 @@
     "director": "Elizabeth Allen Rosenbaum",
     "co_star_1": "Nick Jonas",
     "co_star_2": "Isabel Lucas",
-    "imdb": "tt1629242"
+    "imdb": "tt1629242",
+    "genres": ["Drama", "Thriller"]
   },
   "339543": {
     "title": "Northpole: Open for Christmas",
@@ -993,7 +1075,8 @@
     "director": "Douglas Barr",
     "co_star_1": "Lori Loughlin",
     "co_star_2": "Bailee Madison",
-    "imdb": "tt4843046"
+    "imdb": "tt4843046",
+    "genres": ["TV Movie", "Family", "Fantasy"]
   },
   "308638": {
     "title": "The D Train",
@@ -1005,7 +1088,8 @@
     "director": "Andrew Mogel and Jarrad Paul",
     "co_star_1": "Jack Black",
     "co_star_2": "James Marsden",
-    "imdb": "tt2690138"
+    "imdb": "tt2690138",
+    "genres": ["Comedy", "Drama"]
   },
   "340374": {
     "title": "The Gettysburg Address",
@@ -1017,7 +1101,8 @@
     "director": "Sean Conant",
     "co_star_1": "Cary Elwes",
     "co_star_2": "Sam Elliott",
-    "imdb": "tt3066808"
+    "imdb": "tt3066808",
+    "genres": ["Documentary", "History"]
   },
   "340584": {
     "title": "Lavender",
@@ -1029,7 +1114,8 @@
     "director": "Ed Gass-Donnelly",
     "co_star_1": "Abbie Cornish",
     "co_star_2": "Diego Klattenhoff",
-    "imdb": "tt4680980"
+    "imdb": "tt4680980",
+    "genres": ["Drama", "Thriller"]
   },
   "24795": {
     "title": "Angels in the Outfield",
@@ -1041,7 +1127,8 @@
     "director": "William Dear",
     "co_star_1": "Danny Glover",
     "co_star_2": "Tony Danza",
-    "imdb": "tt0109127"
+    "imdb": "tt0109127",
+    "genres": ["Comedy", "Family", "Fantasy"]
   },
   "1062907": {
     "title": "Guns & Moses",
@@ -1053,7 +1140,8 @@
     "director": "Salvador Litvak",
     "co_star_1": "Mark Feuerstein",
     "co_star_2": "Neal McDonough",
-    "imdb": "tt21861086"
+    "imdb": "tt21861086",
+    "genres": ["Western", "Crime", "Thriller"]
   },
   "357906": {
     "title": "Unconquered",
@@ -1065,7 +1153,8 @@
     "director": "Dick Lowry",
     "co_star_1": "Peter Coyote",
     "co_star_2": "Tess Harper",
-    "imdb": "tt0098555"
+    "imdb": "tt0098555",
+    "genres": "Drama"
   },
   "4944": {
     "title": "Burn After Reading",
@@ -1077,7 +1166,8 @@
     "director": "Ethan Coen and Joel Coen",
     "co_star_1": "George Clooney",
     "co_star_2": "Frances McDormand",
-    "imdb": "tt0887883"
+    "imdb": "tt0887883",
+    "genres": ["Comedy", "Drama"]
   },
   "300693": {
     "title": "Truth",
@@ -1089,7 +1179,8 @@
     "director": "James Vanderbilt",
     "co_star_1": "Cate Blanchett",
     "co_star_2": "Robert Redford",
-    "imdb": "tt3859076"
+    "imdb": "tt3859076",
+    "genres": "Drama"
   },
   "324542": {
     "title": "Sleepless",
@@ -1101,7 +1192,8 @@
     "director": "Baran bo Odar",
     "co_star_1": "Jamie Foxx",
     "co_star_2": "Michelle Monaghan",
-    "imdb": "tt2072233"
+    "imdb": "tt2072233",
+    "genres": ["Action", "Crime", "Thriller"]
   },
   "38560": {
     "title": "Sunset",
@@ -1113,7 +1205,8 @@
     "director": "Blake Edwards",
     "co_star_1": "James Garner",
     "co_star_2": "Bruce Willis",
-    "imdb": "tt0096193"
+    "imdb": "tt0096193",
+    "genres": ["Crime", "Mystery", "Thriller", "Western"]
   },
   "416023": {
     "title": "Sacrifice",
@@ -1125,7 +1218,8 @@
     "director": "Michael Cohn",
     "co_star_1": "Luke Kleintank",
     "co_star_2": "Austin Abrams",
-    "imdb": "tt2842732"
+    "imdb": "tt2842732",
+    "genres": ["Thriller", "Drama"]
   },
   "290512": {
     "title": "The Mountain Between Us",
@@ -1137,7 +1231,8 @@
     "director": "Hany Abu-Assad",
     "co_star_1": "Idris Elba",
     "co_star_2": "Kate Winslet",
-    "imdb": "tt2226597"
+    "imdb": "tt2226597",
+    "genres": ["Drama", "Adventure", "Romance"]
   },
   "448095": {
     "title": "I Still See You",
@@ -1149,7 +1244,8 @@
     "director": "Scott Speer",
     "co_star_1": "Bella Thorne",
     "co_star_2": "Richard Harmon",
-    "imdb": "tt2160105"
+    "imdb": "tt2160105",
+    "genres": ["Thriller", "Fantasy"]
   },
   "59965": {
     "title": "Abduction",
@@ -1161,7 +1257,8 @@
     "director": "John Singleton",
     "co_star_1": "Taylor Lautner",
     "co_star_2": "Lily Collins",
-    "imdb": "tt1600195"
+    "imdb": "tt1600195",
+    "genres": ["Thriller", "Action", "Mystery"]
   },
   "474982": {
     "title": "The Christmas Train",
@@ -1173,7 +1270,8 @@
     "director": "Ron Oliver",
     "co_star_1": "Kimberly Williams-Paisley",
     "co_star_2": "Danny Glover",
-    "imdb": "tt7370936"
+    "imdb": "tt7370936",
+    "genres": ["Family", "TV Movie", "Drama", "Romance"]
   },
   "271592": {
     "title": "Heroine of Hell",
@@ -1185,7 +1283,8 @@
     "director": "Nietzchka Keene",
     "co_star_1": "Catherine Keener",
     "co_star_2": "Wendy Phillips",
-    "imdb": "tt0294618"
+    "imdb": "tt0294618",
+    "genres": ["Drama", "Thriller"]
   },
   "536208": {
     "title": "Hard Luck Love Song",
@@ -1197,7 +1296,8 @@
     "director": "Justin Corsbie",
     "co_star_1": "Michael Dorman",
     "co_star_2": "Sophia Bush",
-    "imdb": "tt8709338"
+    "imdb": "tt8709338",
+    "genres": ["Romance", "Music", "Drama", "Thriller"]
   },
   "550040": {
     "title": "Monster Challenge",
@@ -1209,7 +1309,8 @@
     "director": "Michael Giacchino",
     "co_star_1": "Patton Oswalt",
     "co_star_2": "Ben Schwartz",
-    "imdb": "tt8961056"
+    "imdb": "tt8961056",
+    "genres": "Comedy"
   },
   "558655": {
     "title": "Flesh & Blood",
@@ -1221,7 +1322,8 @@
     "director": "Patrick Lussier",
     "co_star_1": "Diana Silvers",
     "co_star_2": "Tembi Locke",
-    "imdb": "tt8523678"
+    "imdb": "tt8523678",
+    "genres": ["Horror", "Thriller", "TV Movie"]
   },
   "73103": {
     "title": "Dante's Inferno",
@@ -1233,7 +1335,8 @@
     "director": "Sean Meredith",
     "co_star_1": "James Cromwell",
     "co_star_2": "Olivia d'Abo",
-    "imdb": "tt0479008"
+    "imdb": "tt0479008",
+    "genres": ["Animation", "Comedy"]
   },
   "572851": {
     "title": "SGT. Will Gardner",
@@ -1245,7 +1348,8 @@
     "director": "Max Martini",
     "co_star_1": "Max Martini",
     "co_star_2": "Omari Hardwick",
-    "imdb": "tt1650060"
+    "imdb": "tt1650060",
+    "genres": ["War", "Action", "Adventure", "Drama"]
   },
   "472777": {
     "title": "Shattered: If Your Kid's on Drugs",
@@ -1257,7 +1361,8 @@
     "director": "Nathaniel Burr Smidt",
     "co_star_1": "Burt Reynolds",
     "co_star_2": "Ami Dolenz",
-    "imdb": "tt0363061"
+    "imdb": "tt0363061",
+    "genres": {}
   },
   "611914": {
     "title": "The Courier",
@@ -1269,7 +1374,8 @@
     "director": "Zackary Adler",
     "co_star_1": "Olga Kurylenko",
     "co_star_2": "Gary Oldman",
-    "imdb": "tt8075016"
+    "imdb": "tt8075016",
+    "genres": ["Action", "Thriller", "Adventure", "Crime"]
   },
   "751237": {
     "title": "Umma",
@@ -1281,7 +1387,8 @@
     "director": "Iris K. Shim",
     "co_star_1": "Sandra Oh",
     "co_star_2": "Fivel Stewart",
-    "imdb": "tt13235822"
+    "imdb": "tt13235822",
+    "genres": ["Horror", "Mystery"]
   },
   "14914": {
     "title": "Flash of Genius",
@@ -1293,7 +1400,8 @@
     "director": "Marc Abraham",
     "co_star_1": "Greg Kinnear",
     "co_star_2": "Lauren Graham",
-    "imdb": "tt1054588"
+    "imdb": "tt1054588",
+    "genres": "Drama"
   },
   "772973": {
     "title": "The Inhabitant",
@@ -1305,7 +1413,8 @@
     "director": "Jerren Lauder",
     "co_star_1": "Odessa A'zion",
     "co_star_2": "Leslie Bibb",
-    "imdb": "tt13635702"
+    "imdb": "tt13635702",
+    "genres": ["Thriller", "Horror", "Mystery"]
   },
   "776506": {
     "title": "The Blazing World",
@@ -1317,7 +1426,8 @@
     "director": "Carlson Young",
     "co_star_1": "Carlson Young",
     "co_star_2": "Udo Kier",
-    "imdb": "tt11378876"
+    "imdb": "tt11378876",
+    "genres": ["Horror", "Fantasy", "Adventure", "Drama"]
   },
   "802443": {
     "title": "Deadly Illusions",
@@ -1329,7 +1439,8 @@
     "director": "Anna Elizabeth James",
     "co_star_1": "Kristin Davis",
     "co_star_2": "Shanola Hampton",
-    "imdb": "tt7897330"
+    "imdb": "tt7897330",
+    "genres": ["Thriller", "Drama"]
   },
   "778106": {
     "title": "Along for the Ride",
@@ -1341,7 +1452,8 @@
     "director": "Sofia Alvarez",
     "co_star_1": "Emma Pasarow",
     "co_star_2": "Belmont Cameli",
-    "imdb": "tt14506528"
+    "imdb": "tt14506528",
+    "genres": ["Romance", "Drama"]
   },
   "41240": {
     "title": "Bastard Out of Carolina",
@@ -1353,7 +1465,8 @@
     "director": "Anjelica Huston",
     "co_star_1": "Jennifer Jason Leigh",
     "co_star_2": "Ron Eldard",
-    "imdb": "tt0115633"
+    "imdb": "tt0115633",
+    "genres": "Drama"
   },
   "1400514": {
     "title": "Like Father Like Son",
@@ -1365,7 +1478,8 @@
     "director": "Barry Jay",
     "co_star_1": "Dylan Flashner",
     "co_star_2": "Ariel Winter",
-    "imdb": "tt33319714"
+    "imdb": "tt33319714",
+    "genres": ["Drama", "Thriller"]
   },
   "1168401": {
     "title": "Laws of Man",
@@ -1377,7 +1491,8 @@
     "director": "Phil Blattenberger",
     "co_star_1": "Jacob Keohane",
     "co_star_2": "Jackson Rathbone",
-    "imdb": "tt18469390"
+    "imdb": "tt18469390",
+    "genres": ["Crime", "Drama", "Thriller"]
   },
   "1415": {
     "title": "Party Monster",
@@ -1389,7 +1504,8 @@
     "director": "Fenton Bailey and Randy Barbato",
     "co_star_1": "Macaulay Culkin",
     "co_star_2": "Seth Green",
-    "imdb": "tt0320244"
+    "imdb": "tt0320244",
+    "genres": ["Comedy", "Drama", "Crime"]
   },
   "10510": {
     "title": "Miracle on 34th Street",
@@ -1401,7 +1517,8 @@
     "director": "Les Mayfield",
     "co_star_1": "Mara Wilson",
     "co_star_2": "Richard Attenborough",
-    "imdb": "tt0110527"
+    "imdb": "tt0110527",
+    "genres": ["Fantasy", "Drama", "Family"]
   },
   "10563": {
     "title": "Three to Tango",
@@ -1413,7 +1530,8 @@
     "director": "Damon Santostefano",
     "co_star_1": "Matthew Perry",
     "co_star_2": "Neve Campbell",
-    "imdb": "tt0144640"
+    "imdb": "tt0144640",
+    "genres": ["Comedy", "Romance"]
   },
   "10064": {
     "title": "Edison",
@@ -1425,7 +1543,8 @@
     "director": "David J. Burke",
     "co_star_1": "Morgan Freeman",
     "co_star_2": "LL Cool J",
-    "imdb": "tt0389957"
+    "imdb": "tt0389957",
+    "genres": ["Drama", "Action", "Thriller"]
   },
   "10652": {
     "title": "Hamburger Hill",
@@ -1437,7 +1556,8 @@
     "director": "John Irvin",
     "co_star_1": "Tim Quill",
     "co_star_2": "Michael Boatman",
-    "imdb": "tt0093137"
+    "imdb": "tt0093137",
+    "genres": ["War", "Action", "Drama"]
   },
   "10860": {
     "title": "Steel Magnolias",
@@ -1449,7 +1569,8 @@
     "director": "Herbert Ross",
     "co_star_1": "Sally Field",
     "co_star_2": "Dolly Parton",
-    "imdb": "tt0098384"
+    "imdb": "tt0098384",
+    "genres": ["Comedy", "Drama", "Romance"]
   },
   "4997": {
     "title": "Wonderland",
@@ -1461,7 +1582,8 @@
     "director": "James Cox",
     "co_star_1": "Val Kilmer",
     "co_star_2": "Kate Bosworth",
-    "imdb": "tt0335563"
+    "imdb": "tt0335563",
+    "genres": "Crime"
   },
   "11309": {
     "title": "Hardware",
@@ -1473,7 +1595,8 @@
     "director": "Richard Stanley",
     "co_star_1": "Stacey Travis",
     "co_star_2": "John Lynch",
-    "imdb": "tt0099740"
+    "imdb": "tt0099740",
+    "genres": ["Science Fiction", "Thriller", "Horror"]
   },
   "9089": {
     "title": "Home for the Holidays",
@@ -1485,19 +1608,8 @@
     "director": "Jodie Foster",
     "co_star_1": "Holly Hunter",
     "co_star_2": "Robert Downey Jr.",
-    "imdb": "tt0113321"
-  },
-  "26437": {
-    "title": "The Tenants",
-    "answer": "Dylan McDermott",
-    "character": "Harry Lesser",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/gzt4Tyv4sdkyZriJKLLAk2quAjJ.jpg",
-    "release_date": "2006",
-    "overview": "The story of a Jewish novelist, Harry Lesser, struggling to complete his latest work, and his antagonistic relationship with a black writer who moves in down the hall.",
-    "director": "Danny Green",
-    "co_star_1": "Snoop Dogg",
-    "co_star_2": "Rose Byrne",
-    "imdb": "tt0429173"
+    "imdb": "tt0113321",
+    "genres": ["Comedy", "Drama", "Romance"]
   },
   "9724": {
     "title": "The Mistress of Spices",
@@ -1509,7 +1621,21 @@
     "director": "Paul Mayeda Berges",
     "co_star_1": "Aishwarya Rai Bachchan",
     "co_star_2": "Nitin Ganatra",
-    "imdb": "tt0407998"
+    "imdb": "tt0407998",
+    "genres": ["Drama", "Romance", "Fantasy"]
+  },
+  "26437": {
+    "title": "The Tenants",
+    "answer": "Dylan McDermott",
+    "character": "Harry Lesser",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/gzt4Tyv4sdkyZriJKLLAk2quAjJ.jpg",
+    "release_date": "2006",
+    "overview": "The story of a Jewish novelist, Harry Lesser, struggling to complete his latest work, and his antagonistic relationship with a black writer who moves in down the hall.",
+    "director": "Danny Green",
+    "co_star_1": "Snoop Dogg",
+    "co_star_2": "Rose Byrne",
+    "imdb": "tt0429173",
+    "genres": ["Comedy", "Drama", "Mystery"]
   },
   "32872": {
     "title": "Til There Was You",
@@ -1521,7 +1647,8 @@
     "director": "Scott Winant",
     "co_star_1": "Jeanne Tripplehorn",
     "co_star_2": "Karen Allen",
-    "imdb": "tt0118523"
+    "imdb": "tt0118523",
+    "genres": ["Comedy", "Romance"]
   },
   "9966": {
     "title": "The Messengers",
@@ -1533,7 +1660,8 @@
     "director": "Danny Pang Fat and Oxide Pang Shun",
     "co_star_1": "Kristen Stewart",
     "co_star_2": "Penelope Ann Miller",
-    "imdb": "tt0425430"
+    "imdb": "tt0425430",
+    "genres": ["Mystery", "Thriller", "Horror"]
   },
   "9386": {
     "title": "In the Line of Fire",
@@ -1545,7 +1673,8 @@
     "director": "Wolfgang Petersen",
     "co_star_1": "Clint Eastwood",
     "co_star_2": "John Malkovich",
-    "imdb": "tt0107206"
+    "imdb": "tt0107206",
+    "genres": ["Action", "Drama", "Thriller", "Crime", "Mystery"]
   },
   "13503": {
     "title": "Texas Rangers",
@@ -1557,7 +1686,8 @@
     "director": "Steve Miner",
     "co_star_1": "James Van Der Beek",
     "co_star_2": "Usher",
-    "imdb": "tt0193560"
+    "imdb": "tt0193560",
+    "genres": ["Western", "Action"]
   },
   "14552": {
     "title": "Have Dreams, Will Travel",
@@ -1569,7 +1699,8 @@
     "director": "Brad Isaacs",
     "co_star_1": "Cayden Boyd",
     "co_star_2": "AnnaSophia Robb",
-    "imdb": "tt0446802"
+    "imdb": "tt0446802",
+    "genres": ["Drama", "Romance"]
   },
   "61265": {
     "title": "Where Sleeping Dogs Lie",
@@ -1581,7 +1712,8 @@
     "director": "Charles Finch",
     "co_star_1": "Tom Sizemore",
     "co_star_2": "Sharon Stone",
-    "imdb": "tt0105809"
+    "imdb": "tt0105809",
+    "genres": ["Mystery", "Thriller"]
   },
   "62488": {
     "title": "Destiny Turns on the Radio",
@@ -1593,7 +1725,8 @@
     "director": "Jack Baran",
     "co_star_1": "Nancy Travis",
     "co_star_2": "Quentin Tarantino",
-    "imdb": "tt0112854"
+    "imdb": "tt0112854",
+    "genres": ["Crime", "Comedy", "Fantasy"]
   },
   "45013": {
     "title": "Burning Palms",
@@ -1605,7 +1738,8 @@
     "director": "Christopher Landon",
     "co_star_1": "Zoe Saldaña",
     "co_star_2": "Jamie Chung",
-    "imdb": "tt1283887"
+    "imdb": "tt1283887",
+    "genres": ["Comedy", "Thriller"]
   },
   "19176": {
     "title": "The Cowboy Way",
@@ -1617,7 +1751,8 @@
     "director": "Gregg Champion",
     "co_star_1": "Woody Harrelson",
     "co_star_2": "Kiefer Sutherland",
-    "imdb": "tt0109493"
+    "imdb": "tt0109493",
+    "genres": ["Action", "Comedy", "Crime", "Drama", "Thriller", "Western"]
   },
   "54655": {
     "title": "Jersey Girl",
@@ -1629,7 +1764,8 @@
     "director": "David Burton Morris",
     "co_star_1": "Jami Gertz",
     "co_star_2": "Sheryl Lee",
-    "imdb": "tt0104550"
+    "imdb": "tt0104550",
+    "genres": ["Comedy", "Drama", "Romance"]
   },
   "84317": {
     "title": "Nobody Walks",
@@ -1641,7 +1777,8 @@
     "director": "Ry Russo-Young",
     "co_star_1": "John Krasinski",
     "co_star_2": "Olivia Thirlby",
-    "imdb": "tt1907731"
+    "imdb": "tt1907731",
+    "genres": "Drama"
   },
   "77953": {
     "title": "The Campaign",
@@ -1653,7 +1790,8 @@
     "director": "Jay Roach",
     "co_star_1": "Will Ferrell",
     "co_star_2": "Zach Galifianakis",
-    "imdb": "tt1790886"
+    "imdb": "tt1790886",
+    "genres": "Comedy"
   },
   "117263": {
     "title": "Olympus Has Fallen",
@@ -1665,7 +1803,8 @@
     "director": "Antoine Fuqua",
     "co_star_1": "Gerard Butler",
     "co_star_2": "Aaron Eckhart",
-    "imdb": "tt2302755"
+    "imdb": "tt2302755",
+    "genres": ["Action", "Thriller"]
   },
   "180305": {
     "title": "Mercy",
@@ -1677,7 +1816,8 @@
     "director": "Peter Cornwell",
     "co_star_1": "Chandler Riggs",
     "co_star_2": "Joel Courtney",
-    "imdb": "tt2481496"
+    "imdb": "tt2481496",
+    "genres": ["Thriller", "Horror"]
   },
   "206157": {
     "title": "Into the Badlands",
@@ -1689,7 +1829,8 @@
     "director": "Sam Pillsbury",
     "co_star_1": "Bruce Dern",
     "co_star_2": "Mariel Hemingway",
-    "imdb": "tt0102125"
+    "imdb": "tt0102125",
+    "genres": ["Western", "TV Movie", "Horror"]
   },
   "224269": {
     "title": "The Neon Empire",
@@ -1701,7 +1842,8 @@
     "director": "Larry Peerce",
     "co_star_1": "Ray Sharkey",
     "co_star_2": "Linda Fiorentino",
-    "imdb": "tt0097960"
+    "imdb": "tt0097960",
+    "genres": ["Crime", "Drama"]
   },
   "243531": {
     "title": "Freezer",
@@ -1713,7 +1855,8 @@
     "director": "Mikael Salomon",
     "co_star_1": "Peter Facinelli",
     "co_star_2": "Yuliya Snigir",
-    "imdb": "tt2325002"
+    "imdb": "tt2325002",
+    "genres": ["Action", "Thriller"]
   },
   "259018": {
     "title": "Behaving Badly",
@@ -1725,7 +1868,8 @@
     "director": "Tim Garrick",
     "co_star_1": "Nat Wolff",
     "co_star_2": "Selena Gomez",
-    "imdb": "tt2314824"
+    "imdb": "tt2314824",
+    "genres": "Comedy"
   },
   "262543": {
     "title": "Automata",
@@ -1737,7 +1881,8 @@
     "director": "Gabe Ibáñez",
     "co_star_1": "Antonio Banderas",
     "co_star_2": "Melanie Griffith",
-    "imdb": "tt1971325"
+    "imdb": "tt1971325",
+    "genres": ["Thriller", "Science Fiction"]
   },
   "1016880": {
     "title": "Broadway's Dreamers: The Legacy of the Group Theatre",
@@ -1749,7 +1894,8 @@
     "director": "David Heeley",
     "co_star_1": "Joanne Woodward",
     "co_star_2": "Stella Adler",
-    "imdb": "tt0096983"
+    "imdb": "tt0096983",
+    "genres": ["Documentary", "TV Movie"]
   },
   "264855": {
     "title": "The Fear Inside",
@@ -1761,7 +1907,8 @@
     "director": "Leon Ichaso",
     "co_star_1": "Christine Lahti",
     "co_star_2": "Jennifer Rubin",
-    "imdb": "tt0104242"
+    "imdb": "tt0104242",
+    "genres": ["TV Movie", "Drama", "Thriller"]
   },
   "334074": {
     "title": "Survivor",
@@ -1773,7 +1920,8 @@
     "director": "James McTeigue",
     "co_star_1": "Milla Jovovich",
     "co_star_2": "Pierce Brosnan",
-    "imdb": "tt3247714"
+    "imdb": "tt3247714",
+    "genres": ["Action", "Crime", "Mystery", "Thriller"]
   },
   "45020": {
     "title": "Mercy",
@@ -1785,7 +1933,8 @@
     "director": "Patrick Hoelck",
     "co_star_1": "Scott Caan",
     "co_star_2": "Erika Christensen",
-    "imdb": "tt1235200"
+    "imdb": "tt1235200",
+    "genres": ["Drama", "Romance"]
   },
   "84892": {
     "title": "The Perks of Being a Wallflower",
@@ -1797,7 +1946,8 @@
     "director": "Stephen Chbosky",
     "co_star_1": "Logan Lerman",
     "co_star_2": "Emma Watson",
-    "imdb": "tt1659337"
+    "imdb": "tt1659337",
+    "genres": "Drama"
   },
   "271187": {
     "title": "Unbeatable Harold",
@@ -1809,7 +1959,8 @@
     "director": "Ari Palitz",
     "co_star_1": "Gordon Michaels",
     "co_star_2": "Nicole DeHuff",
-    "imdb": "tt0417220"
+    "imdb": "tt0417220",
+    "genres": ["Comedy", "Romance"]
   },
   "364733": {
     "title": "Blind",
@@ -1821,7 +1972,8 @@
     "director": "Michael Mailer",
     "co_star_1": "Alec Baldwin",
     "co_star_2": "Demi Moore",
-    "imdb": "tt1935089"
+    "imdb": "tt1935089",
+    "genres": ["Drama", "Romance"]
   },
   "164647": {
     "title": "The Blue Iguana",
@@ -1833,7 +1985,8 @@
     "director": "John Lafia",
     "co_star_1": "James Russo",
     "co_star_2": "Jessica Harper",
-    "imdb": "tt0094768"
+    "imdb": "tt0094768",
+    "genres": ["Thriller", "Action", "Comedy", "Mystery"]
   },
   "414187": {
     "title": "Josie",
@@ -1845,7 +1998,8 @@
     "director": "Eric England",
     "co_star_1": "Sophie Turner",
     "co_star_2": "Jack Kilmer",
-    "imdb": "tt4682780"
+    "imdb": "tt4682780",
+    "genres": ["Thriller", "Drama"]
   },
   "77780": {
     "title": "Twister",
@@ -1857,7 +2011,8 @@
     "director": "Michael Almereyda",
     "co_star_1": "Harry Dean Stanton",
     "co_star_2": "Suzy Amis",
-    "imdb": "tt0096321"
+    "imdb": "tt0096321",
+    "genres": ["Drama", "Comedy"]
   },
   "11329": {
     "title": "Runaway Jury",
@@ -1869,7 +2024,8 @@
     "director": "Gary Fleder",
     "co_star_1": "John Cusack",
     "co_star_2": "Gene Hackman",
-    "imdb": "tt0313542"
+    "imdb": "tt0313542",
+    "genres": ["Drama", "Thriller"]
   },
   "492815": {
     "title": "Behind the Fright: The Making of American Horror Story",
@@ -1881,7 +2037,8 @@
     "director": "Jeffrey Lerner",
     "co_star_1": "Alexandra Breckenridge",
     "co_star_2": "Connie Britton",
-    "imdb": "tt2547870"
+    "imdb": "tt2547870",
+    "genres": "Documentary"
   },
   "544431": {
     "title": "The Clovehitch Killer",
@@ -1893,7 +2050,8 @@
     "director": "Duncan Skiles",
     "co_star_1": "Charlie Plummer",
     "co_star_2": "Samantha Mathis",
-    "imdb": "tt6269368"
+    "imdb": "tt6269368",
+    "genres": ["Drama", "Mystery", "Crime"]
   },
   "614917": {
     "title": "King Richard",
@@ -1905,6 +2063,7 @@
     "director": "Reinaldo Marcus Green",
     "co_star_1": "Will Smith",
     "co_star_2": "Aunjanue Ellis-Taylor",
-    "imdb": "tt9620288"
+    "imdb": "tt9620288",
+    "genres": ["Drama", "History"]
   }
 }
