@@ -152,13 +152,34 @@ for (i in 1:length(movie_data)) {
 xmas_ids <- sample(names(xmas_movies), length(xmas_movies))
 xmas_dates <- (26 - length(xmas_movies)):25
 
+# Romantic comedies
+romcoms <- list()
+for (i in 1:length(movie_data)) {
+  if ("Romance" %in% movie_data[[i]]$genres & "Comedy" %in% movie_data[[i]]$genres & !names(movie_data[i]) %in% names(xmas_movies)) {
+    romcoms[[names(movie_data[i])]] <- movie_data[[i]]
+  }
+}
+
+romcom_ids <- sample(names(romcoms), length(romcoms))
+
+romcom_dates <- if (length(romcoms) %% 2 == 1) {
+  (14 - floor(length(romcoms) / 2)):(14 + floor(length(romcoms) / 2))
+} else {
+  (14 - length(romcoms) / 2):(13 + length(romcoms) / 2)
+}
+
+
 if (month(date) == 10 & day(date) == horror_dates[1]) {
   for (i in 1:length(horror_dates)) {
-    picks[[paste0(year(date),"-10-", horror_dates[i])]] <- horror_ids[i]  
+    picks[[paste0(year(date),"-10-", sprintf("%02d", horror_dates[i]))]] <- horror_ids[i]  
   }
 } else if (month(date) == 12 & day(date) == xmas_dates[1]) {
   for (i in 1:length(xmas_dates)) {
-    picks[[paste0(year(date),"-12-", xmas_dates[i])]] <- xmas_ids[i]  
+    picks[[paste0(year(date),"-12-", sprintf("%02d", xmas_dates[i]))]] <- xmas_ids[i]  
+  }
+} else if (month(date) == 2 & day(date) == romcom_dates[1]) {
+  for (i in 1:length(romcom_dates)) {
+    picks[[paste0(year(date),"-02-", sprintf("%02d", romcom_dates[i]))]] <- romcom_ids[i]  
   }
 } else {
   if (!as.character(date) %in% names(picks)) {
