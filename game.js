@@ -54,6 +54,10 @@ async function renderGame() {
 
     today = today.toISOString().split('T')[0];
 
+    if (!Object.keys(picks).includes(today)) {
+        location.reload();
+    }
+
     let text_months = {
         "01": "January",
         "02": "February",
