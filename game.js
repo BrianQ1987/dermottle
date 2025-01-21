@@ -74,7 +74,7 @@ async function renderGame() {
     }
 
     function show_answer (movie, actors) {
-        document.getElementById("correct-answer").innerHTML = "<b>" + movie.answer + "</b> starred in <em>" + movie.title + "</em>";
+        document.getElementById("correct-answer").innerHTML = "<b>" + movie.answer + "</b> starred in<br /><em>" + movie.title + "</em>";
         document.getElementById("actor-photo").innerHTML = "<img src = '" + actors[movie.answer].profile_path + "'>";
         document.getElementById("movie-poster").innerHTML = "<img src = '" + movie.poster_path + "'>";
         document.getElementById("imdb-link").innerHTML = "Check out <a href = 'https://imdb.com/title/" + movie.imdb + "' target = '_blank'>" + movie.title + "</a> on IMDb";
