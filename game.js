@@ -74,7 +74,7 @@ async function renderGame() {
     }
 
     function show_answer (movie, actors) {
-        document.getElementById("correct-answer").innerHTML = "<b>" + movie.answer + "</b> starred in<br /><em>" + movie.title + "</em>";
+        document.getElementById("correct-answer").innerHTML = "<b style = 'font-size: 14pt;'>" + movie.answer + "</b> starred in the movie<br><em style = 'font-size: 18pt;'>" + movie.title + "</em>";
         document.getElementById("actor-photo").innerHTML = "<img src = '" + actors[movie.answer].profile_path + "'>";
         document.getElementById("movie-poster").innerHTML = "<img src = '" + movie.poster_path + "'>";
         document.getElementById("imdb-link").innerHTML = "Check out <a href = 'https://imdb.com/title/" + movie.imdb + "' target = '_blank'>" + movie.title + "</a> on IMDb";
@@ -267,6 +267,13 @@ async function renderGame() {
 
                 if ((buttons[i].id == "dermot-button" &&  movie.answer == "Dermot Mulroney") || (buttons[i].id == "dylan-button" &&  movie.answer == "Dylan McDermott")) {
                     document.getElementById("result").textContent = "Correct";
+
+                    confetti({
+                      particleCount: 100,
+                      spread: 70,
+                      origin: { y: 0.6 },
+                      shapes: ["circle", "square"]
+                    });
                     
                     if (score_value == 0) {
                         final_score.innerHTML = "You got the correct answer using 0 hints";
