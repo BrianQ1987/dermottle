@@ -1,6 +1,6 @@
 async function renderGame() {
 
-    let playing = true;
+    let playing = false;
 
     let answer_screen = document.getElementById("answer-screen");
     let guess_panel = document.getElementById("guess-panel");
@@ -57,6 +57,8 @@ async function renderGame() {
     if (!Object.keys(picks).includes(today)) {
         location.reload();
     }
+
+    let movie = movies[picks[today]];
 
     let text_months = {
         "01": "January",
@@ -154,7 +156,7 @@ async function renderGame() {
 
     document.getElementById("date").textContent = text_months[today.slice(5, 7)] + " " + Number(today.slice(8, 10)) + ", " + today.slice(0, 4);
 
-    let movie = movies[picks[today]];
+    
     let on_streak = false;
 
     let hints = document.getElementsByClassName("hint");
@@ -220,7 +222,16 @@ async function renderGame() {
             on_streak = true;
         } else if (last_played == yesterday) {
             on_streak = true;
+            playing = true;
+        } else {
+            playing = true;
         }
+    } else {
+        playing = true;
+    }
+
+    if (playing) {
+        guess_panel.style.display = "block";
     }
     
     document.getElementById("movie-title").innerHTML = "<i>" + movie.title + "</i>";
@@ -258,7 +269,6 @@ async function renderGame() {
                 share_btn.style.display = "block";
                 document.getElementById("next").style.display = "block";
                 document.getElementById("countdown").style.display = "block";
-                answer_screen.style.display = "flex";
                 document.getElementById("guess-panel").style.display = "none";
                 document.getElementById("see-results").style.display = "block";
 
@@ -323,7 +333,8 @@ async function renderGame() {
                     localStorage.setItem("streak", 0)
                 }
 
-                show_answer(movie, actors)
+                show_answer(movie, actors);
+                answer_screen.style.display = "flex";
                 
                 localStorage.setItem("last_played", today);
 
@@ -440,7 +451,13 @@ async function renderGame() {
 
     }
 
-    move_created();    
+    move_created();
+    
+    let screens = document.getElementsByClassName("screen");
+
+    for (let i = 0; i < screens.length; i ++) {
+        screens[i].style.marginTop = document.getElementById("title-container").clientHeight + 20 + "px";
+    }
 
 }
 
