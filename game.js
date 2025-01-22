@@ -109,6 +109,11 @@ async function renderGame() {
         chart_div.innerHTML = '<div id = "axis-label">Hints used</div>';
 
         let chart_width = document.getElementById("container").clientWidth - 150;
+        
+        if (chart_width < 280) {
+            chart_width = 280;
+        }
+        
         let bar_width = chart_width - 80;
         
         for (let i = 0; i < Object.keys(bars).length; i ++) {
