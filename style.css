@@ -266,6 +266,8 @@ a:hover {
 
 th {
     font-weight: normal;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
 }
 
 td {

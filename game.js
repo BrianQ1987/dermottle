@@ -107,6 +107,9 @@ async function renderGame() {
         }
 
         chart_div.innerHTML = '<div id = "axis-label">Hints used</div>';
+
+        let chart_width = document.getElementById("container").clientWidth - 150;
+        let bar_width = chart_width - 80;
         
         for (let i = 0; i < Object.keys(bars).length; i ++) {
             let graph_row = document.createElement("div");
@@ -122,9 +125,9 @@ async function renderGame() {
             if (games_played == 0) {
                 graph_bar.style.width = "0px";
                 graph_bar.textContent = "0%";
-                chart_div.style.width = "280px";
+                chart_div.style.width = chart_width + "px";
             } else {
-                graph_bar.style.width = (bars[Object.keys(bars)[i]].value / max_value * 200) + "px";
+                graph_bar.style.width = (bars[Object.keys(bars)[i]].value / max_value * bar_width) + "px";
                 graph_bar.textContent = Math.round(bars[Object.keys(bars)[i]].value / games_played * 100) + "%";
                 chart_div.removeAttribute("style");
             }            
