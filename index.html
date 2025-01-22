@@ -32,124 +32,127 @@
 
   <body>
 
-    <div id = "container">
+    <div id = "centre-content">
+        <div id = "container">
 
-        <div id = "title-container" class = "row">
-            <i id = "info-button" class="fa-solid fa-circle-info" style = "width: 5%"></i>
-            <h1 style = "width: 90%">DERMOTTLE</h1>
-            <i id = "stats-button" class="fa-solid fa-chart-simple" style = "width: 5%"></i>
+            <div id = "title-container" class = "row">
+                <i id = "info-button" class="fa-solid fa-circle-info" style = "width: 5%"></i>
+                <h1 style = "width: 90%">DERMOTTLE</h1>
+                <i id = "stats-button" class="fa-solid fa-chart-simple" style = "width: 5%"></i>
+            </div>
+
+            <div id = "help"><i class="fa-regular fa-circle-question"></i> How to play</div>
+
+            <div class = "row" style= "width: 100%;">
+                <div id = "date" style = "width: 50%"></div>
+                <div id = "score-container">
+                    <b>Hints used: </b><span id = "score"></span>
+                </div>
+            </div>
+
+            <div id = "hints">
+                <p>Which actor played the part of <span id = "character" class = "hint">Reveal Character (+1)</span> in the <span id = "release_date" class = "hint">Reveal Year (+1)</span>  movie <span id = "movie-title"></span>, directed by <span id = "director" class = "hint">Reveal Director (+1)</span>?</p>
+                <p>A movie where: <span id = "overview" class = "hint">Reveal Plot (+1)</span></p>
+                <p>This movie co-starred <span id = "co_star_1" class = "hint">Reveal Actor (+1)</span> and <span id = "co_star_2" class = "hint">Reveal Actor (+1)</span>.</p>
+            </div>
+
+            <div id = "guess-panel">
+                <p>Was it:</p>
+                <div id = "dylan-button" class = "guess-button row">
+                    <img src = "img/dylan.png">
+                    <i>DYLAN McDERMOTT</i>
+                </div>
+                <p>or</p>
+                <div id = "dermot-button" class = "guess-button row">
+                    <i>DERMOT MULRONEY?</i>
+                    <img src = "img/dermot.png">
+                </div>          
+            </div>
+
+            <div id = "see-results"><i class="fa-solid fa-square-poll-horizontal"></i> See results</div>
+
+            <div id = "answer-screen" class = "screen">
+                <div class = "close-x">
+                    <i id = "close-button" class="fa-solid fa-xmark"></i>
+                </div>
+                <p id = "that-is">That is <span id="result"></span></p>
+                <p id = "correct-answer"></p>
+                <p id = "final-score"></p>
+                <div id = "photos" class = "row">
+                    <div id = "actor-photo" class = "answer-pic"></div>
+                    <div id = "movie-poster" class = "answer-pic"></div>
+                </div>
+                <p id = "imdb-link"></p>
+                <table>
+                    <tr>
+                        <th>Games Played</th>
+                        <th>Win Rate</th>
+                        <th>Win Streak</th>
+                        <th>Max Streak</th>
+                    </tr>
+                    <tr>
+                        <td id = "games-played"></td>
+                        <td id = "win-rate"></td>                  
+                        <td id = "streak"></td>                    
+                        <td id = "max-streak"></td>                    
+                    </tr>
+                </table>
+
+                <div id = "chart">
+                    <div id = "axis-label">Hints used</div>
+                </div>
+
+                <div id = "share"><i class="fa-solid fa-share-from-square"></i> Share</div>
+
+                <p id = "next">Next <span style = "font-family: FrankGothicCondDemi; font-size: 16pt; font-style: italic; margin-right: 0.15em;">DERMOTTLE</span> in:</p>
+                <span id = "countdown"></span>
+            </div>
+
+            <div id = "help-screen" class = "screen">
+                <div class = "close-x">
+                    <i id = "close-help-btn" class="fa-solid fa-xmark"></i>
+                </div>
+                <div id = "challenge">
+                    <p>Welcome to America's most difficult game show that asks one simple question: <em>Dylan McDermott or Dermot Mulroney?</em></p>
+                    <p>Each day, we name a movie and your challenge is to correctly guess whether that movie starred <i>Dylan McDermott</i> or <i>Dermot Mulroney</i>. You only get one guess, so make it count.
+                </div>
+                <img src = "img/IMG_5752.gif" width = 90% style = "margin-bottom: 15px;">
+                <ol>
+                    <li>Look at today's question card. The name of today's movie will be highlighted in large blue text.
+                        <img src = "img/help_1.png" width = 100%>
+                    </li>
+                    <li>
+                        If you think you know whether this movie starred <i>Dylan McDermott</i> or <i>Dermot Mulroney</i> you can make a guess by selecting one of the buttons below the question card.
+                        <img src = "img/help_2.png" width = 100%>
+                        This will end the game for the day, whether you are corrent or not. So choose wisely.
+                    </li>
+                    <li>
+                        If you need more help you can press any of the "Reveal" buttons on the question card to reveal more information.
+                        <img src = "img/help_3.png" width = 100%>
+                        However, the more hints you reveal the further your score will be from the perfect score (0 hints used).
+                    </li>
+                    <li>Don't forget to share your progress and come back tomorrow to play a whole new round of <span style="font-family: FrankGothicCondDemi; font-style: italic;">DERMOTTLE</span></li>
+                </ol>
+            </div>
+
+            <div id = "tmdb" class = "screen">
+                <div class = "close-x">
+                    <i id = "close-info-btn" class="fa-solid fa-xmark"></i>
+                </div>
+                <p>This game was inspired by, and created as a tribute to, the <a href = "https://www.youtube.com/watch?v=XGqSn5Cnw74" target = "_blank"><i>Saturday Night Live</i> sketch "Dylan McDermott or Dermot Mulroney"</a>.</p>
+                <p>The creator of this game is not affiliated with <i>Saturday Night Live</i> or NBCUniversal.</p>
+                <img width = 100% src = "img/my_face.gif">
+                <p>This product uses the <a href = "https://developer.themoviedb.org/docs/getting-started" target = "_blank">TMDB API</a> but is not endorsed or certified by TMDB.</p>
+                <p>Built using <a href = "https://www.r-project.org/" target = "_blank">R</a> and Javascript. Workflows automated using <a href = "https://github.com/features/actions" target = "_blank">Github Actions</a>.</p>
+                <p><a href = "https://letterboxd.com/brianbrianq/" target = "_blank"> Follow me on Letterboxd</a></p>
+            </div>
+            
         </div>
 
-        <div id = "help"><i class="fa-regular fa-circle-question"></i> How to play</div>
-
-        <div class = "row" style= "width: 100%;">
-            <div id = "date" style = "width: 50%"></div>
-            <div id = "score-container">
-                <b>Hints used: </b><span id = "score"></span>
-            </div>
+        <div id = "created">
+            <p>Created by <a href = "https://letterboxd.com/brianbrianq/" target = "_blank"> Brian Quinn</a></p>
         </div>
 
-        <div id = "hints">
-            <p>Which actor played the part of <span id = "character" class = "hint">Reveal Character (+1)</span> in the <span id = "release_date" class = "hint">Reveal Year (+1)</span>  movie <span id = "movie-title"></span>, directed by <span id = "director" class = "hint">Reveal Director (+1)</span>?</p>
-            <p>A movie where: <span id = "overview" class = "hint">Reveal Plot (+1)</span></p>
-            <p>This movie co-starred <span id = "co_star_1" class = "hint">Reveal Actor (+1)</span> and <span id = "co_star_2" class = "hint">Reveal Actor (+1)</span>.</p>
-        </div>
-
-        <div id = "guess-panel">
-            <p>Was it:</p>
-            <div id = "dylan-button" class = "guess-button row">
-                <img src = "img/dylan.png">
-                <i>DYLAN McDERMOTT</i>
-            </div>
-            <p>or</p>
-            <div id = "dermot-button" class = "guess-button row">
-                <i>DERMOT MULRONEY?</i>
-                <img src = "img/dermot.png">
-            </div>          
-        </div>
-
-        <div id = "see-results"><i class="fa-solid fa-square-poll-horizontal"></i> See results</div>
-
-        <div id = "answer-screen" class = "screen">
-            <div class = "close-x">
-                <i id = "close-button" class="fa-solid fa-xmark"></i>
-            </div>
-            <p id = "that-is">That is <span id="result"></span></p>
-            <p id = "correct-answer"></p>
-            <p id = "final-score"></p>
-            <div id = "photos" class = "row">
-                <div id = "actor-photo" class = "answer-pic"></div>
-                <div id = "movie-poster" class = "answer-pic"></div>
-            </div>
-            <p id = "imdb-link"></p>
-            <table>
-                <tr>
-                    <th>Games Played</th>
-                    <th>Win Rate</th>
-                    <th>Win Streak</th>
-                    <th>Max Streak</th>
-                </tr>
-                <tr>
-                    <td id = "games-played"></td>
-                    <td id = "win-rate"></td>                  
-                    <td id = "streak"></td>                    
-                    <td id = "max-streak"></td>                    
-                </tr>
-            </table>
-
-            <div id = "chart">
-                <div id = "axis-label">Hints used</div>
-            </div>
-
-            <div id = "share"><i class="fa-solid fa-share-from-square"></i> Share</div>
-
-            <p id = "next">Next <span style = "font-family: FrankGothicCondDemi; font-size: 16pt; font-style: italic; margin-right: 0.15em;">DERMOTTLE</span> in:</p>
-            <span id = "countdown"></span>
-        </div>
-
-        <div id = "help-screen" class = "screen">
-            <div class = "close-x">
-                <i id = "close-help-btn" class="fa-solid fa-xmark"></i>
-            </div>
-            <div id = "challenge">
-                <p>Welcome to America's most difficult game show that asks one simple question: <em>Dylan McDermott or Dermot Mulroney?</em></p>
-                <p>Each day, we name a movie and your challenge is to correctly guess whether that movie starred <i>Dylan McDermott</i> or <i>Dermot Mulroney</i>. You only get one guess, so make it count.
-            </div>
-            <img src = "img/IMG_5752.gif" width = 90% style = "margin-bottom: 15px;">
-            <ol>
-                <li>Look at today's question card. The name of today's movie will be highlighted in large blue text.
-                    <img src = "img/help_1.png" width = 100%>
-                </li>
-                <li>
-                    If you think you know whether this movie starred <i>Dylan McDermott</i> or <i>Dermot Mulroney</i> you can make a guess by selecting one of the buttons below the question card.
-                    <img src = "img/help_2.png" width = 100%>
-                    This will end the game for the day, whether you are corrent or not. So choose wisely.
-                </li>
-                <li>
-                    If you need more help you can press any of the "Reveal" buttons on the question card to reveal more information.
-                    <img src = "img/help_3.png" width = 100%>
-                    However, the more hints you reveal the further your score will be from the perfect score (0 hints used).
-                </li>
-                <li>Don't forget to share your progress and come back tomorrow to play a whole new round of <span style="font-family: FrankGothicCondDemi; font-style: italic;">DERMOTTLE</span></li>
-            </ol>
-        </div>
-
-        <div id = "tmdb" class = "screen">
-            <div class = "close-x">
-                <i id = "close-info-btn" class="fa-solid fa-xmark"></i>
-            </div>
-            <p>This game was inspired by, and created as a tribute to, the <a href = "https://www.youtube.com/watch?v=XGqSn5Cnw74" target = "_blank"><i>Saturday Night Live</i> sketch "Dylan McDermott or Dermot Mulroney"</a>.</p>
-            <p>The creator of this game is not affiliated with <i>Saturday Night Live</i> or NBCUniversal.</p>
-            <img width = 100% src = "img/my_face.gif">
-            <p>This product uses the <a href = "https://developer.themoviedb.org/docs/getting-started" target = "_blank">TMDB API</a> but is not endorsed or certified by TMDB.</p>
-            <p>Built using <a href = "https://www.r-project.org/" target = "_blank">R</a> and Javascript. Workflows automated using <a href = "https://github.com/features/actions" target = "_blank">Github Actions</a>.</p>
-            <p><a href = "https://letterboxd.com/brianbrianq/" target = "_blank"> Follow me on Letterboxd</a></p>
-        </div>
-        
-    </div>
-
-    <div id = "created">
-        <p>Created by <a href = "https://letterboxd.com/brianbrianq/" target = "_blank"> Brian Quinn</a></p>
     </div>
 
   </body>

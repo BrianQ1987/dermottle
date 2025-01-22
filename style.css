@@ -21,8 +21,16 @@ body {
     font-size: 12pt;
 }
 
-#container {
+#centre-content {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    max-width: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,6 +165,7 @@ p {
     align-items: center;
     justify-content: center;
     padding: 20px;
+    max-width: 640px;
 }
 
 #result {
@@ -295,7 +304,6 @@ td {
     text-align: center;
     font-size: 10pt;
     padding: 0 25px 0 25px;
-    margin-top: 200px;    
 }
 
 #tmdb p, #tmdb img {
