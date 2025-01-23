@@ -183,7 +183,15 @@ if (month(date) == 10 & day(date) == horror_dates[1]) {
   }
 } else {
   if (!as.character(date) %in% names(picks)) {
-    picks[[as.character(date)]] <- sample(names(movie_data), 1)
+    recent_picks <- tail(unlist(picks), 60)
+    picked_recently <- TRUE
+    while(picked_recently) {
+      random_pick <- sample(names(movie_data), 1)
+      if (!random_pick %in% recent_picks) {
+        picks[[as.character(date)]] <- random_pick
+        picked_recently <- FALSE
+      }
+    }
   }
 }
 
