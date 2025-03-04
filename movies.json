@@ -621,7 +621,7 @@
     "co_star_1": "Liam Neeson",
     "co_star_2": "Frank Grillo",
     "imdb": "tt1601913",
-    "genres": ["Drama", "Thriller", "Action", "Adventure"]
+    "genres": ["Action", "Adventure", "Drama", "Thriller"]
   },
   "58770": {
     "title": "The Trigger Effect",
@@ -1550,7 +1550,7 @@
     "title": "Edison",
     "answer": "Dylan McDermott",
     "character": "Lazerov",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/rWPdo3ji7GwbuvmO7Ue1oPwRSOm.jpg",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/7K2amWJd9lASC9R04M7IfVklBc1.jpg",
     "release_date": "2005",
     "overview": "In the troubled city of Edison, a young journalist, his jaded editor, and an honest investigator from the district attorney's office join forces to gather evidence against corrupt members of an elite police unit.",
     "director": "David J. Burke",
