@@ -5,7 +5,7 @@ library(dplyr)
 library(lubridate)
 
 # Configuration
-api_key <- '91d04f3f962aeb346fde58d53a9594ca'
+api_key <- '85341e3acb2ca904010924317b75aecc'
 api_base_url <- 'https://api.themoviedb.org/3/'
 image_base_url <- 'https://image.tmdb.org/t/p/w1280'
 actor_ids <- c(20212, 32597)
