@@ -2078,31 +2078,5 @@
     "co_star_2": "Aunjanue Ellis-Taylor",
     "imdb": "tt9620288",
     "genres": ["Drama", "History"]
-  },
-  "1452441": {
-    "title": "American Horror Story: Murder House",
-    "answer": "Dylan McDermott",
-    "character": "Benjamin Harmon",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/o3FeFzJO76yqUB5l7uSVCBYygzT.jpg",
-    "release_date": "2011",
-    "overview": "",
-    "director": "James Wong and Ryan Murphy",
-    "co_star_1": "Connie Britton",
-    "co_star_2": "Evan Peters",
-    "imdb": {},
-    "genres": ["Horror", "Drama", "Crime"]
-  },
-  "1452495": {
-    "title": "American Horror Story: Asylum",
-    "answer": "Dylan McDermott",
-    "character": "Johnny Morgan",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/5IzB5JmewksPjeIR8NtXrn8HJJ4.jpg",
-    "release_date": "2012",
-    "overview": "",
-    "director": "Brad Falchuk and Ryan Murphy",
-    "co_star_1": "Jessica Lange",
-    "co_star_2": "Sarah Paulson",
-    "imdb": {},
-    "genres": ["Horror", "Drama", "Science Fiction"]
   }
 }
