@@ -1481,6 +1481,19 @@
     "imdb": "tt0115633",
     "genres": "Drama"
   },
+  "1362849": {
+    "title": "Killing Mary Sue",
+    "answer": "Dermot Mulroney",
+    "character": "Bradley Weiner",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/3wtFN9n6EL99vcKrB4gVFSRa7rc.jpg",
+    "release_date": "2025",
+    "overview": "A corrupt senator arranges for the murder of his biggest liability, his erratic burnout stepdaughter, only for her to unwittingly discover her natural talent as an untouchable killer.",
+    "director": "James Sunshine",
+    "co_star_1": "Sierra McCormick",
+    "co_star_2": "Sean Patrick Flanery",
+    "imdb": "tt33504750",
+    "genres": ["Action", "Comedy", "Thriller"]
+  },
   "1400514": {
     "title": "Like Father Like Son",
     "answer": "Dermot Mulroney",
@@ -1602,7 +1615,7 @@
     "title": "Hardware",
     "answer": "Dylan McDermott",
     "character": "Moses \"Hard Mo\" Baxter",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/29WnkQ9wlvPCWEuWl7d2gtSZHQX.jpg",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/ybauOsdo6ColZ1WsALqIYjpUg4X.jpg",
     "release_date": "1990",
     "overview": "Mark 13 is a government-built killing machine programmed with artificial intelligence, able to repair and recharge itself from any energy source. Through a series of coincidences, the cyborg's head ends up in the home of a sculptress as a bizarre Christmas present from her boyfriend. Once inside its new home, the cyborg promptly reconstructs the rest of its body using a variety of household utensils and proceeds to go on a murderous rampage.",
     "director": "Richard Stanley",
@@ -1624,19 +1637,6 @@
     "imdb": "tt0113321",
     "genres": ["Comedy", "Drama", "Romance"]
   },
-  "9724": {
-    "title": "The Mistress of Spices",
-    "answer": "Dylan McDermott",
-    "character": "Doug",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/4B1bLyeRdrVVS9TirZdPUyP9we1.jpg",
-    "release_date": "2005",
-    "overview": "Tilo is an Indian shopkeeper in America with an ability to see the future and a magical connection to powerful spices, which she uses to help her customers satisfy their various needs and desires. One day she falls in love with an American man. But the spices forbid it.",
-    "director": "Paul Mayeda Berges",
-    "co_star_1": "Aishwarya Rai Bachchan",
-    "co_star_2": "Nitin Ganatra",
-    "imdb": "tt0407998",
-    "genres": ["Drama", "Romance", "Fantasy"]
-  },
   "26437": {
     "title": "The Tenants",
     "answer": "Dylan McDermott",
@@ -1649,6 +1649,19 @@
     "co_star_2": "Rose Byrne",
     "imdb": "tt0429173",
     "genres": ["Comedy", "Drama", "Mystery"]
+  },
+  "9724": {
+    "title": "The Mistress of Spices",
+    "answer": "Dylan McDermott",
+    "character": "Doug",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/4B1bLyeRdrVVS9TirZdPUyP9we1.jpg",
+    "release_date": "2005",
+    "overview": "Tilo is an Indian shopkeeper in America with an ability to see the future and a magical connection to powerful spices, which she uses to help her customers satisfy their various needs and desires. One day she falls in love with an American man. But the spices forbid it.",
+    "director": "Paul Mayeda Berges",
+    "co_star_1": "Aishwarya Rai Bachchan",
+    "co_star_2": "Nitin Ganatra",
+    "imdb": "tt0407998",
+    "genres": ["Drama", "Romance", "Fantasy"]
   },
   "32872": {
     "title": "'Til There Was You",
