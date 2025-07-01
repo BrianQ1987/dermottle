@@ -835,7 +835,7 @@
     "title": "The Rambler",
     "answer": "Dermot Mulroney",
     "character": "The Rambler",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/xKmYCXKsua86RRweR2jhlkkLn9H.jpg",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/kLShXXAUq4nLVKAy9EIWDgl3Auz.jpg",
     "release_date": "2013",
     "overview": "After being released from prison, a man known as The Rambler stumbles upon a strange mystery as he attempts a dangerous journey through treacherous back roads and small towns en route to reconnecting with his long lost brother.",
     "director": "Calvin Lee Reeder",
@@ -1763,7 +1763,7 @@
     "overview": "A subversive tale that interlaces five stories set in Los Angeles, where no taboo is left unexplored as each character careens toward a dark and often comic fate",
     "director": "Christopher Landon",
     "co_star_1": "Zoe Saldaña",
-    "co_star_2": "Jamie Chung",
+    "co_star_2": "Rosamund Pike",
     "imdb": "tt1283887",
     "genres": ["Comedy", "Thriller"]
   },
@@ -2091,5 +2091,31 @@
     "co_star_2": "Aunjanue Ellis-Taylor",
     "imdb": "tt9620288",
     "genres": ["Drama", "History"]
+  },
+  "1506410": {
+    "title": "American Horror Story: Murder House",
+    "answer": "Dylan McDermott",
+    "character": "Ben Harmon",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/8KlsticxstJ0AaPWiCj0GRjLV0d.jpg",
+    "release_date": "2011",
+    "overview": "The first season of American Horror Story, retroactively subtitled Murder House, centers on the Harmon family, who, after dealing with a miscarriage and infidelity, move to a restored mansion in Los Angeles, unaware that the ghosts of its former residents and their victims haunt the house.",
+    "director": "Bradley Buecker",
+    "co_star_1": "Connie Britton",
+    "co_star_2": "Evan Peters",
+    "imdb": "tt2063035",
+    "genres": ["Horror", "Drama", "Mystery", "Thriller", "Crime"]
+  },
+  "1506429": {
+    "title": "American Horror Story: Asylum",
+    "answer": "Dylan McDermott",
+    "character": "Johnny Morgan",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/AeMGcsMCMkSVDYnzFB6HOr3dV7S.jpg",
+    "release_date": "2012",
+    "overview": "The second season of the American horror anthology television series American Horror Story. Story takes place in 1964 and follows the story of a young man admitted into a notorious insane asylum Briarcliff Manor, while a local reporter is determined to get the full story.",
+    "director": "Bradley Buecker",
+    "co_star_1": "Jessica Lange",
+    "co_star_2": "Sarah Paulson",
+    "imdb": "tt1844624",
+    "genres": ["Horror", "Drama", "Mystery", "Thriller"]
   }
 }
