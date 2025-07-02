@@ -1637,19 +1637,6 @@
     "imdb": "tt0113321",
     "genres": ["Comedy", "Drama", "Romance"]
   },
-  "9724": {
-    "title": "The Mistress of Spices",
-    "answer": "Dylan McDermott",
-    "character": "Doug",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/4B1bLyeRdrVVS9TirZdPUyP9we1.jpg",
-    "release_date": "2005",
-    "overview": "Tilo is an Indian shopkeeper in America with an ability to see the future and a magical connection to powerful spices, which she uses to help her customers satisfy their various needs and desires. One day she falls in love with an American man. But the spices forbid it.",
-    "director": "Paul Mayeda Berges",
-    "co_star_1": "Aishwarya Rai Bachchan",
-    "co_star_2": "Nitin Ganatra",
-    "imdb": "tt0407998",
-    "genres": ["Drama", "Romance", "Fantasy"]
-  },
   "26437": {
     "title": "The Tenants",
     "answer": "Dylan McDermott",
@@ -1662,6 +1649,19 @@
     "co_star_2": "Rose Byrne",
     "imdb": "tt0429173",
     "genres": ["Comedy", "Drama", "Mystery"]
+  },
+  "9724": {
+    "title": "The Mistress of Spices",
+    "answer": "Dylan McDermott",
+    "character": "Doug",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/4B1bLyeRdrVVS9TirZdPUyP9we1.jpg",
+    "release_date": "2005",
+    "overview": "Tilo is an Indian shopkeeper in America with an ability to see the future and a magical connection to powerful spices, which she uses to help her customers satisfy their various needs and desires. One day she falls in love with an American man. But the spices forbid it.",
+    "director": "Paul Mayeda Berges",
+    "co_star_1": "Aishwarya Rai Bachchan",
+    "co_star_2": "Nitin Ganatra",
+    "imdb": "tt0407998",
+    "genres": ["Drama", "Romance", "Fantasy"]
   },
   "32872": {
     "title": "'Til There Was You",
@@ -2091,31 +2091,5 @@
     "co_star_2": "Aunjanue Ellis-Taylor",
     "imdb": "tt9620288",
     "genres": ["Drama", "History"]
-  },
-  "1506410": {
-    "title": "American Horror Story: Murder House",
-    "answer": "Dylan McDermott",
-    "character": "Ben Harmon",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/8KlsticxstJ0AaPWiCj0GRjLV0d.jpg",
-    "release_date": "2011",
-    "overview": "The first season of American Horror Story, retroactively subtitled Murder House, centers on the Harmon family, who, after dealing with a miscarriage and infidelity, move to a restored mansion in Los Angeles, unaware that the ghosts of its former residents and their victims haunt the house.",
-    "director": "Bradley Buecker",
-    "co_star_1": "Connie Britton",
-    "co_star_2": "Evan Peters",
-    "imdb": "tt2063035",
-    "genres": ["Horror", "Drama", "Mystery", "Thriller", "Crime"]
-  },
-  "1506429": {
-    "title": "American Horror Story: Asylum",
-    "answer": "Dylan McDermott",
-    "character": "Johnny Morgan",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/AeMGcsMCMkSVDYnzFB6HOr3dV7S.jpg",
-    "release_date": "2012",
-    "overview": "The second season of the American horror anthology television series American Horror Story. Story takes place in 1964 and follows the story of a young man admitted into a notorious insane asylum Briarcliff Manor, while a local reporter is determined to get the full story.",
-    "director": "Bradley Buecker",
-    "co_star_1": "Jessica Lange",
-    "co_star_2": "Sarah Paulson",
-    "imdb": "tt1844624",
-    "genres": ["Horror", "Drama", "Mystery", "Thriller"]
   }
 }
