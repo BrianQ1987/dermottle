@@ -340,7 +340,7 @@
   "13159": {
     "title": "Georgia Rule",
     "answer": "Dermot Mulroney",
-    "character": "Dr. Simon Ward",
+    "character": "Simon Ward",
     "poster_path": "https://image.tmdb.org/t/p/w1280/9C7VaTib40dBaBrefxFesQ7pbKW.jpg",
     "release_date": "2007",
     "overview": "Rebellious, uncontrollable teenager, Rachel is hauled off by her dysfunctional mother to spend the summer with her estranged grandmother, Georgia. Her journey will lead all three women to revelations of buried family secrets and an understanding that - regardless what happens - the ties that bind can never be broken.",
@@ -1154,7 +1154,7 @@
     "co_star_1": "Mark Feuerstein",
     "co_star_2": "Neal McDonough",
     "imdb": "tt21861086",
-    "genres": ["Western", "Crime", "Thriller"]
+    "genres": ["Crime", "Thriller"]
   },
   "357906": {
     "title": "Unconquered",
