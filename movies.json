@@ -1396,12 +1396,12 @@
     "character": "Lane",
     "poster_path": "https://image.tmdb.org/t/p/w1280/puotlINTAXak0jKQOvPnKGd8PDs.jpg",
     "release_date": "1986",
-    "overview": "A made-for-tv byproduct of The War On Drugs.",
+    "overview": "A made-for-TV propaganda made during the high of 'the war on drugs' to expose a series of drug relations within teenagers, and only two men who are aware of the situation can lay their insight on the epidemic that is growing.",
     "director": "Nathaniel Burr Smidt",
     "co_star_1": "Burt Reynolds",
-    "co_star_2": "Ami Dolenz",
+    "co_star_2": "Judd Nelson",
     "imdb": "tt0363061",
-    "genres": "Drama"
+    "genres": ["Drama", "Documentary"]
   },
   "611914": {
     "title": "The Courier",
