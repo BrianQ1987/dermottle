@@ -1520,6 +1520,19 @@
     "imdb": "tt33504750",
     "genres": ["Action", "Comedy", "Thriller"]
   },
+  "1323625": {
+    "title": "Night Patrol",
+    "answer": "Dermot Mulroney",
+    "character": "",
+    "poster_path": "https://image.tmdb.org/t/p/w1280",
+    "release_date": "2025",
+    "overview": "An African-American LAPD officer must put aside his differences with the area’s street gangs when he discovers a local police task force is harboring a horrific secret that endangers the residents of the housing projects he grew up in.",
+    "director": "Ryan Prows",
+    "co_star_1": "Justin Long",
+    "co_star_2": "Jermaine Fowler",
+    "imdb": "tt8637438",
+    "genres": ["Horror", "Mystery"]
+  },
   "1400514": {
     "title": "Like Father Like Son",
     "answer": "Dermot Mulroney",
