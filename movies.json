@@ -1260,6 +1260,19 @@
     "imdb": "tt2842732",
     "genres": ["Thriller", "Drama"]
   },
+  "1337055": {
+    "title": "Perfectly Imperfect",
+    "answer": "Dermot Mulroney",
+    "character": "Jake",
+    "poster_path": "https://image.tmdb.org/t/p/w1280",
+    "release_date": "2025",
+    "overview": "Jake, a by the numbers single dad, sets off on a cruise with his quirky family and his childhood friend Reuben. Onboard, he unexpectedly crosses paths with Meg, a woman he once had an awkward date with on the mainland. As they get a second chance to connect, Jake and Meg discover that while neither of them is perfect, they might actually be perfectly imperfect for each other.",
+    "director": "Joseph Nathan Weisman",
+    "co_star_1": "Malin Åkerman",
+    "co_star_2": "Brian Austin Green",
+    "imdb": "tt33035778",
+    "genres": ["Comedy", "Romance"]
+  },
   "290512": {
     "title": "The Mountain Between Us",
     "answer": "Dermot Mulroney",
@@ -1524,12 +1537,12 @@
     "title": "Night Patrol",
     "answer": "Dermot Mulroney",
     "character": "",
-    "poster_path": "https://image.tmdb.org/t/p/w1280",
-    "release_date": "2025",
-    "overview": "An African-American LAPD officer must put aside his differences with the area’s street gangs when he discovers a local police task force is harboring a horrific secret that endangers the residents of the housing projects he grew up in.",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/rNqLzACU9ez2ehDalTFDPjZiC4G.jpg",
+    "release_date": "2026",
+    "overview": "Carr, an LAPD officer with past ties to gang life, returns to duty in his old neighborhood. While partnered with Hawkins—a former Navy SEAL and second-generation cop eager to join the precinct's legendary Night Patrol task force—Carr reconnects with his brother Wazi, who has just witnessed the brutal murder of his girlfriend.  Under pressure from gang leaders, Wazi claims the Night Patrol is responsible. The accusation makes him a target, and Hawkins is sent to kill him as part of his initiation. After Hawkins spares Wazi, choosing to deliver a warning before walking away, he’s summoned to a remote warehouse for his formal induction into the Night Patrol—where the terrifying truth behind the task force and its grip on the community is finally revealed.  Wazi, Carr, their mother, and local gang leaders join forces to fight the malevolent task force, drawing back to their African heritage as their only defense against the unspeakable horror that the Night Patrol truly is.",
     "director": "Ryan Prows",
-    "co_star_1": "Justin Long",
-    "co_star_2": "Jermaine Fowler",
+    "co_star_1": "Jermaine Fowler",
+    "co_star_2": "Justin Long",
     "imdb": "tt8637438",
     "genres": ["Horror", "Mystery"]
   },
@@ -1689,19 +1702,6 @@
     "imdb": "tt0113321",
     "genres": ["Comedy", "Drama", "Romance"]
   },
-  "26437": {
-    "title": "The Tenants",
-    "answer": "Dylan McDermott",
-    "character": "Harry Lesser",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/gzt4Tyv4sdkyZriJKLLAk2quAjJ.jpg",
-    "release_date": "2006",
-    "overview": "The story of a Jewish novelist, Harry Lesser, struggling to complete his latest work, and his antagonistic relationship with a black writer who moves in down the hall.",
-    "director": "Danny Green",
-    "co_star_1": "Snoop Dogg",
-    "co_star_2": "Rose Byrne",
-    "imdb": "tt0429173",
-    "genres": ["Comedy", "Drama", "Mystery"]
-  },
   "9724": {
     "title": "The Mistress of Spices",
     "answer": "Dylan McDermott",
@@ -1714,6 +1714,19 @@
     "co_star_2": "Nitin Ganatra",
     "imdb": "tt0407998",
     "genres": ["Drama", "Romance", "Fantasy"]
+  },
+  "26437": {
+    "title": "The Tenants",
+    "answer": "Dylan McDermott",
+    "character": "Harry Lesser",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/gzt4Tyv4sdkyZriJKLLAk2quAjJ.jpg",
+    "release_date": "2006",
+    "overview": "The story of a Jewish novelist, Harry Lesser, struggling to complete his latest work, and his antagonistic relationship with a black writer who moves in down the hall.",
+    "director": "Danny Green",
+    "co_star_1": "Snoop Dogg",
+    "co_star_2": "Rose Byrne",
+    "imdb": "tt0429173",
+    "genres": ["Comedy", "Drama", "Mystery"]
   },
   "32872": {
     "title": "'Til There Was You",
