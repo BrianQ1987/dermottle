@@ -1539,7 +1539,7 @@
     "character": "",
     "poster_path": "https://image.tmdb.org/t/p/w1280/rNqLzACU9ez2ehDalTFDPjZiC4G.jpg",
     "release_date": "2026",
-    "overview": "Carr, an LAPD officer with past ties to gang life, returns to duty in his old neighborhood. While partnered with Hawkins—a former Navy SEAL and second-generation cop eager to join the precinct's legendary Night Patrol task force—Carr reconnects with his brother Wazi, who has just witnessed the brutal murder of his girlfriend.  Under pressure from gang leaders, Wazi claims the Night Patrol is responsible. The accusation makes him a target, and Hawkins is sent to kill him as part of his initiation. After Hawkins spares Wazi, choosing to deliver a warning before walking away, he’s summoned to a remote warehouse for his formal induction into the Night Patrol—where the terrifying truth behind the task force and its grip on the community is finally revealed.  Wazi, Carr, their mother, and local gang leaders join forces to fight the malevolent task force, drawing back to their African heritage as their only defense against the unspeakable horror that the Night Patrol truly is.",
+    "overview": "An L.A. cop discovers a local task force is hiding a secret that puts the residents of his childhood neighborhood in danger.",
     "director": "Ryan Prows",
     "co_star_1": "Jermaine Fowler",
     "co_star_2": "Justin Long",
@@ -1702,19 +1702,6 @@
     "imdb": "tt0113321",
     "genres": ["Comedy", "Drama", "Romance"]
   },
-  "9724": {
-    "title": "The Mistress of Spices",
-    "answer": "Dylan McDermott",
-    "character": "Doug",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/4B1bLyeRdrVVS9TirZdPUyP9we1.jpg",
-    "release_date": "2005",
-    "overview": "Tilo is an Indian shopkeeper in America with an ability to see the future and a magical connection to powerful spices, which she uses to help her customers satisfy their various needs and desires. One day she falls in love with an American man. But the spices forbid it.",
-    "director": "Paul Mayeda Berges",
-    "co_star_1": "Aishwarya Rai Bachchan",
-    "co_star_2": "Nitin Ganatra",
-    "imdb": "tt0407998",
-    "genres": ["Drama", "Romance", "Fantasy"]
-  },
   "26437": {
     "title": "The Tenants",
     "answer": "Dylan McDermott",
@@ -1727,6 +1714,19 @@
     "co_star_2": "Rose Byrne",
     "imdb": "tt0429173",
     "genres": ["Comedy", "Drama", "Mystery"]
+  },
+  "9724": {
+    "title": "The Mistress of Spices",
+    "answer": "Dylan McDermott",
+    "character": "Doug",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/4B1bLyeRdrVVS9TirZdPUyP9we1.jpg",
+    "release_date": "2005",
+    "overview": "Tilo is an Indian shopkeeper in America with an ability to see the future and a magical connection to powerful spices, which she uses to help her customers satisfy their various needs and desires. One day she falls in love with an American man. But the spices forbid it.",
+    "director": "Paul Mayeda Berges",
+    "co_star_1": "Aishwarya Rai Bachchan",
+    "co_star_2": "Nitin Ganatra",
+    "imdb": "tt0407998",
+    "genres": ["Drama", "Romance", "Fantasy"]
   },
   "32872": {
     "title": "'Til There Was You",
