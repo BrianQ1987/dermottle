@@ -1409,7 +1409,7 @@
     "character": "Lane",
     "poster_path": "https://image.tmdb.org/t/p/w1280/puotlINTAXak0jKQOvPnKGd8PDs.jpg",
     "release_date": "1986",
-    "overview": "A made-for-TV propaganda made during the high of 'the war on drugs' to expose a series of drug relations within teenagers, and only two men who are aware of the situation can lay their insight on the epidemic that is growing.",
+    "overview": "A made-for-TV propaganda short created during the height of 'the war on drugs' to expose drug usage amongst teenagers. Only two men who are aware of such a dire situation, Burt Reynolds and Judd Nelson, can lay their insight on the epidemic that's preying upon the youth of America.",
     "director": "Nathaniel Burr Smidt",
     "co_star_1": "Burt Reynolds",
     "co_star_2": "Judd Nelson",
@@ -1583,7 +1583,7 @@
     "co_star_1": "Lily James",
     "co_star_2": "Ben Schnetzer",
     "imdb": "tt31909270",
-    "genres": "Drama"
+    "genres": ["History", "Drama"]
   },
   "1415": {
     "title": "Party Monster",
@@ -1702,19 +1702,6 @@
     "imdb": "tt0113321",
     "genres": ["Comedy", "Drama", "Romance"]
   },
-  "26437": {
-    "title": "The Tenants",
-    "answer": "Dylan McDermott",
-    "character": "Harry Lesser",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/gzt4Tyv4sdkyZriJKLLAk2quAjJ.jpg",
-    "release_date": "2006",
-    "overview": "The story of a Jewish novelist, Harry Lesser, struggling to complete his latest work, and his antagonistic relationship with a black writer who moves in down the hall.",
-    "director": "Danny Green",
-    "co_star_1": "Snoop Dogg",
-    "co_star_2": "Rose Byrne",
-    "imdb": "tt0429173",
-    "genres": ["Comedy", "Drama", "Mystery"]
-  },
   "9724": {
     "title": "The Mistress of Spices",
     "answer": "Dylan McDermott",
@@ -1727,6 +1714,19 @@
     "co_star_2": "Nitin Ganatra",
     "imdb": "tt0407998",
     "genres": ["Drama", "Romance", "Fantasy"]
+  },
+  "26437": {
+    "title": "The Tenants",
+    "answer": "Dylan McDermott",
+    "character": "Harry Lesser",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/gzt4Tyv4sdkyZriJKLLAk2quAjJ.jpg",
+    "release_date": "2006",
+    "overview": "The story of a Jewish novelist, Harry Lesser, struggling to complete his latest work, and his antagonistic relationship with a black writer who moves in down the hall.",
+    "director": "Danny Green",
+    "co_star_1": "Snoop Dogg",
+    "co_star_2": "Rose Byrne",
+    "imdb": "tt0429173",
+    "genres": ["Comedy", "Drama", "Mystery"]
   },
   "32872": {
     "title": "'Til There Was You",
