@@ -595,7 +595,7 @@
     "co_star_1": "Frank Grillo",
     "co_star_2": "Mekhi Phifer",
     "imdb": "tt16368898",
-    "genres": "Action"
+    "genres": ["Action", "Thriller"]
   },
   "1133232": {
     "title": "The Dirty South",
@@ -655,7 +655,7 @@
     "character": "Richard Stoker",
     "poster_path": "https://image.tmdb.org/t/p/w1280/SnWKUNVfnLCkKfXkOfpbbAaPUp.jpg",
     "release_date": "2013",
-    "overview": "After India's father dies in an auto accident, her uncle Charlie, who she never knew existed, comes to live with her and her emotionally unstable mother Evelyn. Soon after his arrival, she comes to suspect this mysterious, charming man has ulterior motives, but instead of feeling outrage or horror, this friendless girl becomes increasingly infatuated with him.",
+    "overview": "After India's father dies in an auto accident, her uncle Charlie, whom she never knew existed, comes to live with her and her emotionally unstable mother Evelyn. Soon after his arrival, she comes to suspect this mysterious, charming man has ulterior motives, but instead of feeling outrage or horror, this friendless girl becomes increasingly infatuated with him.",
     "director": "Park Chan-wook",
     "co_star_1": "Mia Wasikowska",
     "co_star_2": "Nicole Kidman",
