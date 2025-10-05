@@ -598,7 +598,7 @@
     "genres": ["Action", "Thriller"]
   },
   "1133232": {
-    "title": "The Dirty South",
+    "title": "Przestępczyni",
     "answer": "Dermot Mulroney",
     "character": "Jeb Roy",
     "poster_path": "https://image.tmdb.org/t/p/w1280/4MIiVSXsHx5q9l3HgTc07gn895r.jpg",
@@ -1563,7 +1563,7 @@
     "title": "Swiped",
     "answer": "Dermot Mulroney",
     "character": "Slate",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/znxBfe14cefxx5Lu1tgNzggJagt.jpg",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/mEeFRU5ADkyP7JtOFFV8tYMm3zD.jpg",
     "release_date": "2025",
     "overview": "Whitney Wolfe uses extraordinary grit and ingenuity to break into the male-dominated tech industry.",
     "director": "Rachel Lee Goldenberg",
@@ -1689,19 +1689,6 @@
     "imdb": "tt0113321",
     "genres": ["Comedy", "Drama", "Romance"]
   },
-  "26437": {
-    "title": "The Tenants",
-    "answer": "Dylan McDermott",
-    "character": "Harry Lesser",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/gzt4Tyv4sdkyZriJKLLAk2quAjJ.jpg",
-    "release_date": "2006",
-    "overview": "The story of a Jewish novelist, Harry Lesser, struggling to complete his latest work, and his antagonistic relationship with a black writer who moves in down the hall.",
-    "director": "Danny Green",
-    "co_star_1": "Snoop Dogg",
-    "co_star_2": "Rose Byrne",
-    "imdb": "tt0429173",
-    "genres": ["Comedy", "Drama", "Mystery"]
-  },
   "9724": {
     "title": "The Mistress of Spices",
     "answer": "Dylan McDermott",
@@ -1714,6 +1701,19 @@
     "co_star_2": "Nitin Ganatra",
     "imdb": "tt0407998",
     "genres": ["Drama", "Romance", "Fantasy"]
+  },
+  "26437": {
+    "title": "The Tenants",
+    "answer": "Dylan McDermott",
+    "character": "Harry Lesser",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/gzt4Tyv4sdkyZriJKLLAk2quAjJ.jpg",
+    "release_date": "2006",
+    "overview": "The story of a Jewish novelist, Harry Lesser, struggling to complete his latest work, and his antagonistic relationship with a black writer who moves in down the hall.",
+    "director": "Danny Green",
+    "co_star_1": "Snoop Dogg",
+    "co_star_2": "Rose Byrne",
+    "imdb": "tt0429173",
+    "genres": ["Comedy", "Drama", "Mystery"]
   },
   "32872": {
     "title": "'Til There Was You",
