@@ -1505,7 +1505,7 @@
     "co_star_1": "Jermaine Fowler",
     "co_star_2": "Justin Long",
     "imdb": "tt8637438",
-    "genres": ["Horror", "Mystery", "Thriller"]
+    "genres": ["Horror", "Mystery"]
   },
   "1400514": {
     "title": "Like Father Like Son",
@@ -1849,7 +1849,7 @@
     "title": "Olympus Has Fallen",
     "answer": "Dylan McDermott",
     "character": "Forbes",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/gKnx04MxnKcf5uOdhHhAAkqcCg.jpg",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/u3GTFGwesNBNd0t1hiLaEk1iqZU.jpg",
     "release_date": "2013",
     "overview": "When the White House (Secret Service Code: \"Olympus\") is captured by a terrorist mastermind and the President is kidnapped, disgraced former Presidential guard Mike Banning finds himself trapped within the building. As the national security team scrambles to respond, they are forced to rely on Banning's inside knowledge to help retake the White House, save the President and avert an even bigger disaster.",
     "director": "Antoine Fuqua",
