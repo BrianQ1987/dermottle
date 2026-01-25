@@ -805,19 +805,6 @@
     "imdb": "tt1322269",
     "genres": ["Comedy", "Drama"]
   },
-  "513386": {
-    "title": "Cats",
-    "answer": "Dermot Mulroney",
-    "character": "Blanket",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/lsZheNTApIa1nrgBWzw90gXdy3Y.jpg",
-    "release_date": "2018",
-    "overview": "A cat named Blanket lives in the city with his son, Cape. One day, Cape decides to leave home and embarks on an adventure to find the legendary cat's paradise. To find his son, Blanket must overcome his fear and reconcile with his past.",
-    "director": "Gary Wang",
-    "co_star_1": "Yang Yanduo",
-    "co_star_2": "Chen Linsheng",
-    "imdb": "tt7886614",
-    "genres": ["Animation", "Family", "Adventure"]
-  },
   "143547": {
     "title": "Silent Tongue",
     "answer": "Dermot Mulroney",
@@ -2083,7 +2070,7 @@
     "title": "Behind the Fright: The Making of American Horror Story",
     "answer": "Dylan McDermott",
     "character": "Self",
-    "poster_path": "https://image.tmdb.org/t/p/w1280",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/sJAomW9lpu32yrdhHTMKvrXaU43.jpg",
     "release_date": "2012",
     "overview": "In this video-short go behind the scenes with the cast of \"American Horror Story\" on how the show is made.",
     "director": "Jeffrey Lerner",
