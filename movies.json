@@ -1492,7 +1492,7 @@
     "co_star_1": "Jermaine Fowler",
     "co_star_2": "Justin Long",
     "imdb": "tt8637438",
-    "genres": ["Horror", "Mystery"]
+    "genres": ["Horror", "Mystery", "Action"]
   },
   "1400514": {
     "title": "Like Father Like Son",
@@ -1545,6 +1545,19 @@
     "co_star_2": "Ben Schnetzer",
     "imdb": "tt31909270",
     "genres": ["History", "Drama"]
+  },
+  "1652181": {
+    "title": "The Hunting Wives",
+    "answer": "Dermot Mulroney",
+    "character": "Jed Banks",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/o3TBZGctlkWiCYp9mnxbbpVJMy8.jpg",
+    "release_date": "2025",
+    "overview": "After moving to an affluent East Texas town, Sophie O’Neil becomes drawn into the seductive orbit of Margot Banks, the bold leader of a clique of wealthy women known as the Hunting Wives. Their glamorous gatherings—filled with alcohol, secrets, and reckless games—pull Sophie deeper into a dangerous social world where desire and power blur. As Sophie grows increasingly entangled with Margot and other members of the group, intense female friendships and queer attraction complicate loyalties and marriages. When a shocking crime shakes the community, Sophie finds herself trapped in a web of manipulation, jealousy, and hidden relationships where the truth could destroy everyone involved.",
+    "director": "Cheryl Dunye and Jennifer Getzinger and Julie Anne Robinson and Melanie Mayron",
+    "co_star_1": "Malin Åkerman",
+    "co_star_2": "Brittany Snow",
+    "imdb": "tt31038430",
+    "genres": ["Drama", "Mystery"]
   },
   "1415": {
     "title": "Party Monster",
@@ -1708,7 +1721,7 @@
     "character": "Roy",
     "poster_path": "https://image.tmdb.org/t/p/w1280/ituR560dbnV4WAFPY0jJlEenGiW.jpg",
     "release_date": "2007",
-    "overview": "When the Solomons trade in the craziness of big-city life for the quiet of a North Dakota farm, little do they expect the nightmare that follows. Soon after arriving, teenage Jess (Kristen Stewart) and her younger brother see terrifying apparitions and endure attacks from a supernatural source. Jess must warn her disbelieving family before it is too late to save them.",
+    "overview": "When the Solomons trade in the craziness of big-city life for the quiet of a North Dakota farm, little do they expect the nightmare that follows. Soon after arriving, teenage Jess and her younger brother see terrifying apparitions and endure attacks from a supernatural source. Jess must warn her disbelieving family before it is too late to save them.",
     "director": "Danny Pang Phat and Oxide Pang Chun",
     "co_star_1": "Kristen Stewart",
     "co_star_2": "Penelope Ann Miller",
