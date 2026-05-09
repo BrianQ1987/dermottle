@@ -6,9 +6,9 @@
     "poster_path": "https://image.tmdb.org/t/p/w1280/yG05YYiKHNtbsqFUfrmCxGQj5zc.jpg",
     "release_date": "2022",
     "overview": "Harris, a CIA interrogator at an Agency black site, finds himself the target of a rendition operation after being scapegoated for an interrogation gone horribly wrong. As the team tasked to bring Harris in begins to question their orders -- and each other --Olsen, a senior intelligence officer, and his subordinate, Visser, raise the stakes. Now, it's up to Harris and some newfound allies to uncover the truth and turn the tables.",
-    "director": {},
-    "co_star_1": "None",
-    "co_star_2": "None",
+    "director": "Grant S. Johnson",
+    "co_star_1": "Mel Gibson",
+    "co_star_2": "Adan Canto",
     "imdb": "tt14168394",
     "genres": ["Action", "Thriller"]
   },
@@ -35,8 +35,8 @@
     "director": "Matt Bettinelli-Olpin and Tyler Gillett",
     "co_star_1": "Melissa Barrera",
     "co_star_2": "Jenna Ortega",
-    "imdb": "tt0112722",
-    "genres": ["Thriller", "Crime", "Mystery"]
+    "imdb": "tt17663992",
+    "genres": ["Horror", "Thriller", "Crime"]
   },
   "1949": {
     "title": "Zodiac",
@@ -45,11 +45,11 @@
     "poster_path": "https://image.tmdb.org/t/p/w1280/6YmeO4pB7XTh8P8F960O1uA14JO.jpg",
     "release_date": "2007",
     "overview": "Over the course of a decade, editors of the San Francisco Chronicle entice themselves in the murders of the Zodiac Killer. However, as time runs its course, interest in the case dwindles in the eyes of the professionals. The Killer stops interacting with the public. However, believing he has the answers, an amateur cartoonist from the initial sightings races against time to prevent what he believes is another murder.",
-    "director": {},
-    "co_star_1": "None",
-    "co_star_2": "None",
-    "imdb": "tt0112722",
-    "genres": ["Thriller", "Crime", "Mystery"]
+    "director": "David Fincher",
+    "co_star_1": "Jake Gyllenhaal",
+    "co_star_2": "Mark Ruffalo",
+    "imdb": "tt0443706",
+    "genres": ["Crime", "Mystery", "Thriller"]
   },
   "2755": {
     "title": "About Schmidt",
@@ -87,8 +87,8 @@
     "director": "Geoff Murphy",
     "co_star_1": "Mickey Rourke",
     "co_star_2": "Ted Levine",
-    "imdb": "tt0107843",
-    "genres": ["Action", "Crime", "Thriller"]
+    "imdb": "tt0110307",
+    "genres": ["TV Movie", "Action", "Western"]
   },
   "31146": {
     "title": "Box of Moonlight",
@@ -136,9 +136,9 @@
     "poster_path": "https://image.tmdb.org/t/p/w1280/x3o3VMEdwct54uLZmuzI4iyi2Zh.jpg",
     "release_date": "2005",
     "overview": "With the wedding of her younger sister fast approaching, Kat Ellis faces the undesirable prospect of traveling alone to London for the ceremony. While this is bad enough, Jeffrey, the man who left her as they moved closer to marriage, happens to be the groom's best man. Determined to show everyone -- most of all Jeffrey -- that her romantic life is as full and thrilling as ever, Kat hires a charming male escort as her date.",
-    "director": {},
-    "co_star_1": "None",
-    "co_star_2": "None",
+    "director": "Clare Kilner",
+    "co_star_1": "Debra Messing",
+    "co_star_2": "Amy Adams",
     "imdb": "tt0372532",
     "genres": ["Romance", "Comedy"]
   },
@@ -165,8 +165,8 @@
     "director": "Gary David Goldberg",
     "co_star_1": "Diane Lane",
     "co_star_2": "John Cusack",
-    "imdb": "tt0162711",
-    "genres": ["Action", "Comedy", "Mystery", "Thriller"]
+    "imdb": "tt0417001",
+    "genres": ["Romance", "Comedy"]
   },
   "11853": {
     "title": "Bad Girls",
@@ -178,8 +178,8 @@
     "director": "Jonathan Kaplan",
     "co_star_1": "Madeleine Stowe",
     "co_star_2": "Mary Stuart Masterson",
-    "imdb": "tt0162711",
-    "genres": ["Action", "Comedy", "Mystery", "Thriller"]
+    "imdb": "tt0109198",
+    "genres": ["Romance", "Western"]
   },
   "11861": {
     "title": "How to Make an American Quilt",
@@ -188,9 +188,9 @@
     "poster_path": "https://image.tmdb.org/t/p/w1280/pI9UAemlWgdrnjRgYJsbTk8BSJc.jpg",
     "release_date": "1995",
     "overview": "Soon-to-be-wed graduate student Finn Dodd develops cold feet when she suspects her fiancé is cheating on her. In order to clear her head, Finn visits her grandmother, Hy, and great aunt, Glady Joe Cleary, in Grasse, Calif. There, Finn learns that Hy and Glady Joe are members of a group of passionate quilters, and over the course of her visit she is regaled with tales of love and life by women who have collected rich experiences and much wisdom.",
-    "director": {},
-    "co_star_1": "None",
-    "co_star_2": "None",
+    "director": "Jocelyn Moorhouse",
+    "co_star_1": "Winona Ryder",
+    "co_star_2": "Anne Bancroft",
     "imdb": "tt0113347",
     "genres": ["Drama", "Romance"]
   },
@@ -227,9 +227,9 @@
     "poster_path": "https://image.tmdb.org/t/p/w1280/b5g4bp8gS5ovMyR5439AII6zQ3n.jpg",
     "release_date": "1997",
     "overview": "When she receives word that her longtime platonic pal Michael O'Neal is getting married to debutante Kimberly Wallace, food critic Julianne Potter realizes her true feelings for Michael -- and sets out to sabotage the wedding.",
-    "director": {},
-    "co_star_1": "None",
-    "co_star_2": "None",
+    "director": "P.J. Hogan",
+    "co_star_1": "Julia Roberts",
+    "co_star_2": "Cameron Diaz",
     "imdb": "tt0119738",
     "genres": ["Comedy", "Romance"]
   },
@@ -305,9 +305,9 @@
     "poster_path": "https://image.tmdb.org/t/p/w1280/A1F9RpyLNbYyE9nE4INrVQh0b7T.jpg",
     "release_date": "2022",
     "overview": "Upon arriving at a remote cabin in the redwoods, Kath and her boyfriend find a mysterious younger couple already there — the rental has apparently been double-booked. They decide to share the cabin with these strangers until the next morning, but her boyfriend disappears with the young woman, which sends Kath in a spiral to find an explanation for their sudden breakup — but the truth is far stranger than she could have imagined.",
-    "director": {},
-    "co_star_1": "None",
-    "co_star_2": "None",
+    "director": "Eli Horowitz",
+    "co_star_1": "Winona Ryder",
+    "co_star_2": "John Gallagher Jr.",
     "imdb": "tt15426294",
     "genres": ["Mystery", "Thriller"]
   },
@@ -396,11 +396,11 @@
     "poster_path": "https://image.tmdb.org/t/p/w1280/kL1Jh2ahQH62SLDETwD2TpDhljP.jpg",
     "release_date": "2006",
     "overview": "A terminally ill man falls in love with a woman who has a secret that threatens their time spent together.",
-    "director": {},
-    "co_star_1": "None",
-    "co_star_2": "None",
-    "imdb": "tt0955298",
-    "genres": ["Drama", "TV Movie"]
+    "director": "Ed Stone",
+    "co_star_1": "Amanda Peet",
+    "co_star_2": "Sarah Paulson",
+    "imdb": "tt0460812",
+    "genres": ["Comedy", "Drama", "Romance"]
   },
   "15568": {
     "title": "Gracie",
@@ -516,8 +516,8 @@
     "director": "Roland Joffé",
     "co_star_1": "Patricia Arquette",
     "co_star_2": "Mary-Louise Parker",
-    "imdb": "tt0104400",
-    "genres": ["Mystery", "Crime", "Drama", "Thriller"]
+    "imdb": "tt0119219",
+    "genres": ["Thriller", "Comedy", "Crime", "Mystery"]
   },
   "50035": {
     "title": "Lovely & Amazing",
@@ -552,11 +552,11 @@
     "poster_path": "https://image.tmdb.org/t/p/w1280/29PhO1cNQGhX0N6Dt1Z7eh8Tbuv.jpg",
     "release_date": "2025",
     "overview": "When a young boy's mother and father are savagely murdered, he ages out of an orphanage intent on revenge, but the love of a girl and psychological trauma leads him down a mystifying path.",
-    "director": {},
-    "co_star_1": "None",
-    "co_star_2": "None",
-    "imdb": "tt26570494",
-    "genres": ["Action", "Comedy", "Crime", "Thriller"]
+    "director": "William Shockley",
+    "co_star_1": "Blaine Maye",
+    "co_star_2": "Sarah Cortez",
+    "imdb": "tt21631810",
+    "genres": "Western"
   },
   "1123282": {
     "title": "Depravity",
@@ -565,9 +565,9 @@
     "poster_path": "https://image.tmdb.org/t/p/w1280/FdVaHyz80vatz25boNLneTNCrR.jpg",
     "release_date": "2024",
     "overview": "A group of residents begins to suspect that their strange neighbor might be hiding something dark.",
-    "director": {},
-    "co_star_1": "None",
-    "co_star_2": "None",
+    "director": "Paul Tamasy",
+    "co_star_1": "Taylor John Smith",
+    "co_star_2": "Victoria Justice",
     "imdb": "tt1659324",
     "genres": ["Mystery", "Thriller", "Crime"]
   },
@@ -672,8 +672,8 @@
     "director": "Josef Rusnak",
     "co_star_1": "Jon Voight",
     "co_star_2": "Teri Polo",
-    "imdb": "tt1682180",
-    "genres": ["Drama", "Horror", "Thriller"]
+    "imdb": "tt1800671",
+    "genres": ["Thriller", "TV Movie"]
   },
   "78698": {
     "title": "Big Miracle",
@@ -737,8 +737,8 @@
     "director": "Martin Davidson",
     "co_star_1": "William L. Petersen",
     "co_star_2": "Virginia Madsen",
-    "imdb": "tt0098415",
-    "genres": ["Action", "Adventure"]
+    "imdb": "tt0093433",
+    "genres": ["Comedy", "Drama", "TV Movie"]
   },
   "88641": {
     "title": "There Goes My Baby",
@@ -786,9 +786,9 @@
     "poster_path": "https://image.tmdb.org/t/p/w1280/bFI9LR2Bw0R57aobRLiN08rWtpn.jpg",
     "release_date": "2013",
     "overview": "Charles Swan III, a successful graphic designer, has it all: fame, money and devilish charm that have provided him with a seemingly perfect life. But when a perplexing beauty named Ivana suddenly ends their relationship, Charles is left heartbroken. With the support of his loyal intimates - Kirby, Saul, and his sister, Izzy – Charles begins a delirious journey of self-reflection to try and come to terms with a life without Ivana. \"A Glimpse Inside the Mind of Charles Swan III\" is an unconventional melodrama told in a bold and playful style.",
-    "director": {},
-    "co_star_1": "None",
-    "co_star_2": "None",
+    "director": "Roman Coppola",
+    "co_star_1": "Charlie Sheen",
+    "co_star_2": "Jason Schwartzman",
     "imdb": "tt2044729",
     "genres": ["Comedy", "Drama"]
   },
@@ -799,9 +799,9 @@
     "poster_path": "https://image.tmdb.org/t/p/w1280/fvjxr77dfxdIOY3lvj0bHP4B5xT.jpg",
     "release_date": "2013",
     "overview": "An intense look at the lives of the strong-willed daughters of the Weston family, whose paths have diverged until a family crisis brings them back to the Midwest house they grew up in, and to the dysfunctional mother who raised them.",
-    "director": {},
-    "co_star_1": "None",
-    "co_star_2": "None",
+    "director": "John Wells",
+    "co_star_1": "Meryl Streep",
+    "co_star_2": "Julia Roberts",
     "imdb": "tt1322269",
     "genres": ["Comedy", "Drama"]
   },
@@ -815,8 +815,8 @@
     "director": "Sam Shepard",
     "co_star_1": "Alan Bates",
     "co_star_2": "Richard Harris",
-    "imdb": "tt1322269",
-    "genres": ["Comedy", "Drama"]
+    "imdb": "tt0108135",
+    "genres": ["Western", "Horror", "Drama", "Romance"]
   },
   "115782": {
     "title": "Jobs",
@@ -825,9 +825,9 @@
     "poster_path": "https://image.tmdb.org/t/p/w1280/mOyZ0UAWaOJartFq2G3Cv0soFtQ.jpg",
     "release_date": "2013",
     "overview": "The story of Steve Jobs' ascension from college dropout into one of the most revered creative entrepreneurs of the 20th century.",
-    "director": {},
-    "co_star_1": "None",
-    "co_star_2": "None",
+    "director": "Joshua Michael Stern",
+    "co_star_1": "Ashton Kutcher",
+    "co_star_2": "Josh Gad",
     "imdb": "tt2357129",
     "genres": ["Drama", "History"]
   },
@@ -916,9 +916,9 @@
     "poster_path": "https://image.tmdb.org/t/p/w1280/zLQHNW0XVT7IWjUahBlpVSba3sC.jpg",
     "release_date": "2023",
     "overview": "The inspiring origin story of a basketball superhero, revealing how LeBron James and his childhood friends become the #1 high school team in the country, launching James's breathtaking career as a four-time NBA Champion, two-time Olympic Gold Medalist and the NBA's all-time leading scorer.",
-    "director": {},
-    "co_star_1": "None",
-    "co_star_2": "None",
+    "director": "Chris Robinson",
+    "co_star_1": "Mookie Cook",
+    "co_star_2": "Caleb McLaughlin",
     "imdb": "tt3715152",
     "genres": "Drama"
   },
@@ -932,8 +932,8 @@
     "director": "Arthur Allan Seidelman",
     "co_star_1": "Megan Follows",
     "co_star_2": "Bill Bixby",
-    "imdb": "tt3715152",
-    "genres": "Drama"
+    "imdb": "tt0091958",
+    "genres": ["Drama", "Romance", "TV Movie"]
   },
   "1188714": {
     "title": "A Dark Way Out",
@@ -981,9 +981,9 @@
     "poster_path": "https://image.tmdb.org/t/p/w1280/g7T2OZVC4G70tmYmUnVzzsbbIYO.jpg",
     "release_date": "2025",
     "overview": "It's the end of the world. Seeking meaning and thrills in their last days alive, Rose and Michael embark on a cross-country road trip to see Rose's grandmother as a devastating asteroid threatens to wipe out life on Earth.  Along the way they encounter other lost souls, each with their own very different perspective on the impending doom.",
-    "director": {},
-    "co_star_1": "None",
-    "co_star_2": "None",
+    "director": "Andrew Johnson",
+    "co_star_1": "Andrew Ortenberg",
+    "co_star_2": "June Schreiner",
     "imdb": "tt21818162",
     "genres": ["Romance", "Drama", "Science Fiction"]
   },
@@ -997,8 +997,8 @@
     "director": "Jeff Celentano",
     "co_star_1": "Minka Kelly",
     "co_star_2": "Maggie Grace",
-    "imdb": "tt21818162",
-    "genres": ["Romance", "Drama", "Science Fiction"]
+    "imdb": "tt22767628",
+    "genres": ["Thriller", "Drama", "Mystery", "Horror", "Crime"]
   },
   "27300": {
     "title": "Hair High",
@@ -1033,9 +1033,9 @@
     "poster_path": "https://image.tmdb.org/t/p/w1280/4ndp1pnHWRuiZLNpFJvO4Kh6Tav.jpg",
     "release_date": "2023",
     "overview": "A high school coach, whose teenage daughter was murdered, takes matters into his own hands by going after the men who kidnap his students for their sex trafficking operation.",
-    "director": {},
-    "co_star_1": "None",
-    "co_star_2": "None",
+    "director": "Art Camacho",
+    "co_star_1": "Jeff Fahey",
+    "co_star_2": "Melissa Diaz",
     "imdb": "tt14670094",
     "genres": ["Action", "Thriller"]
   },
@@ -1085,9 +1085,9 @@
     "poster_path": "https://image.tmdb.org/t/p/w1280/34sJQxmJT42jioSiabF5QobG0NC.jpg",
     "release_date": "2015",
     "overview": "With his 20th reunion looming, Dan can’t shake his high school insecurities. In a misguided mission to prove he’s changed, Dan rekindles a friendship with the popular guy from his class and is left scrambling to protect more than just his reputation when a wild night takes an unexpected turn.",
-    "director": {},
-    "co_star_1": "None",
-    "co_star_2": "None",
+    "director": "Andrew Mogel and Jarrad Paul",
+    "co_star_1": "Jack Black",
+    "co_star_2": "James Marsden",
     "imdb": "tt2690138",
     "genres": ["Comedy", "Drama"]
   },
@@ -1150,9 +1150,9 @@
     "poster_path": "https://image.tmdb.org/t/p/w1280/fVebV4nwoptfmLgrAIFzSecGn8X.jpg",
     "release_date": "1989",
     "overview": "In 1962 in Montgomery, Alabama, State Attorney Richmond Flowers, Sr. is one of few willing to fight racial injustices even if it costs him his family's peace.",
-    "director": {},
-    "co_star_1": "None",
-    "co_star_2": "None",
+    "director": "Dick Lowry",
+    "co_star_1": "Peter Coyote",
+    "co_star_2": "Tess Harper",
     "imdb": "tt0098555",
     "genres": "Drama"
   },
@@ -1241,9 +1241,9 @@
     "poster_path": "https://image.tmdb.org/t/p/w1280/9fqzZs922V8OmwgO11Eqclof2mQ.jpg",
     "release_date": "2018",
     "overview": "Ten years after an apocalyptic event left the world haunted by ghosts, Veronica 'Ronnie' Calder receives a threatening message from beyond the grave. Joining forces with a mysterious classmate, Kirk, Ronnie descends into a shadow world that blurs the bounds of the living and the dead—and begins a desperate race against time to stop a cunning killer.",
-    "director": {},
-    "co_star_1": "None",
-    "co_star_2": "None",
+    "director": "Scott Speer",
+    "co_star_1": "Bella Thorne",
+    "co_star_2": "Richard Harmon",
     "imdb": "tt2160105",
     "genres": ["Thriller", "Fantasy", "Mystery"]
   },
@@ -1348,8 +1348,8 @@
     "director": "Max Martini",
     "co_star_1": "Max Martini",
     "co_star_2": "Omari Hardwick",
-    "imdb": "tt0479008",
-    "genres": ["Animation", "Comedy"]
+    "imdb": "tt1650060",
+    "genres": ["War", "Action", "Adventure", "Drama"]
   },
   "472777": {
     "title": "Shattered: If Your Kid's on Drugs",
@@ -1423,9 +1423,9 @@
     "poster_path": "https://image.tmdb.org/t/p/w1280/s18H9aU7yT91U2XPAc2a3UxldA7.jpg",
     "release_date": "2021",
     "overview": "Ever since Margaret was six years old, she has been haunted by the memory of watching her sister drown during an explosive fight between her parents. As a young woman, she slides further into her twisted inner life, ultimately finding herself on the brink of suicide. Through an epic journey down the smokiest and scariest corridors of her imagination, she tries to exorcise the demons pushing her closer and closer to the edge.",
-    "director": {},
-    "co_star_1": "None",
-    "co_star_2": "None",
+    "director": "Carlson Young",
+    "co_star_1": "Carlson Young",
+    "co_star_2": "Udo Kier",
     "imdb": "tt11378876",
     "genres": ["Horror", "Fantasy", "Adventure", "Drama"]
   },
@@ -1582,8 +1582,8 @@
     "director": "Damon Santostefano",
     "co_star_1": "Matthew Perry",
     "co_star_2": "Neve Campbell",
-    "imdb": "tt0110527",
-    "genres": ["Fantasy", "Drama", "Family"]
+    "imdb": "tt0144640",
+    "genres": ["Comedy", "Romance"]
   },
   "10064": {
     "title": "Edison",
@@ -1595,8 +1595,8 @@
     "director": "David J. Burke",
     "co_star_1": "Morgan Freeman",
     "co_star_2": "LL Cool J",
-    "imdb": "tt0110527",
-    "genres": ["Fantasy", "Drama", "Family"]
+    "imdb": "tt0389957",
+    "genres": ["Drama", "Action", "Thriller"]
   },
   "10652": {
     "title": "Hamburger Hill",
@@ -1631,9 +1631,9 @@
     "poster_path": "https://image.tmdb.org/t/p/w1280/mfG8S7D4rYeVqvTzjc3D36PAK3R.jpg",
     "release_date": "2003",
     "overview": "On the afternoon of July 1, 1981, Los Angeles police responded to a distress call on Wonderland Avenue and discovered a grisly quadruple homicide. The police investigation that followed uncovered two versions of the events leading up to the brutal murders - both involving legendary porn actor John Holmes.",
-    "director": {},
-    "co_star_1": "None",
-    "co_star_2": "None",
+    "director": "James Cox",
+    "co_star_1": "Val Kilmer",
+    "co_star_2": "Kate Bosworth",
     "imdb": "tt0335563",
     "genres": ["Crime", "Mystery", "Drama"]
   },
@@ -1663,19 +1663,6 @@
     "imdb": "tt0113321",
     "genres": ["Comedy", "Drama", "Romance"]
   },
-  "26437": {
-    "title": "The Tenants",
-    "answer": "Dylan McDermott",
-    "character": "Harry Lesser",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/gzt4Tyv4sdkyZriJKLLAk2quAjJ.jpg",
-    "release_date": "2006",
-    "overview": "The story of a Jewish novelist, Harry Lesser, struggling to complete his latest work, and his antagonistic relationship with a black writer who moves in down the hall.",
-    "director": {},
-    "co_star_1": "None",
-    "co_star_2": "None",
-    "imdb": "tt0429173",
-    "genres": ["Comedy", "Drama", "Mystery"]
-  },
   "9724": {
     "title": "The Mistress of Spices",
     "answer": "Dylan McDermott",
@@ -1688,6 +1675,19 @@
     "co_star_2": "Nitin Ganatra",
     "imdb": "tt0407998",
     "genres": ["Drama", "Romance", "Fantasy"]
+  },
+  "26437": {
+    "title": "The Tenants",
+    "answer": "Dylan McDermott",
+    "character": "Harry Lesser",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/gzt4Tyv4sdkyZriJKLLAk2quAjJ.jpg",
+    "release_date": "2006",
+    "overview": "The story of a Jewish novelist, Harry Lesser, struggling to complete his latest work, and his antagonistic relationship with a black writer who moves in down the hall.",
+    "director": "Danny Green",
+    "co_star_1": "Snoop Dogg",
+    "co_star_2": "Rose Byrne",
+    "imdb": "tt0429173",
+    "genres": ["Comedy", "Drama", "Mystery"]
   },
   "32872": {
     "title": "'Til There Was You",
@@ -1761,9 +1761,9 @@
     "poster_path": "https://image.tmdb.org/t/p/w1280/epypVRtRWCFKgOMPKdpmcFF6nUV.jpg",
     "release_date": "1991",
     "overview": "A murder mystery writer misreads the nervous man he bullies in a spooky Hollywood mansion.",
-    "director": {},
-    "co_star_1": "None",
-    "co_star_2": "None",
+    "director": "Charles Finch",
+    "co_star_1": "Tom Sizemore",
+    "co_star_2": "Sharon Stone",
     "imdb": "tt0105809",
     "genres": ["Mystery", "Thriller"]
   },
@@ -1774,9 +1774,9 @@
     "poster_path": "https://image.tmdb.org/t/p/w1280/kd04IvuW1wvgGoB2HxSuFVIU9rU.jpg",
     "release_date": "1995",
     "overview": "Johnny Destiny burns into Las Vegas in his hot Plymouth RoadRunner, stopping only to pick up a stranger stranded in the desert. But then, things aren't always as they seem. Anything can happen in that town of many possibilities...especially since there's been some weird electrical disturbances. As the stranger, fresh out of prison, tries to put his life back together--to recover his money from an old bank heist and the girl he lost in doing the job--something keeps interfering with his plans. Is it fate...or just Destiny?",
-    "director": {},
-    "co_star_1": "None",
-    "co_star_2": "None",
+    "director": "Jack Baran",
+    "co_star_1": "Nancy Travis",
+    "co_star_2": "Quentin Tarantino",
     "imdb": "tt0112854",
     "genres": ["Crime", "Comedy", "Fantasy"]
   },
@@ -1790,8 +1790,8 @@
     "director": "Christopher Landon",
     "co_star_1": "Zoe Saldaña",
     "co_star_2": "Rosamund Pike",
-    "imdb": "tt0112854",
-    "genres": ["Crime", "Comedy", "Fantasy"]
+    "imdb": "tt1283887",
+    "genres": ["Comedy", "Thriller"]
   },
   "19176": {
     "title": "The Cowboy Way",
@@ -1985,8 +1985,8 @@
     "director": "Patrick Hoelck",
     "co_star_1": "Scott Caan",
     "co_star_2": "Erika Christensen",
-    "imdb": "tt3247714",
-    "genres": ["Action", "Crime", "Mystery", "Thriller"]
+    "imdb": "tt1235200",
+    "genres": ["Drama", "Romance"]
   },
   "84892": {
     "title": "The Perks of Being a Wallflower",
@@ -2008,9 +2008,9 @@
     "poster_path": "https://image.tmdb.org/t/p/w1280/tOAa5ygPURwIQ1JGBD6iFTg6cJH.jpg",
     "release_date": "2006",
     "overview": "A wannabe Elvis meets his true love, the best waitress in the West..",
-    "director": {},
-    "co_star_1": "None",
-    "co_star_2": "None",
+    "director": "Ari Palitz",
+    "co_star_1": "Gordon Michaels",
+    "co_star_2": "Nicole DeHuff",
     "imdb": "tt0417220",
     "genres": ["Comedy", "Romance"]
   },
@@ -2024,8 +2024,8 @@
     "director": "Michael Mailer",
     "co_star_1": "Alec Baldwin",
     "co_star_2": "Demi Moore",
-    "imdb": "tt0417220",
-    "genres": ["Comedy", "Romance"]
+    "imdb": "tt1935089",
+    "genres": ["Drama", "Romance"]
   },
   "164647": {
     "title": "The Blue Iguana",
