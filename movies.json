@@ -504,7 +504,7 @@
     "co_star_1": "Eric Stoltz",
     "co_star_2": "Jennifer Connelly",
     "imdb": "tt0104400",
-    "genres": ["Mystery", "Crime", "Drama", "Thriller"]
+    "genres": ["Mystery", "Crime", "Drama", "Thriller", "TV Movie"]
   },
   "49981": {
     "title": "Goodbye Lover",
@@ -744,7 +744,7 @@
     "title": "There Goes My Baby",
     "answer": "Dermot Mulroney",
     "character": "Pirate",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/lxvY6as28ykgbPEuvZ5T29am99L.jpg",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/3KM98skbDojKhXFvShERFsTxv3a.jpg",
     "release_date": "1994",
     "overview": "It's the summer of 1965, and the members of the graduating class of upscale Westwood High are eager to reinvent themselves. Valedictorian Mary Beth wants to attend a liberal university. Surfer bum Stick plans to enlist to fight in Vietnam. Calvin lives in the poor Watts section of Los Angeles, which is slowly erupting in violence. As the summer nights grow long, they'll all be forced to make decisions that will affect the rest of their lives.",
     "director": "Floyd Mutrux",
@@ -1004,7 +1004,7 @@
     "title": "Hair High",
     "answer": "Dermot Mulroney",
     "character": "Rod (voice)",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/kWQdTdUr2KCJ51yrvJI0DTPMDnJ.jpg",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/3FhSXe000gBExEjg89Tex0jofVd.jpg",
     "release_date": "2004",
     "overview": "Rod and Cherri are the unmistakable king and queen of Echo High. When new kid Spud arrives, he makes a faux pas so bad that Rod forces him to be his girl's slave. What unfolds is the tale of Cherri and Spud's blossoming relationship behind Rod's back, and their untimely demise on the night of the prom. A tale of tragedy that could only be as irreverent and sensational through the pen (or pencils, if you will) of Bill Plympton.",
     "director": "Bill Plympton",
@@ -1676,19 +1676,6 @@
     "imdb": "tt0113321",
     "genres": ["Comedy", "Drama", "Romance"]
   },
-  "26437": {
-    "title": "The Tenants",
-    "answer": "Dylan McDermott",
-    "character": "Harry Lesser",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/gzt4Tyv4sdkyZriJKLLAk2quAjJ.jpg",
-    "release_date": "2006",
-    "overview": "The story of a Jewish novelist, Harry Lesser, struggling to complete his latest work, and his antagonistic relationship with a black writer who moves in down the hall.",
-    "director": "Danny Green",
-    "co_star_1": "Snoop Dogg",
-    "co_star_2": "Rose Byrne",
-    "imdb": "tt0429173",
-    "genres": ["Comedy", "Drama", "Mystery"]
-  },
   "9724": {
     "title": "The Mistress of Spices",
     "answer": "Dylan McDermott",
@@ -1701,6 +1688,19 @@
     "co_star_2": "Nitin Ganatra",
     "imdb": "tt0407998",
     "genres": ["Drama", "Romance", "Fantasy"]
+  },
+  "26437": {
+    "title": "The Tenants",
+    "answer": "Dylan McDermott",
+    "character": "Harry Lesser",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/gzt4Tyv4sdkyZriJKLLAk2quAjJ.jpg",
+    "release_date": "2006",
+    "overview": "The story of a Jewish novelist, Harry Lesser, struggling to complete his latest work, and his antagonistic relationship with a black writer who moves in down the hall.",
+    "director": "Danny Green",
+    "co_star_1": "Snoop Dogg",
+    "co_star_2": "Rose Byrne",
+    "imdb": "tt0429173",
+    "genres": ["Comedy", "Drama", "Mystery"]
   },
   "32872": {
     "title": "'Til There Was You",
@@ -2130,5 +2130,18 @@
     "co_star_2": "Aunjanue Ellis-Taylor",
     "imdb": "tt9620288",
     "genres": ["Drama", "History"]
+  },
+  "1698804": {
+    "title": "American Horror Story - Murder House",
+    "answer": "Dylan McDermott",
+    "character": "Dr. Ben Harmon",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/qn7XU6KyEEpeTJXQrZ3yZUFR9k1.jpg",
+    "release_date": "2011",
+    "overview": "",
+    "director": "Ryan Murphy",
+    "co_star_1": "Evan Peters",
+    "co_star_2": "Taissa Farmiga",
+    "imdb": {},
+    "genres": ["Horror", "Thriller"]
   }
 }
