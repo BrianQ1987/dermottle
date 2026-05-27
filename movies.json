@@ -458,7 +458,7 @@
     "title": "Intimate Affairs",
     "answer": "Dermot Mulroney",
     "character": "Edgar",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/vQgdVKmGK6aFXktcVa0GUnW0s48.jpg",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/qcfHgzkclcbbw1cLKOyAk9fNSjh.jpg",
     "release_date": "2002",
     "overview": "Edgar is an artist living in Paris during the 1920s who believes that sex is a subject of vital importance, but almost no one discusses it with the gravity it deserves. With this in mind, Edgar gathers together a panel of fellow creative types at the home of the wealthy tycoon Faldo and his oddly accented spouse Sasha for an evening in which they will discuss their erotic lives without self-serving wit or exaggeration.",
     "director": "Alan Rudolph",
@@ -2143,31 +2143,5 @@
     "co_star_2": "Taissa Farmiga",
     "imdb": {},
     "genres": ["Horror", "Thriller"]
-  },
-  "1702167": {
-    "title": "American Horror Story - Murder House",
-    "answer": "Dylan McDermott",
-    "character": "Ben Harmon",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/zfFfbe3AnLjOx9taJLPbvkcu5Cl.jpg",
-    "release_date": "2011",
-    "overview": "When the Harmon family relocates to a stately mansion in Los Angeles, disturbing secrets start enveloping each of their lives. As they slowly learn about the mysterious and deadly history of their new house, psychiatrist Ben, Vivien and their teenage daughter Violet find themselves surrounded by all manner of menacing spirits, living and dead.",
-    "director": "Alfonso Gomez-Rejon and Bradley Buecker and David Semel and John Scott and Michael Lehmann and Michael Uppendahl and Miguel Arteta and Ryan Murphy and Tim Hunter",
-    "co_star_1": "Connie Britton",
-    "co_star_2": "Taissa Farmiga",
-    "imdb": "tt1844624",
-    "genres": ["Horror", "Drama", "Comedy"]
-  },
-  "1702186": {
-    "title": "American Horror Story - Asylum",
-    "answer": "Dylan McDermott",
-    "character": "Johnny Morgan",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/sItOlGYkcdZFeNqUYiYh3D9scdC.jpg",
-    "release_date": "2012",
-    "overview": "From Nazis and serial killers to mutants and aliens, no one is safe inside the walls of the Briarcliff Mental Institution. In a house of healing that is anything but, troubled nun Sister Jude rules with an iron fist and Dr Arden conducts strange experiments on the facility's patients.",
-    "director": "Alfonso Gomez-Rejon and Bradley Buecker and David Semel and Jeremy Podeswa and Michael Lehmann and Michael Rymer and Michael Uppendahl",
-    "co_star_1": "Sarah Paulson",
-    "co_star_2": "Evan Peters",
-    "imdb": "tt2378292",
-    "genres": ["Horror", "Drama", "Comedy"]
   }
 }
