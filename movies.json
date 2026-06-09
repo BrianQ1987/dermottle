@@ -1546,6 +1546,19 @@
     "imdb": "tt31909270",
     "genres": ["History", "Drama"]
   },
+  "1360708": {
+    "title": "Let's Love",
+    "answer": "Dermot Mulroney",
+    "character": "",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/iQBNEmJxNUhrzmom9DRhyJTWyGn.jpg",
+    "release_date": "2026",
+    "overview": "When a director, actor, screenwriter and actress reunite for the 10th Anniversary of their one-hit wonder film for a convention that suddenly gets cancelled, they must improvise and come up with ideas for a sequel while in rural Wales.",
+    "director": "Jamie Adams",
+    "co_star_1": "Malin Åkerman",
+    "co_star_2": "Martin Freeman",
+    "imdb": {},
+    "genres": ["Romance", "Comedy"]
+  },
   "1133761": {
     "title": "Journeys North",
     "answer": "Dermot Mulroney",
@@ -1676,19 +1689,6 @@
     "imdb": "tt0113321",
     "genres": ["Comedy", "Drama", "Romance"]
   },
-  "26437": {
-    "title": "The Tenants",
-    "answer": "Dylan McDermott",
-    "character": "Harry Lesser",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/gzt4Tyv4sdkyZriJKLLAk2quAjJ.jpg",
-    "release_date": "2006",
-    "overview": "The story of a Jewish novelist, Harry Lesser, struggling to complete his latest work, and his antagonistic relationship with a black writer who moves in down the hall.",
-    "director": "Danny Green",
-    "co_star_1": "Snoop Dogg",
-    "co_star_2": "Rose Byrne",
-    "imdb": "tt0429173",
-    "genres": ["Comedy", "Drama", "Mystery"]
-  },
   "9724": {
     "title": "The Mistress of Spices",
     "answer": "Dylan McDermott",
@@ -1701,6 +1701,19 @@
     "co_star_2": "Nitin Ganatra",
     "imdb": "tt0407998",
     "genres": ["Drama", "Romance", "Fantasy"]
+  },
+  "26437": {
+    "title": "The Tenants",
+    "answer": "Dylan McDermott",
+    "character": "Harry Lesser",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/gzt4Tyv4sdkyZriJKLLAk2quAjJ.jpg",
+    "release_date": "2006",
+    "overview": "The story of a Jewish novelist, Harry Lesser, struggling to complete his latest work, and his antagonistic relationship with a black writer who moves in down the hall.",
+    "director": "Danny Green",
+    "co_star_1": "Snoop Dogg",
+    "co_star_2": "Rose Byrne",
+    "imdb": "tt0429173",
+    "genres": ["Comedy", "Drama", "Mystery"]
   },
   "32872": {
     "title": "'Til There Was You",
@@ -2096,7 +2109,7 @@
     "title": "Behind the Fright: The Making of American Horror Story",
     "answer": "Dylan McDermott",
     "character": "Self",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/9QyWNwUmTC62r7iIAaLBKqYc5A5.jpg",
+    "poster_path": "https://image.tmdb.org/t/p/w1280",
     "release_date": "2012",
     "overview": "In this video-short go behind the scenes with the cast of \"American Horror Story\" on how the show is made.",
     "director": "Jeffrey Lerner",
