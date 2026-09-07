@@ -2169,5 +2169,18 @@
     "co_star_2": "John Corbett",
     "imdb": {},
     "genres": "Documentary"
+  },
+  "1763839": {
+    "title": "American Horror Story: Murder House",
+    "answer": "Dylan McDermott",
+    "character": "Ben Harmon",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/i1iArJKhFVcXO6yUVseiq1mUfIZ.jpg",
+    "release_date": "2011",
+    "overview": "American Horror Story: Murder House is the first season of the horror television anthology series American Horror Story, created by Ryan Murphy and Brad Falchuk.",
+    "director": "Brad Falchuk and Ryan Murphy",
+    "co_star_1": "Connie Britton",
+    "co_star_2": "Taissa Farmiga",
+    "imdb": "tt1844624",
+    "genres": ["Horror", "Drama"]
   }
 }
