@@ -1702,19 +1702,6 @@
     "imdb": "tt0113321",
     "genres": ["Comedy", "Drama", "Romance"]
   },
-  "9724": {
-    "title": "The Mistress of Spices",
-    "answer": "Dylan McDermott",
-    "character": "Doug",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/4B1bLyeRdrVVS9TirZdPUyP9we1.jpg",
-    "release_date": "2005",
-    "overview": "Tilo is an Indian shopkeeper in America with an ability to see the future and a magical connection to powerful spices, which she uses to help her customers satisfy their various needs and desires. One day she falls in love with an American man. But the spices forbid it.",
-    "director": "Paul Mayeda Berges",
-    "co_star_1": "Aishwarya Rai Bachchan",
-    "co_star_2": "Nitin Ganatra",
-    "imdb": "tt0407998",
-    "genres": ["Drama", "Romance", "Fantasy"]
-  },
   "26437": {
     "title": "The Tenants",
     "answer": "Dylan McDermott",
@@ -1727,6 +1714,19 @@
     "co_star_2": "Rose Byrne",
     "imdb": "tt0429173",
     "genres": ["Comedy", "Drama", "Mystery"]
+  },
+  "9724": {
+    "title": "The Mistress of Spices",
+    "answer": "Dylan McDermott",
+    "character": "Doug",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/4B1bLyeRdrVVS9TirZdPUyP9we1.jpg",
+    "release_date": "2005",
+    "overview": "Tilo is an Indian shopkeeper in America with an ability to see the future and a magical connection to powerful spices, which she uses to help her customers satisfy their various needs and desires. One day she falls in love with an American man. But the spices forbid it.",
+    "director": "Paul Mayeda Berges",
+    "co_star_1": "Aishwarya Rai Bachchan",
+    "co_star_2": "Nitin Ganatra",
+    "imdb": "tt0407998",
+    "genres": ["Drama", "Romance", "Fantasy"]
   },
   "32872": {
     "title": "'Til There Was You",
@@ -2148,7 +2148,7 @@
     "title": "King Richard",
     "answer": "Dylan McDermott",
     "character": "Will Hodges",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/2dfujXrxePtYJPiPHj1HkAFQvpu.jpg",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/vjpMd1dsEsVBoUhq6iVHXwwFj9n.jpg",
     "release_date": "2021",
     "overview": "The story of how Richard Williams served as a coach to his daughters Venus and Serena, who will soon become two of the most legendary tennis players in history.",
     "director": "Reinaldo Marcus Green",
@@ -2174,7 +2174,7 @@
     "title": "American Horror Story: Murder House",
     "answer": "Dylan McDermott",
     "character": "Ben Harmon",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/rXkOtu3iq0r9xvYXwiq3iZ90XLx.jpg",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/i1iArJKhFVcXO6yUVseiq1mUfIZ.jpg",
     "release_date": "2011",
     "overview": "American Horror Story: Murder House is the first season of the horror television anthology series American Horror Story, created by Ryan Murphy and Brad Falchuk.",
     "director": "Brad Falchuk and Ryan Murphy",
