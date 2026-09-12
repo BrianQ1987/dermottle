@@ -1544,7 +1544,7 @@
     "co_star_1": "John Travolta",
     "co_star_2": "Robert Carlyle",
     "imdb": "tt9219630",
-    "genres": ["History", "Crime", "Thriller"]
+    "genres": ["History", "Crime", "Thriller", "Drama"]
   },
   "1265344": {
     "title": "Swiped",
@@ -2169,18 +2169,5 @@
     "co_star_2": "John Corbett",
     "imdb": {},
     "genres": "Documentary"
-  },
-  "1763839": {
-    "title": "American Horror Story: Murder House",
-    "answer": "Dylan McDermott",
-    "character": "Ben Harmon",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/rXkOtu3iq0r9xvYXwiq3iZ90XLx.jpg",
-    "release_date": "2011",
-    "overview": "In American Horror Story: Murder House, the Harmon family relocates to a stately mansion in Los Angeles, as disturbing secrets start enveloping each of their lives. As they slowly learn about the mysterious and deadly history of their new house, psychiatrist Ben, Vivien and their teenage daughter Violet find themselves surrounded by all manner of menacing spirits, living and dead.",
-    "director": "Brad Falchuk and Ryan Murphy",
-    "co_star_1": "Connie Britton",
-    "co_star_2": "Taissa Farmiga",
-    "imdb": "tt1844624",
-    "genres": ["Horror", "Drama"]
   }
 }
