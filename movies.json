@@ -1539,7 +1539,7 @@
     "character": "Chuckie Nicoletti",
     "poster_path": "https://image.tmdb.org/t/p/w1280/nUfvPsCIUfe95aRDEdUT2sgiXqK.jpg",
     "release_date": "2026",
-    "overview": "Unfolds within the intense 48-hour period surrounding the assassination of President John F. Kennedy. The film sheds light on crime group the Chicago Outfit’s alleged involvement in the assassination and draws directly from first-hand accounts, including insights from the family of crime boss Sam Giancana.",
+    "overview": "The movie explores the 48 hours surrounding the assassination of President John F. Kennedy. It focuses on the alleged involvement of the 'Chicago Outfit' and a supposed broken promise after the mob helped elect Kennedy",
     "director": "Roland Joffé",
     "co_star_1": "John Travolta",
     "co_star_2": "Robert Carlyle",
@@ -2169,5 +2169,18 @@
     "co_star_2": "John Corbett",
     "imdb": {},
     "genres": "Documentary"
+  },
+  "1770613": {
+    "title": "American Horror Story: Murder House",
+    "answer": "Dylan McDermott",
+    "character": "Dr Ben Harmon",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/ifdGwVlAFQ29dXVtGPbkye56mHA.jpg",
+    "release_date": "2011",
+    "overview": "",
+    "director": {},
+    "co_star_1": "None",
+    "co_star_2": "None",
+    "imdb": {},
+    "genres": ["Horror", "Drama", "Science Fiction", "Fantasy"]
   }
 }
