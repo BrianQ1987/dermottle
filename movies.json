@@ -628,7 +628,7 @@
     "answer": "Dermot Mulroney",
     "character": "Jerome Talget",
     "poster_path": "https://image.tmdb.org/t/p/w1280/a0Vt3wx8ciKmPt4iXPx9sH4HBVU.jpg",
-    "release_date": "2012",
+    "release_date": "2011",
     "overview": "After their plane crashes in Alaska, six oil workers are led by a skilled huntsman to survival, but a pack of merciless wolves haunts their every step.",
     "director": "Joe Carnahan",
     "co_star_1": "Liam Neeson",
@@ -1539,7 +1539,7 @@
     "character": "Chuckie Nicoletti",
     "poster_path": "https://image.tmdb.org/t/p/w1280/nUfvPsCIUfe95aRDEdUT2sgiXqK.jpg",
     "release_date": "2026",
-    "overview": "Follows the 48 hours after the assassination of President John F. Kennedy, the alleged involvement of Sam Giancana and the Chicago Outfit, and a supposed broken promise after the mob helped to get Kennedy elected.",
+    "overview": "Follows the 48 hours after the assassination of President John F. Kennedy, the alleged involvement of Sam Giancana and the 'Chicago Outfit', and a supposed broken promise after the mob helped to get Kennedy elected.",
     "director": "Roland Joffé",
     "co_star_1": "John Travolta",
     "co_star_2": "Robert Carlyle",
@@ -2169,5 +2169,18 @@
     "co_star_2": "John Corbett",
     "imdb": {},
     "genres": "Documentary"
+  },
+  "1774379": {
+    "title": "American Horror Story: Murder House",
+    "answer": "Dylan McDermott",
+    "character": "Ben Harmon",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/oJcGgUSn9GHjzNhISSln1bvb6zg.jpg",
+    "release_date": "2011",
+    "overview": "Therapist Ben Harmon, his wife, Vivien, and their teenage daughter, Violet, move across the country to Los Angeles to escape their troubled past.",
+    "director": {},
+    "co_star_1": "Connie Britton",
+    "co_star_2": "Taissa Farmiga",
+    "imdb": {},
+    "genres": ["Horror", "Mystery", "Drama", "Science Fiction", "Fantasy"]
   }
 }
