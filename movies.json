@@ -2169,18 +2169,5 @@
     "co_star_2": "John Corbett",
     "imdb": {},
     "genres": "Documentary"
-  },
-  "1774379": {
-    "title": "American Horror Story: Murder House",
-    "answer": "Dylan McDermott",
-    "character": "Ben Harmon",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/oJcGgUSn9GHjzNhISSln1bvb6zg.jpg",
-    "release_date": "2011",
-    "overview": "Therapist Ben Harmon, his wife, Vivien, and their teenage daughter, Violet, move across the country to Los Angeles to escape their troubled past.",
-    "director": "Ryan Murphy",
-    "co_star_1": "Connie Britton",
-    "co_star_2": "Taissa Farmiga",
-    "imdb": {},
-    "genres": ["Horror", "Mystery", "Drama", "Science Fiction", "Fantasy"]
   }
 }
