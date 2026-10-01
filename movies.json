@@ -1546,6 +1546,19 @@
     "imdb": "tt9219630",
     "genres": ["History", "Crime", "Thriller", "Drama"]
   },
+  "1505424": {
+    "title": "Dead of Night",
+    "answer": "Dermot Mulroney",
+    "character": "Sheriff Weaver",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/mMYWiSo9V3xhFYM1szhOxjOfA4Y.jpg",
+    "release_date": "2024",
+    "overview": "A small town is terrorized by a series of brutal murders, as a determined sheriff, his daughter, and a desperate mayor race to uncover the truth behind the killings before the town descends into chaos.",
+    "director": "Derek Sulek",
+    "co_star_1": "Scott Grimes",
+    "co_star_2": "Kirrilee Berger",
+    "imdb": "tt34385315",
+    "genres": ["Horror", "Thriller"]
+  },
   "1265344": {
     "title": "Swiped",
     "answer": "Dermot Mulroney",
@@ -1702,19 +1715,6 @@
     "imdb": "tt0113321",
     "genres": ["Comedy", "Drama", "Romance"]
   },
-  "9724": {
-    "title": "The Mistress of Spices",
-    "answer": "Dylan McDermott",
-    "character": "Doug",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/4B1bLyeRdrVVS9TirZdPUyP9we1.jpg",
-    "release_date": "2005",
-    "overview": "Tilo is an Indian shopkeeper in America with an ability to see the future and a magical connection to powerful spices, which she uses to help her customers satisfy their various needs and desires. One day she falls in love with an American man. But the spices forbid it.",
-    "director": "Paul Mayeda Berges",
-    "co_star_1": "Aishwarya Rai Bachchan",
-    "co_star_2": "Nitin Ganatra",
-    "imdb": "tt0407998",
-    "genres": ["Drama", "Romance", "Fantasy"]
-  },
   "26437": {
     "title": "The Tenants",
     "answer": "Dylan McDermott",
@@ -1727,6 +1727,19 @@
     "co_star_2": "Rose Byrne",
     "imdb": "tt0429173",
     "genres": ["Comedy", "Drama", "Mystery"]
+  },
+  "9724": {
+    "title": "The Mistress of Spices",
+    "answer": "Dylan McDermott",
+    "character": "Doug",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/4B1bLyeRdrVVS9TirZdPUyP9we1.jpg",
+    "release_date": "2005",
+    "overview": "Tilo is an Indian shopkeeper in America with an ability to see the future and a magical connection to powerful spices, which she uses to help her customers satisfy their various needs and desires. One day she falls in love with an American man. But the spices forbid it.",
+    "director": "Paul Mayeda Berges",
+    "co_star_1": "Aishwarya Rai Bachchan",
+    "co_star_2": "Nitin Ganatra",
+    "imdb": "tt0407998",
+    "genres": ["Drama", "Romance", "Fantasy"]
   },
   "32872": {
     "title": "'Til There Was You",
