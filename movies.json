@@ -571,19 +571,6 @@
     "imdb": "tt1659324",
     "genres": ["Mystery", "Thriller", "Crime"]
   },
-  "1125624": {
-    "title": "There's Something About Romcoms",
-    "answer": "Dermot Mulroney",
-    "character": "Self",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/8lsBBAvmhiha994wfDSsnYlSxM4.jpg",
-    "release_date": "2016",
-    "overview": "The inside story of the best modern romcoms with Meg Ryan, Hugh Grant, Richard Curtis, Dermot Mulrooney, Rupert Everett, Jason Alexander, Stephen Merchant, Tim Bevan, Bobby Farrelly and Simon Callow. Narrated by Julie Walters.",
-    "director": "Richard Nash",
-    "co_star_1": "Julie Walters",
-    "co_star_2": "Jason Alexander",
-    "imdb": "tt5990788",
-    "genres": "Documentary"
-  },
   "931642": {
     "title": "Lights Out",
     "answer": "Dermot Mulroney",
@@ -1351,19 +1338,6 @@
     "imdb": "tt1650060",
     "genres": ["War", "Action", "Adventure", "Drama"]
   },
-  "472777": {
-    "title": "Shattered: If Your Kid's on Drugs",
-    "answer": "Dermot Mulroney",
-    "character": "Lane",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/puotlINTAXak0jKQOvPnKGd8PDs.jpg",
-    "release_date": "1986",
-    "overview": "A made-for-TV propaganda short created during the height of 'the war on drugs' to expose drug usage amongst teenagers. Only two men who are aware of such a dire situation, Burt Reynolds and Judd Nelson, can lay their insight on the epidemic that's preying upon the youth of America.",
-    "director": "Nathaniel Burr Smidt",
-    "co_star_1": "Burt Reynolds",
-    "co_star_2": "Judd Nelson",
-    "imdb": "tt0363061",
-    "genres": ["Drama", "Documentary"]
-  },
   "611914": {
     "title": "The Courier",
     "answer": "Dermot Mulroney",
@@ -1571,19 +1545,6 @@
     "co_star_2": "Martin Freeman",
     "imdb": "tt34425110",
     "genres": ["Romance", "Comedy"]
-  },
-  "1133761": {
-    "title": "Journeys North",
-    "answer": "Dermot Mulroney",
-    "character": "Collum",
-    "poster_path": "https://image.tmdb.org/t/p/w1280",
-    "release_date": "1994",
-    "overview": "Starring Karen-Eileen Gordon, Catherine Keener and ***** *****.",
-    "director": {},
-    "co_star_1": "Karen-Eileen Gordon",
-    "co_star_2": "Catherine Keener",
-    "imdb": "tt0280793",
-    "genres": "TV Movie"
   },
   "1584324": {
     "title": "The Families Stone",
