@@ -75,7 +75,7 @@
     "co_star_1": "Bridget Fonda",
     "co_star_2": "Gabriel Byrne",
     "imdb": "tt0107843",
-    "genres": ["Action", "Crime", "Thriller"]
+    "genres": ["Action", "Thriller"]
   },
   "20333": {
     "title": "The Last Outlaw",
@@ -1500,12 +1500,12 @@
     "character": "Chuckie Nicoletti",
     "poster_path": "https://image.tmdb.org/t/p/w1280/ujp2aHu1lWMjAGoletnsmv3mcMn.jpg",
     "release_date": "2026",
-    "overview": "Follows the 48 hours after the assassination of President John F. Kennedy, the alleged involvement of Sam Giancana and the 'Chicago Outfit', and a supposed broken promise after the mob helped to get Kennedy elected.",
+    "overview": "Prior to the election of John F. Kennedy in 1960, his father Joe Kennedy asked for a favor from mob boss Sam Giancana and the Chicago Outfit to ensure a win for the younger Kennedy. However, during the presidency, the national organized crime syndicate came under heavy fire from Attorney General Bobby Kennedy. The mob answered this perceived betrayal with the ultimate revenge: the assassination of the 35th President of the United States on November 22, 1963. The events are depicted through the perspective of Sam Giancana's brother, Pepe, who was present during the critical planning stages, detailing the intricate circumstances and the mob's direct involvement in setting up the assassination.",
     "director": "Roland Joffé",
     "co_star_1": "John Travolta",
     "co_star_2": "Robert Carlyle",
     "imdb": "tt9219630",
-    "genres": ["History", "Crime", "Thriller", "Drama"]
+    "genres": ["Crime", "Thriller", "Drama"]
   },
   "1505424": {
     "title": "Dead of Night",
