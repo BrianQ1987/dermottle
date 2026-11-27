@@ -1511,7 +1511,7 @@
     "title": "November 1963",
     "answer": "Dermot Mulroney",
     "character": "Chuckie Nicoletti",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/ujp2aHu1lWMjAGoletnsmv3mcMn.jpg",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/p3OB7chGUU64fxtzNGawqRNPhFc.jpg",
     "release_date": "2026",
     "overview": "Prior to the election of John F. Kennedy in 1960, his father Joe Kennedy asked for a favor from mob boss Sam Giancana and the Chicago Outfit to ensure a win for the younger Kennedy. However, during the presidency, the national organized crime syndicate came under heavy fire from Attorney General Bobby Kennedy. The mob answered this perceived betrayal with the ultimate revenge: the assassination of the 35th President of the United States on November 22, 1963. The events are depicted through the perspective of Sam Giancana's brother, Pepe, who was present during the critical planning stages, detailing the intricate circumstances and the mob's direct involvement in setting up the assassination.",
     "director": "Roland Joffé",
@@ -1689,19 +1689,6 @@
     "imdb": "tt0113321",
     "genres": ["Comedy", "Drama", "Romance"]
   },
-  "9724": {
-    "title": "The Mistress of Spices",
-    "answer": "Dylan McDermott",
-    "character": "Doug",
-    "poster_path": "https://image.tmdb.org/t/p/w1280/4B1bLyeRdrVVS9TirZdPUyP9we1.jpg",
-    "release_date": "2005",
-    "overview": "Tilo is an Indian shopkeeper in America with an ability to see the future and a magical connection to powerful spices, which she uses to help her customers satisfy their various needs and desires. One day she falls in love with an American man. But the spices forbid it.",
-    "director": "Paul Mayeda Berges",
-    "co_star_1": "Aishwarya Rai Bachchan",
-    "co_star_2": "Nitin Ganatra",
-    "imdb": "tt0407998",
-    "genres": ["Drama", "Romance", "Fantasy"]
-  },
   "26437": {
     "title": "The Tenants",
     "answer": "Dylan McDermott",
@@ -1714,6 +1701,19 @@
     "co_star_2": "Rose Byrne",
     "imdb": "tt0429173",
     "genres": ["Comedy", "Drama", "Mystery"]
+  },
+  "9724": {
+    "title": "The Mistress of Spices",
+    "answer": "Dylan McDermott",
+    "character": "Doug",
+    "poster_path": "https://image.tmdb.org/t/p/w1280/4B1bLyeRdrVVS9TirZdPUyP9we1.jpg",
+    "release_date": "2005",
+    "overview": "Tilo is an Indian shopkeeper in America with an ability to see the future and a magical connection to powerful spices, which she uses to help her customers satisfy their various needs and desires. One day she falls in love with an American man. But the spices forbid it.",
+    "director": "Paul Mayeda Berges",
+    "co_star_1": "Aishwarya Rai Bachchan",
+    "co_star_2": "Nitin Ganatra",
+    "imdb": "tt0407998",
+    "genres": ["Drama", "Romance", "Fantasy"]
   },
   "32872": {
     "title": "'Til There Was You",
